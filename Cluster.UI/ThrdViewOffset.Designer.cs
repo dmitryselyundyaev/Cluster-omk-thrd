@@ -137,7 +137,7 @@ namespace Cluster.UI
             this.label12.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label12.Location = new System.Drawing.Point(638, 108);
+            this.label12.Location = new System.Drawing.Point(622, 108);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(120, 13);
             this.label12.TabIndex = 251;
@@ -151,7 +151,7 @@ namespace Cluster.UI
             this.label11.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label11.Location = new System.Drawing.Point(678, 495);
+            this.label11.Location = new System.Drawing.Point(662, 495);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(83, 13);
             this.label11.TabIndex = 250;
@@ -162,11 +162,11 @@ namespace Cluster.UI
             this.textBoxCommentView.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.textBoxCommentView.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCommentView.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxCommentView.Location = new System.Drawing.Point(681, 518);
+            this.textBoxCommentView.Location = new System.Drawing.Point(659, 511);
             this.textBoxCommentView.Multiline = true;
             this.textBoxCommentView.Name = "textBoxCommentView";
             this.textBoxCommentView.ReadOnly = true;
-            this.textBoxCommentView.Size = new System.Drawing.Size(318, 166);
+            this.textBoxCommentView.Size = new System.Drawing.Size(307, 160);
             this.textBoxCommentView.TabIndex = 249;
             // 
             // labelResult
@@ -204,7 +204,7 @@ namespace Cluster.UI
             this.label39.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label39.ForeColor = System.Drawing.Color.White;
             this.label39.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label39.Location = new System.Drawing.Point(564, 68);
+            this.label39.Location = new System.Drawing.Point(548, 68);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(311, 32);
             this.label39.TabIndex = 246;
@@ -217,10 +217,10 @@ namespace Cluster.UI
             this.textBoxCreatedBy.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCreatedBy.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCreatedBy.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCreatedBy.Location = new System.Drawing.Point(819, 467);
+            this.textBoxCreatedBy.Location = new System.Drawing.Point(803, 467);
             this.textBoxCreatedBy.Name = "textBoxCreatedBy";
             this.textBoxCreatedBy.ReadOnly = true;
-            this.textBoxCreatedBy.Size = new System.Drawing.Size(190, 21);
+            this.textBoxCreatedBy.Size = new System.Drawing.Size(163, 21);
             this.textBoxCreatedBy.TabIndex = 245;
             // 
             // labelUser
@@ -231,7 +231,7 @@ namespace Cluster.UI
             this.labelUser.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelUser.ForeColor = System.Drawing.Color.White;
             this.labelUser.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.labelUser.Location = new System.Drawing.Point(666, 470);
+            this.labelUser.Location = new System.Drawing.Point(650, 470);
             this.labelUser.Name = "labelUser";
             this.labelUser.Size = new System.Drawing.Size(155, 13);
             this.labelUser.TabIndex = 244;
@@ -245,7 +245,7 @@ namespace Cluster.UI
             this.labelCreated.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelCreated.ForeColor = System.Drawing.Color.White;
             this.labelCreated.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.labelCreated.Location = new System.Drawing.Point(720, 442);
+            this.labelCreated.Location = new System.Drawing.Point(704, 442);
             this.labelCreated.Name = "labelCreated";
             this.labelCreated.Size = new System.Drawing.Size(98, 13);
             this.labelCreated.TabIndex = 243;
@@ -259,7 +259,7 @@ namespace Cluster.UI
             this.labelZajust.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelZajust.ForeColor = System.Drawing.Color.White;
             this.labelZajust.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.labelZajust.Location = new System.Drawing.Point(785, 279);
+            this.labelZajust.Location = new System.Drawing.Point(763, 281);
             this.labelZajust.Name = "labelZajust";
             this.labelZajust.Size = new System.Drawing.Size(132, 13);
             this.labelZajust.TabIndex = 242;
@@ -273,7 +273,7 @@ namespace Cluster.UI
             this.labelThrPass.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelThrPass.ForeColor = System.Drawing.Color.White;
             this.labelThrPass.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.labelThrPass.Location = new System.Drawing.Point(776, 251);
+            this.labelThrPass.Location = new System.Drawing.Point(754, 253);
             this.labelThrPass.Name = "labelThrPass";
             this.labelThrPass.Size = new System.Drawing.Size(141, 13);
             this.labelThrPass.TabIndex = 241;
@@ -287,7 +287,7 @@ namespace Cluster.UI
             this.labelStandofOD.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelStandofOD.ForeColor = System.Drawing.Color.White;
             this.labelStandofOD.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.labelStandofOD.Location = new System.Drawing.Point(828, 223);
+            this.labelStandofOD.Location = new System.Drawing.Point(806, 225);
             this.labelStandofOD.Name = "labelStandofOD";
             this.labelStandofOD.Size = new System.Drawing.Size(89, 13);
             this.labelStandofOD.TabIndex = 240;
@@ -301,7 +301,7 @@ namespace Cluster.UI
             this.labelConicity.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelConicity.ForeColor = System.Drawing.Color.White;
             this.labelConicity.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.labelConicity.Location = new System.Drawing.Point(838, 195);
+            this.labelConicity.Location = new System.Drawing.Point(816, 197);
             this.labelConicity.Name = "labelConicity";
             this.labelConicity.Size = new System.Drawing.Size(79, 13);
             this.labelConicity.TabIndex = 239;
@@ -315,7 +315,7 @@ namespace Cluster.UI
             this.label30.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label30.ForeColor = System.Drawing.Color.White;
             this.label30.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label30.Location = new System.Drawing.Point(738, 360);
+            this.label30.Location = new System.Drawing.Point(722, 360);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(80, 13);
             this.label30.TabIndex = 238;
@@ -329,7 +329,7 @@ namespace Cluster.UI
             this.label31.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label31.ForeColor = System.Drawing.Color.White;
             this.label31.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label31.Location = new System.Drawing.Point(754, 388);
+            this.label31.Location = new System.Drawing.Point(738, 388);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(60, 13);
             this.label31.TabIndex = 237;
@@ -343,7 +343,7 @@ namespace Cluster.UI
             this.label32.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label32.ForeColor = System.Drawing.Color.White;
             this.label32.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label32.Location = new System.Drawing.Point(764, 416);
+            this.label32.Location = new System.Drawing.Point(748, 416);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(54, 13);
             this.label32.TabIndex = 236;
@@ -357,7 +357,7 @@ namespace Cluster.UI
             this.label29.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label29.ForeColor = System.Drawing.Color.White;
             this.label29.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label29.Location = new System.Drawing.Point(783, 318);
+            this.label29.Location = new System.Drawing.Point(767, 318);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(68, 13);
             this.label29.TabIndex = 235;
@@ -371,7 +371,7 @@ namespace Cluster.UI
             this.CH1Y.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CH1Y.ForeColor = System.Drawing.Color.White;
             this.CH1Y.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.CH1Y.Location = new System.Drawing.Point(646, 155);
+            this.CH1Y.Location = new System.Drawing.Point(630, 155);
             this.CH1Y.Name = "CH1Y";
             this.CH1Y.Size = new System.Drawing.Size(102, 13);
             this.CH1Y.TabIndex = 234;
@@ -385,7 +385,7 @@ namespace Cluster.UI
             this.label26.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label26.ForeColor = System.Drawing.Color.White;
             this.label26.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label26.Location = new System.Drawing.Point(815, 157);
+            this.label26.Location = new System.Drawing.Point(793, 159);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(111, 13);
             this.label26.TabIndex = 233;
@@ -399,7 +399,7 @@ namespace Cluster.UI
             this.labelCH2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelCH2.ForeColor = System.Drawing.Color.White;
             this.labelCH2.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.labelCH2.Location = new System.Drawing.Point(467, 424);
+            this.labelCH2.Location = new System.Drawing.Point(451, 424);
             this.labelCH2.Name = "labelCH2";
             this.labelCH2.Size = new System.Drawing.Size(99, 13);
             this.labelCH2.TabIndex = 232;
@@ -413,7 +413,7 @@ namespace Cluster.UI
             this.CH1X.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CH1X.ForeColor = System.Drawing.Color.White;
             this.CH1X.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.CH1X.Location = new System.Drawing.Point(464, 155);
+            this.CH1X.Location = new System.Drawing.Point(448, 155);
             this.CH1X.Name = "CH1X";
             this.CH1X.Size = new System.Drawing.Size(103, 13);
             this.CH1X.TabIndex = 231;
@@ -427,7 +427,7 @@ namespace Cluster.UI
             this.label21.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label21.ForeColor = System.Drawing.Color.White;
             this.label21.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label21.Location = new System.Drawing.Point(672, 279);
+            this.label21.Location = new System.Drawing.Point(656, 279);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(14, 13);
             this.label21.TabIndex = 230;
@@ -441,7 +441,7 @@ namespace Cluster.UI
             this.label22.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label22.ForeColor = System.Drawing.Color.White;
             this.label22.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label22.Location = new System.Drawing.Point(672, 250);
+            this.label22.Location = new System.Drawing.Point(656, 250);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(14, 13);
             this.label22.TabIndex = 229;
@@ -455,7 +455,7 @@ namespace Cluster.UI
             this.label23.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label23.ForeColor = System.Drawing.Color.White;
             this.label23.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label23.Location = new System.Drawing.Point(672, 224);
+            this.label23.Location = new System.Drawing.Point(656, 224);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(14, 13);
             this.label23.TabIndex = 228;
@@ -469,7 +469,7 @@ namespace Cluster.UI
             this.label24.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label24.ForeColor = System.Drawing.Color.White;
             this.label24.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label24.Location = new System.Drawing.Point(672, 194);
+            this.label24.Location = new System.Drawing.Point(656, 194);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(14, 13);
             this.label24.TabIndex = 227;
@@ -483,7 +483,7 @@ namespace Cluster.UI
             this.label1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label1.Location = new System.Drawing.Point(480, 636);
+            this.label1.Location = new System.Drawing.Point(464, 636);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(14, 13);
             this.label1.TabIndex = 226;
@@ -497,7 +497,7 @@ namespace Cluster.UI
             this.label2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label2.Location = new System.Drawing.Point(480, 606);
+            this.label2.Location = new System.Drawing.Point(464, 606);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(14, 13);
             this.label2.TabIndex = 225;
@@ -511,7 +511,7 @@ namespace Cluster.UI
             this.label3.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label3.Location = new System.Drawing.Point(480, 577);
+            this.label3.Location = new System.Drawing.Point(464, 577);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(14, 13);
             this.label3.TabIndex = 224;
@@ -525,7 +525,7 @@ namespace Cluster.UI
             this.label4.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label4.Location = new System.Drawing.Point(480, 550);
+            this.label4.Location = new System.Drawing.Point(464, 550);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(14, 13);
             this.label4.TabIndex = 223;
@@ -539,7 +539,7 @@ namespace Cluster.UI
             this.label8.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label8.Location = new System.Drawing.Point(480, 521);
+            this.label8.Location = new System.Drawing.Point(464, 521);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(14, 13);
             this.label8.TabIndex = 222;
@@ -553,7 +553,7 @@ namespace Cluster.UI
             this.label9.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label9.Location = new System.Drawing.Point(480, 495);
+            this.label9.Location = new System.Drawing.Point(464, 495);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(14, 13);
             this.label9.TabIndex = 221;
@@ -567,7 +567,7 @@ namespace Cluster.UI
             this.label10.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label10.Location = new System.Drawing.Point(480, 469);
+            this.label10.Location = new System.Drawing.Point(464, 469);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(14, 13);
             this.label10.TabIndex = 220;
@@ -581,7 +581,7 @@ namespace Cluster.UI
             this.label20.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label20.ForeColor = System.Drawing.Color.White;
             this.label20.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label20.Location = new System.Drawing.Point(480, 364);
+            this.label20.Location = new System.Drawing.Point(464, 364);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(14, 13);
             this.label20.TabIndex = 219;
@@ -595,7 +595,7 @@ namespace Cluster.UI
             this.label19.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label19.ForeColor = System.Drawing.Color.White;
             this.label19.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label19.Location = new System.Drawing.Point(480, 334);
+            this.label19.Location = new System.Drawing.Point(464, 334);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(14, 13);
             this.label19.TabIndex = 218;
@@ -609,7 +609,7 @@ namespace Cluster.UI
             this.label18.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label18.ForeColor = System.Drawing.Color.White;
             this.label18.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label18.Location = new System.Drawing.Point(480, 305);
+            this.label18.Location = new System.Drawing.Point(464, 305);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(14, 13);
             this.label18.TabIndex = 217;
@@ -623,7 +623,7 @@ namespace Cluster.UI
             this.label17.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label17.ForeColor = System.Drawing.Color.White;
             this.label17.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label17.Location = new System.Drawing.Point(480, 278);
+            this.label17.Location = new System.Drawing.Point(464, 278);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(14, 13);
             this.label17.TabIndex = 216;
@@ -637,7 +637,7 @@ namespace Cluster.UI
             this.label16.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label16.ForeColor = System.Drawing.Color.White;
             this.label16.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label16.Location = new System.Drawing.Point(480, 249);
+            this.label16.Location = new System.Drawing.Point(464, 249);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(14, 13);
             this.label16.TabIndex = 215;
@@ -651,7 +651,7 @@ namespace Cluster.UI
             this.label15.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label15.ForeColor = System.Drawing.Color.White;
             this.label15.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label15.Location = new System.Drawing.Point(480, 223);
+            this.label15.Location = new System.Drawing.Point(464, 223);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(14, 13);
             this.label15.TabIndex = 214;
@@ -665,7 +665,7 @@ namespace Cluster.UI
             this.label14.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label14.ForeColor = System.Drawing.Color.White;
             this.label14.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label14.Location = new System.Drawing.Point(480, 193);
+            this.label14.Location = new System.Drawing.Point(464, 193);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(14, 13);
             this.label14.TabIndex = 213;
@@ -677,7 +677,7 @@ namespace Cluster.UI
             this.textBoxCreationDate.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCreationDate.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCreationDate.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCreationDate.Location = new System.Drawing.Point(819, 439);
+            this.textBoxCreationDate.Location = new System.Drawing.Point(803, 439);
             this.textBoxCreationDate.Name = "textBoxCreationDate";
             this.textBoxCreationDate.ReadOnly = true;
             this.textBoxCreationDate.Size = new System.Drawing.Size(147, 21);
@@ -689,7 +689,7 @@ namespace Cluster.UI
             this.textBoxMachineView.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxMachineView.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxMachineView.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxMachineView.Location = new System.Drawing.Point(818, 413);
+            this.textBoxMachineView.Location = new System.Drawing.Point(802, 413);
             this.textBoxMachineView.Name = "textBoxMachineView";
             this.textBoxMachineView.ReadOnly = true;
             this.textBoxMachineView.Size = new System.Drawing.Size(76, 21);
@@ -701,7 +701,7 @@ namespace Cluster.UI
             this.textBoxDiameterView.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxDiameterView.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxDiameterView.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxDiameterView.Location = new System.Drawing.Point(818, 386);
+            this.textBoxDiameterView.Location = new System.Drawing.Point(802, 386);
             this.textBoxDiameterView.Name = "textBoxDiameterView";
             this.textBoxDiameterView.ReadOnly = true;
             this.textBoxDiameterView.Size = new System.Drawing.Size(76, 21);
@@ -713,7 +713,7 @@ namespace Cluster.UI
             this.textBoxThreadTypeView.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxThreadTypeView.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxThreadTypeView.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxThreadTypeView.Location = new System.Drawing.Point(818, 357);
+            this.textBoxThreadTypeView.Location = new System.Drawing.Point(802, 357);
             this.textBoxThreadTypeView.Name = "textBoxThreadTypeView";
             this.textBoxThreadTypeView.ReadOnly = true;
             this.textBoxThreadTypeView.Size = new System.Drawing.Size(76, 21);
@@ -725,7 +725,7 @@ namespace Cluster.UI
             this.textBoxZajust.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxZajust.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxZajust.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxZajust.Location = new System.Drawing.Point(923, 276);
+            this.textBoxZajust.Location = new System.Drawing.Point(901, 278);
             this.textBoxZajust.Name = "textBoxZajust";
             this.textBoxZajust.ReadOnly = true;
             this.textBoxZajust.Size = new System.Drawing.Size(76, 21);
@@ -737,7 +737,7 @@ namespace Cluster.UI
             this.textBoxThreadPasses.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxThreadPasses.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxThreadPasses.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxThreadPasses.Location = new System.Drawing.Point(923, 248);
+            this.textBoxThreadPasses.Location = new System.Drawing.Point(901, 250);
             this.textBoxThreadPasses.Name = "textBoxThreadPasses";
             this.textBoxThreadPasses.ReadOnly = true;
             this.textBoxThreadPasses.Size = new System.Drawing.Size(76, 21);
@@ -749,7 +749,7 @@ namespace Cluster.UI
             this.textBoxStandoffSeal.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxStandoffSeal.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxStandoffSeal.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxStandoffSeal.Location = new System.Drawing.Point(923, 220);
+            this.textBoxStandoffSeal.Location = new System.Drawing.Point(901, 222);
             this.textBoxStandoffSeal.Name = "textBoxStandoffSeal";
             this.textBoxStandoffSeal.ReadOnly = true;
             this.textBoxStandoffSeal.Size = new System.Drawing.Size(76, 21);
@@ -761,7 +761,7 @@ namespace Cluster.UI
             this.textBoxStandoff.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxStandoff.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxStandoff.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxStandoff.Location = new System.Drawing.Point(923, 192);
+            this.textBoxStandoff.Location = new System.Drawing.Point(901, 194);
             this.textBoxStandoff.Name = "textBoxStandoff";
             this.textBoxStandoff.ReadOnly = true;
             this.textBoxStandoff.Size = new System.Drawing.Size(76, 21);
@@ -773,7 +773,7 @@ namespace Cluster.UI
             this.textBoxCannel2Z7.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCannel2Z7.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCannel2Z7.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCannel2Z7.Location = new System.Drawing.Point(584, 634);
+            this.textBoxCannel2Z7.Location = new System.Drawing.Point(568, 634);
             this.textBoxCannel2Z7.Name = "textBoxCannel2Z7";
             this.textBoxCannel2Z7.ReadOnly = true;
             this.textBoxCannel2Z7.Size = new System.Drawing.Size(76, 21);
@@ -785,7 +785,7 @@ namespace Cluster.UI
             this.textBoxCannel2Z6.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCannel2Z6.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCannel2Z6.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCannel2Z6.Location = new System.Drawing.Point(584, 606);
+            this.textBoxCannel2Z6.Location = new System.Drawing.Point(568, 606);
             this.textBoxCannel2Z6.Name = "textBoxCannel2Z6";
             this.textBoxCannel2Z6.ReadOnly = true;
             this.textBoxCannel2Z6.Size = new System.Drawing.Size(76, 21);
@@ -797,7 +797,7 @@ namespace Cluster.UI
             this.textBoxCannel2Z5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCannel2Z5.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCannel2Z5.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCannel2Z5.Location = new System.Drawing.Point(584, 578);
+            this.textBoxCannel2Z5.Location = new System.Drawing.Point(568, 578);
             this.textBoxCannel2Z5.Name = "textBoxCannel2Z5";
             this.textBoxCannel2Z5.ReadOnly = true;
             this.textBoxCannel2Z5.Size = new System.Drawing.Size(76, 21);
@@ -809,7 +809,7 @@ namespace Cluster.UI
             this.textBoxCannel2Z4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCannel2Z4.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCannel2Z4.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCannel2Z4.Location = new System.Drawing.Point(584, 550);
+            this.textBoxCannel2Z4.Location = new System.Drawing.Point(568, 550);
             this.textBoxCannel2Z4.Name = "textBoxCannel2Z4";
             this.textBoxCannel2Z4.ReadOnly = true;
             this.textBoxCannel2Z4.Size = new System.Drawing.Size(76, 21);
@@ -821,7 +821,7 @@ namespace Cluster.UI
             this.textBoxCannel2Z3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCannel2Z3.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCannel2Z3.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCannel2Z3.Location = new System.Drawing.Point(584, 522);
+            this.textBoxCannel2Z3.Location = new System.Drawing.Point(568, 522);
             this.textBoxCannel2Z3.Name = "textBoxCannel2Z3";
             this.textBoxCannel2Z3.ReadOnly = true;
             this.textBoxCannel2Z3.Size = new System.Drawing.Size(76, 21);
@@ -833,7 +833,7 @@ namespace Cluster.UI
             this.textBoxCannel2Z2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCannel2Z2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCannel2Z2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCannel2Z2.Location = new System.Drawing.Point(584, 494);
+            this.textBoxCannel2Z2.Location = new System.Drawing.Point(568, 494);
             this.textBoxCannel2Z2.Name = "textBoxCannel2Z2";
             this.textBoxCannel2Z2.ReadOnly = true;
             this.textBoxCannel2Z2.Size = new System.Drawing.Size(76, 21);
@@ -845,7 +845,7 @@ namespace Cluster.UI
             this.textBoxCannel2Z1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCannel2Z1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCannel2Z1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCannel2Z1.Location = new System.Drawing.Point(584, 466);
+            this.textBoxCannel2Z1.Location = new System.Drawing.Point(568, 466);
             this.textBoxCannel2Z1.Name = "textBoxCannel2Z1";
             this.textBoxCannel2Z1.ReadOnly = true;
             this.textBoxCannel2Z1.Size = new System.Drawing.Size(76, 21);
@@ -857,7 +857,7 @@ namespace Cluster.UI
             this.textBoxCannel2X7.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCannel2X7.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCannel2X7.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCannel2X7.Location = new System.Drawing.Point(502, 634);
+            this.textBoxCannel2X7.Location = new System.Drawing.Point(486, 634);
             this.textBoxCannel2X7.Name = "textBoxCannel2X7";
             this.textBoxCannel2X7.ReadOnly = true;
             this.textBoxCannel2X7.Size = new System.Drawing.Size(76, 21);
@@ -869,7 +869,7 @@ namespace Cluster.UI
             this.textBoxCannel2X6.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCannel2X6.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCannel2X6.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCannel2X6.Location = new System.Drawing.Point(502, 606);
+            this.textBoxCannel2X6.Location = new System.Drawing.Point(486, 606);
             this.textBoxCannel2X6.Name = "textBoxCannel2X6";
             this.textBoxCannel2X6.ReadOnly = true;
             this.textBoxCannel2X6.Size = new System.Drawing.Size(76, 21);
@@ -881,7 +881,7 @@ namespace Cluster.UI
             this.textBoxCannel2X5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCannel2X5.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCannel2X5.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCannel2X5.Location = new System.Drawing.Point(502, 578);
+            this.textBoxCannel2X5.Location = new System.Drawing.Point(486, 578);
             this.textBoxCannel2X5.Name = "textBoxCannel2X5";
             this.textBoxCannel2X5.ReadOnly = true;
             this.textBoxCannel2X5.Size = new System.Drawing.Size(76, 21);
@@ -893,7 +893,7 @@ namespace Cluster.UI
             this.textBoxCannel2X4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCannel2X4.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCannel2X4.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCannel2X4.Location = new System.Drawing.Point(502, 550);
+            this.textBoxCannel2X4.Location = new System.Drawing.Point(486, 550);
             this.textBoxCannel2X4.Name = "textBoxCannel2X4";
             this.textBoxCannel2X4.ReadOnly = true;
             this.textBoxCannel2X4.Size = new System.Drawing.Size(76, 21);
@@ -905,7 +905,7 @@ namespace Cluster.UI
             this.textBoxCannel2X3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCannel2X3.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCannel2X3.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCannel2X3.Location = new System.Drawing.Point(502, 522);
+            this.textBoxCannel2X3.Location = new System.Drawing.Point(486, 522);
             this.textBoxCannel2X3.Name = "textBoxCannel2X3";
             this.textBoxCannel2X3.ReadOnly = true;
             this.textBoxCannel2X3.Size = new System.Drawing.Size(76, 21);
@@ -917,7 +917,7 @@ namespace Cluster.UI
             this.textBoxCannel2X2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCannel2X2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCannel2X2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCannel2X2.Location = new System.Drawing.Point(502, 494);
+            this.textBoxCannel2X2.Location = new System.Drawing.Point(486, 494);
             this.textBoxCannel2X2.Name = "textBoxCannel2X2";
             this.textBoxCannel2X2.ReadOnly = true;
             this.textBoxCannel2X2.Size = new System.Drawing.Size(76, 21);
@@ -929,7 +929,7 @@ namespace Cluster.UI
             this.textBoxCannel2X1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxCannel2X1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCannel2X1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxCannel2X1.Location = new System.Drawing.Point(502, 466);
+            this.textBoxCannel2X1.Location = new System.Drawing.Point(486, 466);
             this.textBoxCannel2X1.Name = "textBoxCannel2X1";
             this.textBoxCannel2X1.ReadOnly = true;
             this.textBoxCannel2X1.Size = new System.Drawing.Size(76, 21);
@@ -941,7 +941,7 @@ namespace Cluster.UI
             this.textBoxY4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxY4.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxY4.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxY4.Location = new System.Drawing.Point(694, 274);
+            this.textBoxY4.Location = new System.Drawing.Point(678, 274);
             this.textBoxY4.Name = "textBoxY4";
             this.textBoxY4.ReadOnly = true;
             this.textBoxY4.Size = new System.Drawing.Size(76, 21);
@@ -953,7 +953,7 @@ namespace Cluster.UI
             this.textBoxY3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxY3.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxY3.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxY3.Location = new System.Drawing.Point(694, 247);
+            this.textBoxY3.Location = new System.Drawing.Point(678, 247);
             this.textBoxY3.Name = "textBoxY3";
             this.textBoxY3.ReadOnly = true;
             this.textBoxY3.Size = new System.Drawing.Size(76, 21);
@@ -965,7 +965,7 @@ namespace Cluster.UI
             this.textBoxY2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxY2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxY2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxY2.Location = new System.Drawing.Point(694, 218);
+            this.textBoxY2.Location = new System.Drawing.Point(678, 218);
             this.textBoxY2.Name = "textBoxY2";
             this.textBoxY2.ReadOnly = true;
             this.textBoxY2.Size = new System.Drawing.Size(76, 21);
@@ -977,7 +977,7 @@ namespace Cluster.UI
             this.textBoxY1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxY1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxY1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxY1.Location = new System.Drawing.Point(694, 190);
+            this.textBoxY1.Location = new System.Drawing.Point(678, 190);
             this.textBoxY1.Name = "textBoxY1";
             this.textBoxY1.ReadOnly = true;
             this.textBoxY1.Size = new System.Drawing.Size(76, 21);
@@ -989,7 +989,7 @@ namespace Cluster.UI
             this.textBoxZ7.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxZ7.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxZ7.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxZ7.Location = new System.Drawing.Point(584, 359);
+            this.textBoxZ7.Location = new System.Drawing.Point(568, 359);
             this.textBoxZ7.Name = "textBoxZ7";
             this.textBoxZ7.ReadOnly = true;
             this.textBoxZ7.Size = new System.Drawing.Size(76, 21);
@@ -1001,7 +1001,7 @@ namespace Cluster.UI
             this.textBoxZ6.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxZ6.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxZ6.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxZ6.Location = new System.Drawing.Point(584, 331);
+            this.textBoxZ6.Location = new System.Drawing.Point(568, 331);
             this.textBoxZ6.Name = "textBoxZ6";
             this.textBoxZ6.ReadOnly = true;
             this.textBoxZ6.Size = new System.Drawing.Size(76, 21);
@@ -1013,7 +1013,7 @@ namespace Cluster.UI
             this.textBoxZ5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxZ5.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxZ5.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxZ5.Location = new System.Drawing.Point(584, 303);
+            this.textBoxZ5.Location = new System.Drawing.Point(568, 303);
             this.textBoxZ5.Name = "textBoxZ5";
             this.textBoxZ5.ReadOnly = true;
             this.textBoxZ5.Size = new System.Drawing.Size(76, 21);
@@ -1025,7 +1025,7 @@ namespace Cluster.UI
             this.textBoxZ4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxZ4.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxZ4.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxZ4.Location = new System.Drawing.Point(584, 275);
+            this.textBoxZ4.Location = new System.Drawing.Point(568, 275);
             this.textBoxZ4.Name = "textBoxZ4";
             this.textBoxZ4.ReadOnly = true;
             this.textBoxZ4.Size = new System.Drawing.Size(76, 21);
@@ -1037,7 +1037,7 @@ namespace Cluster.UI
             this.textBoxZ3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxZ3.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxZ3.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxZ3.Location = new System.Drawing.Point(584, 247);
+            this.textBoxZ3.Location = new System.Drawing.Point(568, 247);
             this.textBoxZ3.Name = "textBoxZ3";
             this.textBoxZ3.ReadOnly = true;
             this.textBoxZ3.Size = new System.Drawing.Size(76, 21);
@@ -1049,7 +1049,7 @@ namespace Cluster.UI
             this.textBoxZ2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxZ2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxZ2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxZ2.Location = new System.Drawing.Point(584, 219);
+            this.textBoxZ2.Location = new System.Drawing.Point(568, 219);
             this.textBoxZ2.Name = "textBoxZ2";
             this.textBoxZ2.ReadOnly = true;
             this.textBoxZ2.Size = new System.Drawing.Size(76, 21);
@@ -1061,7 +1061,7 @@ namespace Cluster.UI
             this.textBoxZ1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxZ1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxZ1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxZ1.Location = new System.Drawing.Point(584, 191);
+            this.textBoxZ1.Location = new System.Drawing.Point(568, 191);
             this.textBoxZ1.Name = "textBoxZ1";
             this.textBoxZ1.ReadOnly = true;
             this.textBoxZ1.Size = new System.Drawing.Size(76, 21);
@@ -1073,7 +1073,7 @@ namespace Cluster.UI
             this.textBoxX7.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxX7.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxX7.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxX7.Location = new System.Drawing.Point(502, 359);
+            this.textBoxX7.Location = new System.Drawing.Point(486, 359);
             this.textBoxX7.Name = "textBoxX7";
             this.textBoxX7.ReadOnly = true;
             this.textBoxX7.Size = new System.Drawing.Size(76, 21);
@@ -1085,7 +1085,7 @@ namespace Cluster.UI
             this.textBoxX6.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxX6.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxX6.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxX6.Location = new System.Drawing.Point(502, 331);
+            this.textBoxX6.Location = new System.Drawing.Point(486, 331);
             this.textBoxX6.Name = "textBoxX6";
             this.textBoxX6.ReadOnly = true;
             this.textBoxX6.Size = new System.Drawing.Size(76, 21);
@@ -1097,7 +1097,7 @@ namespace Cluster.UI
             this.textBoxX5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxX5.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxX5.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxX5.Location = new System.Drawing.Point(502, 303);
+            this.textBoxX5.Location = new System.Drawing.Point(486, 303);
             this.textBoxX5.Name = "textBoxX5";
             this.textBoxX5.ReadOnly = true;
             this.textBoxX5.Size = new System.Drawing.Size(76, 21);
@@ -1109,7 +1109,7 @@ namespace Cluster.UI
             this.textBoxX4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxX4.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxX4.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxX4.Location = new System.Drawing.Point(502, 275);
+            this.textBoxX4.Location = new System.Drawing.Point(486, 275);
             this.textBoxX4.Name = "textBoxX4";
             this.textBoxX4.ReadOnly = true;
             this.textBoxX4.Size = new System.Drawing.Size(76, 21);
@@ -1121,7 +1121,7 @@ namespace Cluster.UI
             this.textBoxX3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxX3.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxX3.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxX3.Location = new System.Drawing.Point(502, 247);
+            this.textBoxX3.Location = new System.Drawing.Point(486, 247);
             this.textBoxX3.Name = "textBoxX3";
             this.textBoxX3.ReadOnly = true;
             this.textBoxX3.Size = new System.Drawing.Size(76, 21);
@@ -1133,7 +1133,7 @@ namespace Cluster.UI
             this.textBoxX2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxX2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxX2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxX2.Location = new System.Drawing.Point(502, 219);
+            this.textBoxX2.Location = new System.Drawing.Point(486, 219);
             this.textBoxX2.Name = "textBoxX2";
             this.textBoxX2.ReadOnly = true;
             this.textBoxX2.Size = new System.Drawing.Size(76, 21);
@@ -1145,7 +1145,7 @@ namespace Cluster.UI
             this.textBoxX1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxX1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxX1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxX1.Location = new System.Drawing.Point(502, 191);
+            this.textBoxX1.Location = new System.Drawing.Point(486, 191);
             this.textBoxX1.Name = "textBoxX1";
             this.textBoxX1.ReadOnly = true;
             this.textBoxX1.Size = new System.Drawing.Size(76, 21);
@@ -1157,7 +1157,7 @@ namespace Cluster.UI
             this.textBoxOffsetName.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxOffsetName.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxOffsetName.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxOffsetName.Location = new System.Drawing.Point(514, 124);
+            this.textBoxOffsetName.Location = new System.Drawing.Point(498, 124);
             this.textBoxOffsetName.Name = "textBoxOffsetName";
             this.textBoxOffsetName.ReadOnly = true;
             this.textBoxOffsetName.Size = new System.Drawing.Size(403, 21);
@@ -1322,9 +1322,9 @@ namespace Cluster.UI
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(444, 14);
+            this.pictureBox1.Location = new System.Drawing.Point(435, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(10, 719);
+            this.pictureBox1.Size = new System.Drawing.Size(10, 706);
             this.pictureBox1.TabIndex = 252;
             this.pictureBox1.TabStop = false;
             // 
@@ -1336,7 +1336,7 @@ namespace Cluster.UI
             this.label38.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label38.ForeColor = System.Drawing.Color.White;
             this.label38.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label38.Location = new System.Drawing.Point(720, 174);
+            this.label38.Location = new System.Drawing.Point(704, 174);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(14, 13);
             this.label38.TabIndex = 257;
@@ -1350,7 +1350,7 @@ namespace Cluster.UI
             this.label37.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label37.ForeColor = System.Drawing.Color.White;
             this.label37.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label37.Location = new System.Drawing.Point(614, 450);
+            this.label37.Location = new System.Drawing.Point(598, 450);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(15, 13);
             this.label37.TabIndex = 256;
@@ -1364,7 +1364,7 @@ namespace Cluster.UI
             this.label36.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label36.ForeColor = System.Drawing.Color.White;
             this.label36.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label36.Location = new System.Drawing.Point(614, 178);
+            this.label36.Location = new System.Drawing.Point(598, 178);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(15, 13);
             this.label36.TabIndex = 255;
@@ -1378,7 +1378,7 @@ namespace Cluster.UI
             this.label35.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label35.ForeColor = System.Drawing.Color.White;
             this.label35.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label35.Location = new System.Drawing.Point(534, 450);
+            this.label35.Location = new System.Drawing.Point(518, 450);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(15, 13);
             this.label35.TabIndex = 254;
@@ -1392,7 +1392,7 @@ namespace Cluster.UI
             this.label5.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label5.Location = new System.Drawing.Point(534, 178);
+            this.label5.Location = new System.Drawing.Point(518, 178);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(15, 13);
             this.label5.TabIndex = 253;
@@ -1402,7 +1402,7 @@ namespace Cluster.UI
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(74)))), ((int)(((byte)(98)))));
-            this.ClientSize = new System.Drawing.Size(1011, 696);
+            this.ClientSize = new System.Drawing.Size(978, 683);
             this.Controls.Add(this.label38);
             this.Controls.Add(this.label37);
             this.Controls.Add(this.label36);

@@ -8,5 +8,13 @@ namespace Cluster.UI
         {
             InitializeComponent();
         }
+
+        private void buttonView_Click(object sender, System.EventArgs e)
+        {
+
+
+        }
+
+
     }
 }

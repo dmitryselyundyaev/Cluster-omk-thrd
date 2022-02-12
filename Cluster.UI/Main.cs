@@ -134,21 +134,25 @@ namespace Cluster.UI
         public Button ActiveButton;
         public void ButtonHoldColor(Button btn)
         {
-            if (btn == buttonCloseApp)
+            if (btn == buttonCloseChildForm)
             {
                 ActiveButton.BackColor = Color.FromArgb(37, 94, 126);
-                AcceptButton = null;
+                ActiveButton.Enabled = true;
+                ActiveButton = null;
             }
             else if (ActiveButton != null)
             {
+                ActiveButton.Enabled = true;
                 ActiveButton.BackColor = Color.FromArgb(37, 94, 126);
                 ActiveButton = btn;
                 ActiveButton.BackColor = System.Drawing.Color.Maroon;
+                ActiveButton.Enabled = false;
             }
             else
             {
                 ActiveButton = btn;
                 ActiveButton.BackColor = System.Drawing.Color.Maroon;
+                ActiveButton.Enabled = false;
             }
 
             
@@ -182,7 +186,7 @@ namespace Cluster.UI
         private void buttonCloseChildForm_Click(object sender, EventArgs e)
         {
             ActiveForm.Close();
-            ButtonHoldColor(buttonCloseApp);
+            ButtonHoldColor(buttonCloseChildForm);
             HideSubMenu();
             buttonCloseChildForm.Visible = false;
         }

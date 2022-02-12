@@ -138,6 +138,7 @@ namespace Cluster.UI
 
                 }
                 #endregion
+                
                 database.SaveChanges();
                 if (database.OffsetDatas.Count() > dbCount)
                 {
