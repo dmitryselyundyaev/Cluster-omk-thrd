@@ -1,9 +1,6 @@
 ﻿using Cluster.BL.Model.Tables;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cluster.BL
 {
@@ -11,7 +8,7 @@ namespace Cluster.BL
     {
         static void Main(string[] args)
         {
-            UserData vvv= new UserData();
+            UserData vvv = new UserData();
             vvv.UserName = "Johun";
             UserData vv1 = new UserData();
             vv1.UserName = "Johu2n";
@@ -61,7 +58,7 @@ namespace Cluster.BL
             cont.OffsetDatas.Add(offsetAdd);
             var ooo = 0;
             cont.SaveChanges();
-            Console.WriteLine(cont.UsersData.Where(u=>u.UserId == 1).ToString());
+            Console.WriteLine(cont.UsersData.Where(u => u.UserId == 1).ToString());
             Console.WriteLine(System.Net.CredentialCache.DefaultCredentials.ToString());
             Console.ReadKey();
 

@@ -48,7 +48,7 @@ namespace Cluster.UI
                     using (var cont = new ClusterDbContext())
                     {
                         //TODO SUBSTRING ALL DATES
-                        var source = database.OffsetDatas.Where(u => u.Created.ToString().Substring(0,10) == dateTimePickerForView.Value.Date.ToString().Substring(0, 10)).OrderByDescending(u => u.OffsetDataId).ToList();
+                        var source = database.OffsetDatas.Where(u => u.Created.ToString().Substring(0, 10) == dateTimePickerForView.Value.Date.ToString().Substring(0, 10)).OrderByDescending(u => u.OffsetDataId).ToList();
                         listBoxViewDataList.DataSource = new BindingList<OffsetData>(source);
 
                     }
@@ -211,7 +211,7 @@ namespace Cluster.UI
                             .Where(u => u.Product.Diameter == convertedDiameter)
                             .Where(u => DbFunctions.TruncateTime(u.Created) == dateTimePickerForView.Value.Date)
                             .OrderByDescending(u => u.OffsetDataId).ToList();
-                        listBoxViewDataList.DataSource = new BindingList<OffsetData>(source);
+                            listBoxViewDataList.DataSource = new BindingList<OffsetData>(source);
                         }
                     }
                 }

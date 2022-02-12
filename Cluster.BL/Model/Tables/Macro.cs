@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cluster.BL.Model.Tables
 {
     [Table("Macro")]
-    public class Macro 
+    public class Macro
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
