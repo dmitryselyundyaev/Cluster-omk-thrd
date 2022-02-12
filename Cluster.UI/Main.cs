@@ -131,7 +131,29 @@ namespace Cluster.UI
                 subMenu.Visible = false;
             }
         }
+        public Button ActiveButton;
+        public void ButtonHoldColor(Button btn)
+        {
+            if (btn == buttonCloseApp)
+            {
+                ActiveButton.BackColor = Color.FromArgb(37, 94, 126);
+                AcceptButton = null;
+            }
+            else if (ActiveButton != null)
+            {
+                ActiveButton.BackColor = Color.FromArgb(37, 94, 126);
+                ActiveButton = btn;
+                ActiveButton.BackColor = System.Drawing.Color.Maroon;
+            }
+            else
+            {
+                ActiveButton = btn;
+                ActiveButton.BackColor = System.Drawing.Color.Maroon;
+            }
 
+            
+            
+        }
         private void buttonThrdOffset_Click(object sender, EventArgs e)
         {
             ShowSubMenu(panelThrdOffsetSubMenu);
@@ -160,6 +182,8 @@ namespace Cluster.UI
         private void buttonCloseChildForm_Click(object sender, EventArgs e)
         {
             ActiveForm.Close();
+            ButtonHoldColor(buttonCloseApp);
+            HideSubMenu();
             buttonCloseChildForm.Visible = false;
         }
 
@@ -190,56 +214,67 @@ namespace Cluster.UI
 
         private void buttonThrdOffsetAdd_Click(object sender, EventArgs e)
         {
+            ButtonHoldColor(buttonThrdOffsetAdd);
             OpenChildForm(new ThrdCreateOffset<OffsetData>(database.OffsetDatas, database));
         }
 
         private void buttonThrdOffsetView_Click(object sender, EventArgs e)
         {
+            ButtonHoldColor(buttonThrdOffsetView);
             OpenChildForm(new ThrdViewOffset<OffsetData>(database.OffsetDatas, database));
         }
 
         private void buttonThrdMachineGeometry_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ThrdGeometry());
+            ButtonHoldColor(buttonThrdMachineGeometry);
+            OpenChildForm(new ThrdGeometry<OffsetData>(database.OffsetDatas, database));
         }
 
         private void buttonThrdProgramList_Click(object sender, EventArgs e)
         {
+            ButtonHoldColor(buttonThrdProgramList);
             OpenChildForm(new ThrdProgram());
         }
 
         private void buttonThrdSpeedSetUp_Click(object sender, EventArgs e)
         {
+            ButtonHoldColor(buttonThrdSpeedSetUp);
             OpenChildForm(new ThrdCuttingSpeed());
         }
 
         private void buttonThrdFAQProblems_Click(object sender, EventArgs e)
         {
+            ButtonHoldColor(buttonThrdFAQProblems);
             OpenChildForm(new ThrdFaqThread());
         }
 
         private void buttonThrdSetUpProblems_Click(object sender, EventArgs e)
         {
+            ButtonHoldColor(buttonThrdSetUpProblems);
             OpenChildForm(new ThrdFaqMachine());
         }
 
         private void buttonThrdKPVOThread_Click(object sender, EventArgs e)
         {
+            ButtonHoldColor(buttonThrdKPVOThread);
             OpenChildForm(new ThrdKpvo());
         }
 
         private void buttonThrdKPVOTubeTime_Click(object sender, EventArgs e)
         {
+            ButtonHoldColor(buttonThrdKPVOTubeTime);
             OpenChildForm(new ThrdPlanPerfomance());
         }
 
         private void buttonThrdSetUpCards_Click(object sender, EventArgs e)
         {
+            ButtonHoldColor(buttonThrdSetUpCards);
             OpenChildForm(new ThrdSetUpCard());
         }
 
         private void buttonSettings_Click(object sender, EventArgs e)
         {
+            ButtonHoldColor(buttonSettings);
             OpenChildForm(new MainSetting());
         }
         #endregion

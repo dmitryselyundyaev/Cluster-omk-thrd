@@ -122,7 +122,7 @@ namespace Cluster.UI
             this.label23.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label23.Location = new System.Drawing.Point(607, 526);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(115, 17);
+            this.label23.Size = new System.Drawing.Size(93, 13);
             this.label23.TabIndex = 217;
             this.label23.Text = "Комментарий";
             // 
@@ -146,7 +146,7 @@ namespace Cluster.UI
             this.labelIsSaved.ForeColor = System.Drawing.Color.White;
             this.labelIsSaved.Location = new System.Drawing.Point(826, 643);
             this.labelIsSaved.Name = "labelIsSaved";
-            this.labelIsSaved.Size = new System.Drawing.Size(162, 17);
+            this.labelIsSaved.Size = new System.Drawing.Size(131, 13);
             this.labelIsSaved.TabIndex = 215;
             this.labelIsSaved.Text = "Параметры записаны";
             this.labelIsSaved.Visible = false;
@@ -161,7 +161,7 @@ namespace Cluster.UI
             this.label22.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label22.Location = new System.Drawing.Point(338, 516);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(94, 17);
+            this.label22.Size = new System.Drawing.Size(76, 13);
             this.label22.TabIndex = 214;
             this.label22.Text = "Сортамент";
             // 
@@ -175,7 +175,7 @@ namespace Cluster.UI
             this.label38.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label38.Location = new System.Drawing.Point(338, 205);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(17, 17);
+            this.label38.Size = new System.Drawing.Size(14, 13);
             this.label38.TabIndex = 213;
             this.label38.Text = "Y";
             // 
@@ -189,7 +189,7 @@ namespace Cluster.UI
             this.label37.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label37.Location = new System.Drawing.Point(552, 205);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(18, 17);
+            this.label37.Size = new System.Drawing.Size(15, 13);
             this.label37.TabIndex = 212;
             this.label37.Text = "Z";
             // 
@@ -203,7 +203,7 @@ namespace Cluster.UI
             this.label36.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label36.Location = new System.Drawing.Point(206, 213);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(18, 17);
+            this.label36.Size = new System.Drawing.Size(15, 13);
             this.label36.TabIndex = 211;
             this.label36.Text = "Z";
             // 
@@ -217,7 +217,7 @@ namespace Cluster.UI
             this.label35.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label35.Location = new System.Drawing.Point(471, 205);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(18, 17);
+            this.label35.Size = new System.Drawing.Size(15, 13);
             this.label35.TabIndex = 210;
             this.label35.Text = "X";
             // 
@@ -231,7 +231,7 @@ namespace Cluster.UI
             this.label21.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label21.Location = new System.Drawing.Point(126, 213);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(18, 17);
+            this.label21.Size = new System.Drawing.Size(15, 13);
             this.label21.TabIndex = 209;
             this.label21.Text = "X";
             // 
@@ -245,7 +245,7 @@ namespace Cluster.UI
             this.label28.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label28.Location = new System.Drawing.Point(417, 427);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(17, 17);
+            this.label28.Size = new System.Drawing.Size(14, 13);
             this.label28.TabIndex = 208;
             this.label28.Text = "7";
             // 
@@ -259,7 +259,7 @@ namespace Cluster.UI
             this.label29.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label29.Location = new System.Drawing.Point(417, 394);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(17, 17);
+            this.label29.Size = new System.Drawing.Size(14, 13);
             this.label29.TabIndex = 207;
             this.label29.Text = "6";
             // 
@@ -273,7 +273,7 @@ namespace Cluster.UI
             this.label30.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label30.Location = new System.Drawing.Point(417, 361);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(17, 17);
+            this.label30.Size = new System.Drawing.Size(14, 13);
             this.label30.TabIndex = 206;
             this.label30.Text = "5";
             // 
@@ -287,7 +287,7 @@ namespace Cluster.UI
             this.label31.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label31.Location = new System.Drawing.Point(417, 328);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(17, 17);
+            this.label31.Size = new System.Drawing.Size(14, 13);
             this.label31.TabIndex = 205;
             this.label31.Text = "4";
             // 
@@ -301,7 +301,7 @@ namespace Cluster.UI
             this.label32.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label32.Location = new System.Drawing.Point(417, 294);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(17, 17);
+            this.label32.Size = new System.Drawing.Size(14, 13);
             this.label32.TabIndex = 204;
             this.label32.Text = "3";
             // 
@@ -315,7 +315,7 @@ namespace Cluster.UI
             this.label33.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label33.Location = new System.Drawing.Point(417, 259);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(17, 17);
+            this.label33.Size = new System.Drawing.Size(14, 13);
             this.label33.TabIndex = 203;
             this.label33.Text = "2";
             // 
@@ -329,7 +329,7 @@ namespace Cluster.UI
             this.label34.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label34.Location = new System.Drawing.Point(417, 229);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(17, 17);
+            this.label34.Size = new System.Drawing.Size(14, 13);
             this.label34.TabIndex = 202;
             this.label34.Text = "1";
             // 
@@ -343,7 +343,7 @@ namespace Cluster.UI
             this.label24.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label24.Location = new System.Drawing.Point(288, 330);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(17, 17);
+            this.label24.Size = new System.Drawing.Size(14, 13);
             this.label24.TabIndex = 201;
             this.label24.Text = "4";
             // 
@@ -357,7 +357,7 @@ namespace Cluster.UI
             this.label25.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label25.Location = new System.Drawing.Point(288, 296);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(17, 17);
+            this.label25.Size = new System.Drawing.Size(14, 13);
             this.label25.TabIndex = 200;
             this.label25.Text = "3";
             // 
@@ -371,7 +371,7 @@ namespace Cluster.UI
             this.label26.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label26.Location = new System.Drawing.Point(288, 261);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(17, 17);
+            this.label26.Size = new System.Drawing.Size(14, 13);
             this.label26.TabIndex = 199;
             this.label26.Text = "2";
             // 
@@ -385,7 +385,7 @@ namespace Cluster.UI
             this.label27.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label27.Location = new System.Drawing.Point(288, 231);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(17, 17);
+            this.label27.Size = new System.Drawing.Size(14, 13);
             this.label27.TabIndex = 198;
             this.label27.Text = "1";
             // 
@@ -399,7 +399,7 @@ namespace Cluster.UI
             this.label20.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label20.Location = new System.Drawing.Point(77, 434);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(17, 17);
+            this.label20.Size = new System.Drawing.Size(14, 13);
             this.label20.TabIndex = 197;
             this.label20.Text = "7";
             // 
@@ -413,7 +413,7 @@ namespace Cluster.UI
             this.label19.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label19.Location = new System.Drawing.Point(77, 403);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(17, 17);
+            this.label19.Size = new System.Drawing.Size(14, 13);
             this.label19.TabIndex = 196;
             this.label19.Text = "6";
             // 
@@ -427,7 +427,7 @@ namespace Cluster.UI
             this.label18.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label18.Location = new System.Drawing.Point(77, 368);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(17, 17);
+            this.label18.Size = new System.Drawing.Size(14, 13);
             this.label18.TabIndex = 195;
             this.label18.Text = "5";
             // 
@@ -441,7 +441,7 @@ namespace Cluster.UI
             this.label17.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label17.Location = new System.Drawing.Point(77, 335);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(17, 17);
+            this.label17.Size = new System.Drawing.Size(14, 13);
             this.label17.TabIndex = 194;
             this.label17.Text = "4";
             // 
@@ -455,7 +455,7 @@ namespace Cluster.UI
             this.label16.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label16.Location = new System.Drawing.Point(77, 302);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(17, 17);
+            this.label16.Size = new System.Drawing.Size(14, 13);
             this.label16.TabIndex = 193;
             this.label16.Text = "3";
             // 
@@ -469,7 +469,7 @@ namespace Cluster.UI
             this.label15.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label15.Location = new System.Drawing.Point(77, 269);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(17, 17);
+            this.label15.Size = new System.Drawing.Size(14, 13);
             this.label15.TabIndex = 192;
             this.label15.Text = "2";
             // 
@@ -483,7 +483,7 @@ namespace Cluster.UI
             this.label14.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label14.Location = new System.Drawing.Point(77, 236);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(17, 17);
+            this.label14.Size = new System.Drawing.Size(14, 13);
             this.label14.TabIndex = 191;
             this.label14.Text = "1";
             // 
@@ -497,7 +497,7 @@ namespace Cluster.UI
             this.label13.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label13.Location = new System.Drawing.Point(636, 363);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(177, 17);
+            this.label13.Size = new System.Drawing.Size(144, 13);
             this.label13.TabIndex = 190;
             this.label13.Text = "Корректировка по Z:";
             // 
@@ -511,7 +511,7 @@ namespace Cluster.UI
             this.label12.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label12.Location = new System.Drawing.Point(621, 328);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(192, 17);
+            this.label12.Size = new System.Drawing.Size(156, 13);
             this.label12.TabIndex = 189;
             this.label12.Text = "Количество проходов:";
             // 
@@ -525,7 +525,7 @@ namespace Cluster.UI
             this.label11.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label11.Location = new System.Drawing.Point(697, 294);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(121, 17);
+            this.label11.Size = new System.Drawing.Size(99, 13);
             this.label11.TabIndex = 188;
             this.label11.Text = "Натяг пояска:";
             // 
@@ -539,7 +539,7 @@ namespace Cluster.UI
             this.label10.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label10.Location = new System.Drawing.Point(756, 259);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(59, 17);
+            this.label10.Size = new System.Drawing.Size(48, 13);
             this.label10.TabIndex = 187;
             this.label10.Text = "Натяг:";
             // 
@@ -553,7 +553,7 @@ namespace Cluster.UI
             this.label9.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label9.Location = new System.Drawing.Point(706, 228);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(109, 17);
+            this.label9.Size = new System.Drawing.Size(87, 13);
             this.label9.TabIndex = 186;
             this.label9.Text = "Конусность:";
             // 
@@ -566,7 +566,7 @@ namespace Cluster.UI
             this.maskedTextBoxZajust.Location = new System.Drawing.Point(819, 357);
             this.maskedTextBoxZajust.Mask = "#0.0000";
             this.maskedTextBoxZajust.Name = "maskedTextBoxZajust";
-            this.maskedTextBoxZajust.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxZajust.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxZajust.TabIndex = 185;
             this.maskedTextBoxZajust.Text = "000000";
             this.maskedTextBoxZajust.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -580,7 +580,7 @@ namespace Cluster.UI
             this.maskedTextBoxThrPass.Location = new System.Drawing.Point(819, 324);
             this.maskedTextBoxThrPass.Mask = "0";
             this.maskedTextBoxThrPass.Name = "maskedTextBoxThrPass";
-            this.maskedTextBoxThrPass.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxThrPass.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxThrPass.TabIndex = 184;
             this.maskedTextBoxThrPass.Text = "1";
             this.maskedTextBoxThrPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -594,7 +594,7 @@ namespace Cluster.UI
             this.maskedTextBoxSealStandoff.Location = new System.Drawing.Point(819, 291);
             this.maskedTextBoxSealStandoff.Mask = "#0.0000";
             this.maskedTextBoxSealStandoff.Name = "maskedTextBoxSealStandoff";
-            this.maskedTextBoxSealStandoff.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxSealStandoff.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxSealStandoff.TabIndex = 183;
             this.maskedTextBoxSealStandoff.Text = "000000";
             this.maskedTextBoxSealStandoff.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -608,7 +608,7 @@ namespace Cluster.UI
             this.maskedTextBoxStandoff.Location = new System.Drawing.Point(819, 258);
             this.maskedTextBoxStandoff.Mask = "#0.0000";
             this.maskedTextBoxStandoff.Name = "maskedTextBoxStandoff";
-            this.maskedTextBoxStandoff.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxStandoff.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxStandoff.TabIndex = 182;
             this.maskedTextBoxStandoff.Text = "000000";
             this.maskedTextBoxStandoff.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -622,7 +622,7 @@ namespace Cluster.UI
             this.maskedTextBoxConicity.Location = new System.Drawing.Point(819, 225);
             this.maskedTextBoxConicity.Mask = "#0.0000";
             this.maskedTextBoxConicity.Name = "maskedTextBoxConicity";
-            this.maskedTextBoxConicity.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxConicity.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxConicity.TabIndex = 181;
             this.maskedTextBoxConicity.Text = "000000";
             this.maskedTextBoxConicity.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -636,7 +636,7 @@ namespace Cluster.UI
             this.maskedTextBoxCH2Z7.Location = new System.Drawing.Point(525, 423);
             this.maskedTextBoxCH2Z7.Mask = "#0.0000";
             this.maskedTextBoxCH2Z7.Name = "maskedTextBoxCH2Z7";
-            this.maskedTextBoxCH2Z7.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxCH2Z7.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxCH2Z7.TabIndex = 180;
             this.maskedTextBoxCH2Z7.Text = "000000";
             this.maskedTextBoxCH2Z7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -650,7 +650,7 @@ namespace Cluster.UI
             this.maskedTextBoxCH2X7.Location = new System.Drawing.Point(441, 423);
             this.maskedTextBoxCH2X7.Mask = "#0.0000";
             this.maskedTextBoxCH2X7.Name = "maskedTextBoxCH2X7";
-            this.maskedTextBoxCH2X7.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxCH2X7.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxCH2X7.TabIndex = 179;
             this.maskedTextBoxCH2X7.Text = "000000";
             this.maskedTextBoxCH2X7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -664,7 +664,7 @@ namespace Cluster.UI
             this.maskedTextBoxCH2Z6.Location = new System.Drawing.Point(525, 388);
             this.maskedTextBoxCH2Z6.Mask = "#0.0000";
             this.maskedTextBoxCH2Z6.Name = "maskedTextBoxCH2Z6";
-            this.maskedTextBoxCH2Z6.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxCH2Z6.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxCH2Z6.TabIndex = 178;
             this.maskedTextBoxCH2Z6.Text = "000000";
             this.maskedTextBoxCH2Z6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -678,7 +678,7 @@ namespace Cluster.UI
             this.maskedTextBoxCH2X6.Location = new System.Drawing.Point(441, 390);
             this.maskedTextBoxCH2X6.Mask = "#0.0000";
             this.maskedTextBoxCH2X6.Name = "maskedTextBoxCH2X6";
-            this.maskedTextBoxCH2X6.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxCH2X6.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxCH2X6.TabIndex = 177;
             this.maskedTextBoxCH2X6.Text = "000000";
             this.maskedTextBoxCH2X6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -692,7 +692,7 @@ namespace Cluster.UI
             this.maskedTextBoxCH2Z5.Location = new System.Drawing.Point(525, 357);
             this.maskedTextBoxCH2Z5.Mask = "#0.0000";
             this.maskedTextBoxCH2Z5.Name = "maskedTextBoxCH2Z5";
-            this.maskedTextBoxCH2Z5.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxCH2Z5.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxCH2Z5.TabIndex = 176;
             this.maskedTextBoxCH2Z5.Text = "000000";
             this.maskedTextBoxCH2Z5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -706,7 +706,7 @@ namespace Cluster.UI
             this.maskedTextBoxCH2X5.Location = new System.Drawing.Point(441, 357);
             this.maskedTextBoxCH2X5.Mask = "#0.0000";
             this.maskedTextBoxCH2X5.Name = "maskedTextBoxCH2X5";
-            this.maskedTextBoxCH2X5.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxCH2X5.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxCH2X5.TabIndex = 175;
             this.maskedTextBoxCH2X5.Text = "000000";
             this.maskedTextBoxCH2X5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -720,7 +720,7 @@ namespace Cluster.UI
             this.maskedTextBoxCH2Z4.Location = new System.Drawing.Point(525, 324);
             this.maskedTextBoxCH2Z4.Mask = "#0.0000";
             this.maskedTextBoxCH2Z4.Name = "maskedTextBoxCH2Z4";
-            this.maskedTextBoxCH2Z4.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxCH2Z4.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxCH2Z4.TabIndex = 174;
             this.maskedTextBoxCH2Z4.Text = "000000";
             this.maskedTextBoxCH2Z4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -734,7 +734,7 @@ namespace Cluster.UI
             this.maskedTextBoxCH2X4.Location = new System.Drawing.Point(441, 324);
             this.maskedTextBoxCH2X4.Mask = "#0.0000";
             this.maskedTextBoxCH2X4.Name = "maskedTextBoxCH2X4";
-            this.maskedTextBoxCH2X4.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxCH2X4.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxCH2X4.TabIndex = 173;
             this.maskedTextBoxCH2X4.Text = "000000";
             this.maskedTextBoxCH2X4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -748,7 +748,7 @@ namespace Cluster.UI
             this.maskedTextBoxCH2Z3.Location = new System.Drawing.Point(525, 291);
             this.maskedTextBoxCH2Z3.Mask = "#0.0000";
             this.maskedTextBoxCH2Z3.Name = "maskedTextBoxCH2Z3";
-            this.maskedTextBoxCH2Z3.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxCH2Z3.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxCH2Z3.TabIndex = 172;
             this.maskedTextBoxCH2Z3.Text = "000000";
             this.maskedTextBoxCH2Z3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -762,7 +762,7 @@ namespace Cluster.UI
             this.maskedTextBoxCH2X3.Location = new System.Drawing.Point(441, 291);
             this.maskedTextBoxCH2X3.Mask = "#0.0000";
             this.maskedTextBoxCH2X3.Name = "maskedTextBoxCH2X3";
-            this.maskedTextBoxCH2X3.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxCH2X3.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxCH2X3.TabIndex = 171;
             this.maskedTextBoxCH2X3.Text = "000000";
             this.maskedTextBoxCH2X3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -776,7 +776,7 @@ namespace Cluster.UI
             this.maskedTextBoxCH2Z2.Location = new System.Drawing.Point(525, 258);
             this.maskedTextBoxCH2Z2.Mask = "#0.0000";
             this.maskedTextBoxCH2Z2.Name = "maskedTextBoxCH2Z2";
-            this.maskedTextBoxCH2Z2.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxCH2Z2.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxCH2Z2.TabIndex = 170;
             this.maskedTextBoxCH2Z2.Text = "000000";
             this.maskedTextBoxCH2Z2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -790,7 +790,7 @@ namespace Cluster.UI
             this.maskedTextBoxCH2X2.Location = new System.Drawing.Point(441, 258);
             this.maskedTextBoxCH2X2.Mask = "#0.0000";
             this.maskedTextBoxCH2X2.Name = "maskedTextBoxCH2X2";
-            this.maskedTextBoxCH2X2.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxCH2X2.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxCH2X2.TabIndex = 169;
             this.maskedTextBoxCH2X2.Text = "000000";
             this.maskedTextBoxCH2X2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -804,7 +804,7 @@ namespace Cluster.UI
             this.maskedTextBoxCH2Z1.Location = new System.Drawing.Point(525, 225);
             this.maskedTextBoxCH2Z1.Mask = "#0.0000";
             this.maskedTextBoxCH2Z1.Name = "maskedTextBoxCH2Z1";
-            this.maskedTextBoxCH2Z1.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxCH2Z1.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxCH2Z1.TabIndex = 168;
             this.maskedTextBoxCH2Z1.Text = "000000";
             this.maskedTextBoxCH2Z1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -818,7 +818,7 @@ namespace Cluster.UI
             this.maskedTextBoxCH2X1.Location = new System.Drawing.Point(441, 225);
             this.maskedTextBoxCH2X1.Mask = "#0.0000";
             this.maskedTextBoxCH2X1.Name = "maskedTextBoxCH2X1";
-            this.maskedTextBoxCH2X1.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxCH2X1.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxCH2X1.TabIndex = 167;
             this.maskedTextBoxCH2X1.Text = "000000";
             this.maskedTextBoxCH2X1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -833,7 +833,7 @@ namespace Cluster.UI
             this.label8.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label8.Location = new System.Drawing.Point(255, 163);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(136, 17);
+            this.label8.Size = new System.Drawing.Size(114, 13);
             this.label8.TabIndex = 166;
             this.label8.Text = "Первый канал Y";
             // 
@@ -846,7 +846,7 @@ namespace Cluster.UI
             this.maskedTextBoxY4.Location = new System.Drawing.Point(312, 324);
             this.maskedTextBoxY4.Mask = "#0.0000";
             this.maskedTextBoxY4.Name = "maskedTextBoxY4";
-            this.maskedTextBoxY4.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxY4.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxY4.TabIndex = 165;
             this.maskedTextBoxY4.Text = "000000";
             this.maskedTextBoxY4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -860,7 +860,7 @@ namespace Cluster.UI
             this.maskedTextBoxY3.Location = new System.Drawing.Point(312, 291);
             this.maskedTextBoxY3.Mask = "#0.0000";
             this.maskedTextBoxY3.Name = "maskedTextBoxY3";
-            this.maskedTextBoxY3.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxY3.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxY3.TabIndex = 164;
             this.maskedTextBoxY3.Text = "000000";
             this.maskedTextBoxY3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -874,7 +874,7 @@ namespace Cluster.UI
             this.maskedTextBoxY2.Location = new System.Drawing.Point(312, 258);
             this.maskedTextBoxY2.Mask = "#0.0000";
             this.maskedTextBoxY2.Name = "maskedTextBoxY2";
-            this.maskedTextBoxY2.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxY2.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxY2.TabIndex = 163;
             this.maskedTextBoxY2.Text = "000000";
             this.maskedTextBoxY2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -888,7 +888,7 @@ namespace Cluster.UI
             this.maskedTextBoxY1.Location = new System.Drawing.Point(312, 225);
             this.maskedTextBoxY1.Mask = "#0.0000";
             this.maskedTextBoxY1.Name = "maskedTextBoxY1";
-            this.maskedTextBoxY1.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxY1.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxY1.TabIndex = 162;
             this.maskedTextBoxY1.Text = "000000";
             this.maskedTextBoxY1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -902,7 +902,7 @@ namespace Cluster.UI
             this.maskedTextBoxZ7.Location = new System.Drawing.Point(180, 431);
             this.maskedTextBoxZ7.Mask = "#0.0000";
             this.maskedTextBoxZ7.Name = "maskedTextBoxZ7";
-            this.maskedTextBoxZ7.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxZ7.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxZ7.TabIndex = 161;
             this.maskedTextBoxZ7.Text = "000000";
             this.maskedTextBoxZ7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -916,7 +916,7 @@ namespace Cluster.UI
             this.maskedTextBoxX7.Location = new System.Drawing.Point(97, 431);
             this.maskedTextBoxX7.Mask = "#0.0000";
             this.maskedTextBoxX7.Name = "maskedTextBoxX7";
-            this.maskedTextBoxX7.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxX7.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxX7.TabIndex = 160;
             this.maskedTextBoxX7.Text = "000000";
             this.maskedTextBoxX7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -930,7 +930,7 @@ namespace Cluster.UI
             this.maskedTextBoxZ6.Location = new System.Drawing.Point(180, 396);
             this.maskedTextBoxZ6.Mask = "#0.0000";
             this.maskedTextBoxZ6.Name = "maskedTextBoxZ6";
-            this.maskedTextBoxZ6.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxZ6.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxZ6.TabIndex = 159;
             this.maskedTextBoxZ6.Text = "000000";
             this.maskedTextBoxZ6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -944,7 +944,7 @@ namespace Cluster.UI
             this.maskedTextBoxX6.Location = new System.Drawing.Point(97, 398);
             this.maskedTextBoxX6.Mask = "#0.0000";
             this.maskedTextBoxX6.Name = "maskedTextBoxX6";
-            this.maskedTextBoxX6.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxX6.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxX6.TabIndex = 158;
             this.maskedTextBoxX6.Text = "000000";
             this.maskedTextBoxX6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -958,7 +958,7 @@ namespace Cluster.UI
             this.maskedTextBoxZ5.Location = new System.Drawing.Point(180, 365);
             this.maskedTextBoxZ5.Mask = "#0.0000";
             this.maskedTextBoxZ5.Name = "maskedTextBoxZ5";
-            this.maskedTextBoxZ5.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxZ5.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxZ5.TabIndex = 157;
             this.maskedTextBoxZ5.Text = "000000";
             this.maskedTextBoxZ5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -972,7 +972,7 @@ namespace Cluster.UI
             this.maskedTextBoxX5.Location = new System.Drawing.Point(97, 365);
             this.maskedTextBoxX5.Mask = "#0.0000";
             this.maskedTextBoxX5.Name = "maskedTextBoxX5";
-            this.maskedTextBoxX5.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxX5.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxX5.TabIndex = 156;
             this.maskedTextBoxX5.Text = "000000";
             this.maskedTextBoxX5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -986,7 +986,7 @@ namespace Cluster.UI
             this.maskedTextBoxZ4.Location = new System.Drawing.Point(180, 332);
             this.maskedTextBoxZ4.Mask = "#0.0000";
             this.maskedTextBoxZ4.Name = "maskedTextBoxZ4";
-            this.maskedTextBoxZ4.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxZ4.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxZ4.TabIndex = 155;
             this.maskedTextBoxZ4.Text = "000000";
             this.maskedTextBoxZ4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1000,7 +1000,7 @@ namespace Cluster.UI
             this.maskedTextBoxX4.Location = new System.Drawing.Point(97, 332);
             this.maskedTextBoxX4.Mask = "#0.0000";
             this.maskedTextBoxX4.Name = "maskedTextBoxX4";
-            this.maskedTextBoxX4.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxX4.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxX4.TabIndex = 154;
             this.maskedTextBoxX4.Text = "000000";
             this.maskedTextBoxX4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1014,7 +1014,7 @@ namespace Cluster.UI
             this.maskedTextBoxZ3.Location = new System.Drawing.Point(180, 299);
             this.maskedTextBoxZ3.Mask = "#0.0000";
             this.maskedTextBoxZ3.Name = "maskedTextBoxZ3";
-            this.maskedTextBoxZ3.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxZ3.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxZ3.TabIndex = 153;
             this.maskedTextBoxZ3.Text = "000000";
             this.maskedTextBoxZ3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1028,7 +1028,7 @@ namespace Cluster.UI
             this.maskedTextBoxX3.Location = new System.Drawing.Point(97, 299);
             this.maskedTextBoxX3.Mask = "#0.0000";
             this.maskedTextBoxX3.Name = "maskedTextBoxX3";
-            this.maskedTextBoxX3.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxX3.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxX3.TabIndex = 152;
             this.maskedTextBoxX3.Text = "000000";
             this.maskedTextBoxX3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1042,7 +1042,7 @@ namespace Cluster.UI
             this.maskedTextBoxZ2.Location = new System.Drawing.Point(180, 266);
             this.maskedTextBoxZ2.Mask = "#0.0000";
             this.maskedTextBoxZ2.Name = "maskedTextBoxZ2";
-            this.maskedTextBoxZ2.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxZ2.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxZ2.TabIndex = 151;
             this.maskedTextBoxZ2.Text = "000000";
             this.maskedTextBoxZ2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1056,7 +1056,7 @@ namespace Cluster.UI
             this.maskedTextBoxX2.Location = new System.Drawing.Point(97, 266);
             this.maskedTextBoxX2.Mask = "#0.0000";
             this.maskedTextBoxX2.Name = "maskedTextBoxX2";
-            this.maskedTextBoxX2.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxX2.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxX2.TabIndex = 150;
             this.maskedTextBoxX2.Text = "000000";
             this.maskedTextBoxX2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1070,7 +1070,7 @@ namespace Cluster.UI
             this.maskedTextBoxZ1.Location = new System.Drawing.Point(180, 233);
             this.maskedTextBoxZ1.Mask = "#0.0000";
             this.maskedTextBoxZ1.Name = "maskedTextBoxZ1";
-            this.maskedTextBoxZ1.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxZ1.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxZ1.TabIndex = 149;
             this.maskedTextBoxZ1.Text = "000000";
             this.maskedTextBoxZ1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1084,7 +1084,7 @@ namespace Cluster.UI
             this.maskedTextBoxX1.Location = new System.Drawing.Point(97, 233);
             this.maskedTextBoxX1.Mask = "#0.0000";
             this.maskedTextBoxX1.Name = "maskedTextBoxX1";
-            this.maskedTextBoxX1.Size = new System.Drawing.Size(76, 23);
+            this.maskedTextBoxX1.Size = new System.Drawing.Size(76, 20);
             this.maskedTextBoxX1.TabIndex = 148;
             this.maskedTextBoxX1.Text = "000000";
             this.maskedTextBoxX1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1099,7 +1099,7 @@ namespace Cluster.UI
             this.label7.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label7.Location = new System.Drawing.Point(236, 549);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(108, 17);
+            this.label7.Size = new System.Drawing.Size(88, 13);
             this.label7.TabIndex = 147;
             this.label7.Text = "Тип резьбы:";
             // 
@@ -1113,7 +1113,7 @@ namespace Cluster.UI
             this.label6.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label6.Location = new System.Drawing.Point(262, 593);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(82, 17);
+            this.label6.Size = new System.Drawing.Size(67, 13);
             this.label6.TabIndex = 146;
             this.label6.Text = "Диаметр:";
             // 
@@ -1127,7 +1127,7 @@ namespace Cluster.UI
             this.label5.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label5.Location = new System.Drawing.Point(273, 631);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(71, 17);
+            this.label5.Size = new System.Drawing.Size(57, 13);
             this.label5.TabIndex = 145;
             this.label5.Text = "Станок:";
             // 
@@ -1146,7 +1146,7 @@ namespace Cluster.UI
             "РНС 2"});
             this.comboBoxMachineNumber.Location = new System.Drawing.Point(350, 628);
             this.comboBoxMachineNumber.Name = "comboBoxMachineNumber";
-            this.comboBoxMachineNumber.Size = new System.Drawing.Size(136, 24);
+            this.comboBoxMachineNumber.Size = new System.Drawing.Size(136, 20);
             this.comboBoxMachineNumber.TabIndex = 144;
             // 
             // label4
@@ -1159,7 +1159,7 @@ namespace Cluster.UI
             this.label4.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label4.Location = new System.Drawing.Point(697, 163);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(153, 17);
+            this.label4.Size = new System.Drawing.Size(127, 13);
             this.label4.TabIndex = 143;
             this.label4.Text = "Макро параметры";
             // 
@@ -1173,7 +1173,7 @@ namespace Cluster.UI
             this.label3.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label3.Location = new System.Drawing.Point(436, 163);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(134, 17);
+            this.label3.Size = new System.Drawing.Size(108, 13);
             this.label3.TabIndex = 142;
             this.label3.Text = "Второй канал X";
             // 
@@ -1187,7 +1187,7 @@ namespace Cluster.UI
             this.label2.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label2.Location = new System.Drawing.Point(77, 165);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(137, 17);
+            this.label2.Size = new System.Drawing.Size(114, 13);
             this.label2.TabIndex = 141;
             this.label2.Text = "Первый канал X";
             // 
@@ -1201,7 +1201,7 @@ namespace Cluster.UI
             this.label1.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label1.Location = new System.Drawing.Point(344, 76);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(391, 46);
+            this.label1.Size = new System.Drawing.Size(310, 36);
             this.label1.TabIndex = 140;
             this.label1.Text = "Введите оффсет ";
             this.label1.UseMnemonic = false;
@@ -1242,7 +1242,7 @@ namespace Cluster.UI
             "426"});
             this.comboBoxProductDiameter.Location = new System.Drawing.Point(350, 586);
             this.comboBoxProductDiameter.Name = "comboBoxProductDiameter";
-            this.comboBoxProductDiameter.Size = new System.Drawing.Size(136, 24);
+            this.comboBoxProductDiameter.Size = new System.Drawing.Size(136, 20);
             this.comboBoxProductDiameter.TabIndex = 138;
             // 
             // comboBoxThreadType
@@ -1263,7 +1263,7 @@ namespace Cluster.UI
             "ВМЗ-4"});
             this.comboBoxThreadType.Location = new System.Drawing.Point(350, 544);
             this.comboBoxThreadType.Name = "comboBoxThreadType";
-            this.comboBoxThreadType.Size = new System.Drawing.Size(136, 24);
+            this.comboBoxThreadType.Size = new System.Drawing.Size(136, 20);
             this.comboBoxThreadType.TabIndex = 137;
             // 
             // ThrdCreateOffset

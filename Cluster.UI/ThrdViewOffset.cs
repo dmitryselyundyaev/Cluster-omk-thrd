@@ -20,7 +20,7 @@ namespace Cluster.UI
             this.database = db;
             this.set = set;
             set.Load();
-            database.SaveChanges();
+            //database.SaveChanges();
         }
 
         private void SearchButton_Click(object sender, System.EventArgs e)
@@ -47,7 +47,6 @@ namespace Cluster.UI
                 {
                     using (var cont = new ClusterDbContext())
                     {
-                        //TODO SUBSTRING ALL DATES
                         var source = database.OffsetDatas.Where(u => u.Created.ToString().Substring(0,10) == dateTimePickerForView.Value.Date.ToString().Substring(0, 10)).OrderByDescending(u => u.OffsetDataId).ToList();
                         listBoxViewDataList.DataSource = new BindingList<OffsetData>(source);
 

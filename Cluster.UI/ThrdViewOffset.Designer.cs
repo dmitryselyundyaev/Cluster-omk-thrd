@@ -139,7 +139,7 @@ namespace Cluster.UI
             this.label12.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label12.Location = new System.Drawing.Point(638, 108);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(147, 17);
+            this.label12.Size = new System.Drawing.Size(120, 13);
             this.label12.TabIndex = 251;
             this.label12.Text = "Имя в базе данных";
             // 
@@ -153,7 +153,7 @@ namespace Cluster.UI
             this.label11.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label11.Location = new System.Drawing.Point(678, 495);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(106, 17);
+            this.label11.Size = new System.Drawing.Size(83, 13);
             this.label11.TabIndex = 250;
             this.label11.Text = "Комментарий";
             // 
@@ -171,21 +171,19 @@ namespace Cluster.UI
             // 
             // labelResult
             // 
-            this.labelResult.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelResult.AutoSize = true;
             this.labelResult.BackColor = System.Drawing.Color.Transparent;
             this.labelResult.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelResult.ForeColor = System.Drawing.Color.White;
             this.labelResult.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.labelResult.Location = new System.Drawing.Point(60, 243);
+            this.labelResult.Location = new System.Drawing.Point(12, 243);
             this.labelResult.Name = "labelResult";
-            this.labelResult.Size = new System.Drawing.Size(134, 17);
+            this.labelResult.Size = new System.Drawing.Size(110, 13);
             this.labelResult.TabIndex = 248;
             this.labelResult.Text = "Результат поиска";
             // 
             // label40
             // 
-            this.label40.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label40.AutoSize = true;
             this.label40.BackColor = System.Drawing.Color.Transparent;
             this.label40.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -193,7 +191,7 @@ namespace Cluster.UI
             this.label40.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label40.Location = new System.Drawing.Point(133, 77);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(274, 29);
+            this.label40.Size = new System.Drawing.Size(220, 23);
             this.label40.TabIndex = 247;
             this.label40.Text = "Параметры поиска";
             this.label40.UseMnemonic = false;
@@ -208,7 +206,7 @@ namespace Cluster.UI
             this.label39.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label39.Location = new System.Drawing.Point(564, 68);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(391, 41);
+            this.label39.Size = new System.Drawing.Size(311, 32);
             this.label39.TabIndex = 246;
             this.label39.Text = "Просмотр оффсета";
             this.label39.UseMnemonic = false;
@@ -222,7 +220,7 @@ namespace Cluster.UI
             this.textBoxCreatedBy.Location = new System.Drawing.Point(819, 467);
             this.textBoxCreatedBy.Name = "textBoxCreatedBy";
             this.textBoxCreatedBy.ReadOnly = true;
-            this.textBoxCreatedBy.Size = new System.Drawing.Size(190, 24);
+            this.textBoxCreatedBy.Size = new System.Drawing.Size(190, 21);
             this.textBoxCreatedBy.TabIndex = 245;
             // 
             // labelUser
@@ -235,7 +233,7 @@ namespace Cluster.UI
             this.labelUser.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.labelUser.Location = new System.Drawing.Point(666, 470);
             this.labelUser.Name = "labelUser";
-            this.labelUser.Size = new System.Drawing.Size(189, 17);
+            this.labelUser.Size = new System.Drawing.Size(155, 13);
             this.labelUser.TabIndex = 244;
             this.labelUser.Text = "Создано пользователем:";
             // 
@@ -249,7 +247,7 @@ namespace Cluster.UI
             this.labelCreated.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.labelCreated.Location = new System.Drawing.Point(720, 442);
             this.labelCreated.Name = "labelCreated";
-            this.labelCreated.Size = new System.Drawing.Size(119, 17);
+            this.labelCreated.Size = new System.Drawing.Size(98, 13);
             this.labelCreated.TabIndex = 243;
             this.labelCreated.Text = "Дата создания:";
             // 
@@ -263,7 +261,7 @@ namespace Cluster.UI
             this.labelZajust.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.labelZajust.Location = new System.Drawing.Point(785, 279);
             this.labelZajust.Name = "labelZajust";
-            this.labelZajust.Size = new System.Drawing.Size(163, 17);
+            this.labelZajust.Size = new System.Drawing.Size(132, 13);
             this.labelZajust.TabIndex = 242;
             this.labelZajust.Text = "Корректировка по Z:";
             // 
@@ -277,7 +275,7 @@ namespace Cluster.UI
             this.labelThrPass.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.labelThrPass.Location = new System.Drawing.Point(776, 251);
             this.labelThrPass.Name = "labelThrPass";
-            this.labelThrPass.Size = new System.Drawing.Size(175, 17);
+            this.labelThrPass.Size = new System.Drawing.Size(141, 13);
             this.labelThrPass.TabIndex = 241;
             this.labelThrPass.Text = "Количество проходов:";
             // 
@@ -291,7 +289,7 @@ namespace Cluster.UI
             this.labelStandofOD.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.labelStandofOD.Location = new System.Drawing.Point(828, 223);
             this.labelStandofOD.Name = "labelStandofOD";
-            this.labelStandofOD.Size = new System.Drawing.Size(109, 17);
+            this.labelStandofOD.Size = new System.Drawing.Size(89, 13);
             this.labelStandofOD.TabIndex = 240;
             this.labelStandofOD.Text = "Натяг пояска:";
             // 
@@ -305,7 +303,7 @@ namespace Cluster.UI
             this.labelConicity.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.labelConicity.Location = new System.Drawing.Point(838, 195);
             this.labelConicity.Name = "labelConicity";
-            this.labelConicity.Size = new System.Drawing.Size(99, 17);
+            this.labelConicity.Size = new System.Drawing.Size(79, 13);
             this.labelConicity.TabIndex = 239;
             this.labelConicity.Text = "Конусность:";
             // 
@@ -319,7 +317,7 @@ namespace Cluster.UI
             this.label30.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label30.Location = new System.Drawing.Point(738, 360);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(98, 17);
+            this.label30.Size = new System.Drawing.Size(80, 13);
             this.label30.TabIndex = 238;
             this.label30.Text = "Тип резьбы:";
             // 
@@ -333,7 +331,7 @@ namespace Cluster.UI
             this.label31.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label31.Location = new System.Drawing.Point(754, 388);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(75, 17);
+            this.label31.Size = new System.Drawing.Size(60, 13);
             this.label31.TabIndex = 237;
             this.label31.Text = "Диаметр:";
             // 
@@ -347,7 +345,7 @@ namespace Cluster.UI
             this.label32.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label32.Location = new System.Drawing.Point(764, 416);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(65, 17);
+            this.label32.Size = new System.Drawing.Size(54, 13);
             this.label32.TabIndex = 236;
             this.label32.Text = "Станок:";
             // 
@@ -361,7 +359,7 @@ namespace Cluster.UI
             this.label29.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label29.Location = new System.Drawing.Point(783, 318);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(85, 17);
+            this.label29.Size = new System.Drawing.Size(68, 13);
             this.label29.TabIndex = 235;
             this.label29.Text = "Сортамент";
             // 
@@ -375,7 +373,7 @@ namespace Cluster.UI
             this.CH1Y.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.CH1Y.Location = new System.Drawing.Point(646, 155);
             this.CH1Y.Name = "CH1Y";
-            this.CH1Y.Size = new System.Drawing.Size(124, 17);
+            this.CH1Y.Size = new System.Drawing.Size(102, 13);
             this.CH1Y.TabIndex = 234;
             this.CH1Y.Text = "Первый канал Y";
             // 
@@ -389,7 +387,7 @@ namespace Cluster.UI
             this.label26.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label26.Location = new System.Drawing.Point(815, 157);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(137, 17);
+            this.label26.Size = new System.Drawing.Size(111, 13);
             this.label26.TabIndex = 233;
             this.label26.Text = "Макро параметры";
             // 
@@ -403,7 +401,7 @@ namespace Cluster.UI
             this.labelCH2.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.labelCH2.Location = new System.Drawing.Point(467, 424);
             this.labelCH2.Name = "labelCH2";
-            this.labelCH2.Size = new System.Drawing.Size(123, 17);
+            this.labelCH2.Size = new System.Drawing.Size(99, 13);
             this.labelCH2.TabIndex = 232;
             this.labelCH2.Text = "Второй канал X";
             // 
@@ -417,7 +415,7 @@ namespace Cluster.UI
             this.CH1X.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.CH1X.Location = new System.Drawing.Point(464, 155);
             this.CH1X.Name = "CH1X";
-            this.CH1X.Size = new System.Drawing.Size(125, 17);
+            this.CH1X.Size = new System.Drawing.Size(103, 13);
             this.CH1X.TabIndex = 231;
             this.CH1X.Text = "Первый канал X";
             // 
@@ -431,7 +429,7 @@ namespace Cluster.UI
             this.label21.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label21.Location = new System.Drawing.Point(672, 279);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(17, 17);
+            this.label21.Size = new System.Drawing.Size(14, 13);
             this.label21.TabIndex = 230;
             this.label21.Text = "4";
             // 
@@ -445,7 +443,7 @@ namespace Cluster.UI
             this.label22.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label22.Location = new System.Drawing.Point(672, 250);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(17, 17);
+            this.label22.Size = new System.Drawing.Size(14, 13);
             this.label22.TabIndex = 229;
             this.label22.Text = "3";
             // 
@@ -459,7 +457,7 @@ namespace Cluster.UI
             this.label23.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label23.Location = new System.Drawing.Point(672, 224);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(17, 17);
+            this.label23.Size = new System.Drawing.Size(14, 13);
             this.label23.TabIndex = 228;
             this.label23.Text = "2";
             // 
@@ -473,7 +471,7 @@ namespace Cluster.UI
             this.label24.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label24.Location = new System.Drawing.Point(672, 194);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(17, 17);
+            this.label24.Size = new System.Drawing.Size(14, 13);
             this.label24.TabIndex = 227;
             this.label24.Text = "1";
             // 
@@ -487,7 +485,7 @@ namespace Cluster.UI
             this.label1.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label1.Location = new System.Drawing.Point(480, 636);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(17, 17);
+            this.label1.Size = new System.Drawing.Size(14, 13);
             this.label1.TabIndex = 226;
             this.label1.Text = "7";
             // 
@@ -501,7 +499,7 @@ namespace Cluster.UI
             this.label2.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label2.Location = new System.Drawing.Point(480, 606);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(17, 17);
+            this.label2.Size = new System.Drawing.Size(14, 13);
             this.label2.TabIndex = 225;
             this.label2.Text = "6";
             // 
@@ -515,7 +513,7 @@ namespace Cluster.UI
             this.label3.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label3.Location = new System.Drawing.Point(480, 577);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(17, 17);
+            this.label3.Size = new System.Drawing.Size(14, 13);
             this.label3.TabIndex = 224;
             this.label3.Text = "5";
             // 
@@ -529,7 +527,7 @@ namespace Cluster.UI
             this.label4.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label4.Location = new System.Drawing.Point(480, 550);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(17, 17);
+            this.label4.Size = new System.Drawing.Size(14, 13);
             this.label4.TabIndex = 223;
             this.label4.Text = "4";
             // 
@@ -543,7 +541,7 @@ namespace Cluster.UI
             this.label8.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label8.Location = new System.Drawing.Point(480, 521);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(17, 17);
+            this.label8.Size = new System.Drawing.Size(14, 13);
             this.label8.TabIndex = 222;
             this.label8.Text = "3";
             // 
@@ -557,7 +555,7 @@ namespace Cluster.UI
             this.label9.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label9.Location = new System.Drawing.Point(480, 495);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(17, 17);
+            this.label9.Size = new System.Drawing.Size(14, 13);
             this.label9.TabIndex = 221;
             this.label9.Text = "2";
             // 
@@ -571,7 +569,7 @@ namespace Cluster.UI
             this.label10.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label10.Location = new System.Drawing.Point(480, 469);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(17, 17);
+            this.label10.Size = new System.Drawing.Size(14, 13);
             this.label10.TabIndex = 220;
             this.label10.Text = "1";
             // 
@@ -585,7 +583,7 @@ namespace Cluster.UI
             this.label20.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label20.Location = new System.Drawing.Point(480, 364);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(17, 17);
+            this.label20.Size = new System.Drawing.Size(14, 13);
             this.label20.TabIndex = 219;
             this.label20.Text = "7";
             // 
@@ -599,7 +597,7 @@ namespace Cluster.UI
             this.label19.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label19.Location = new System.Drawing.Point(480, 334);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(17, 17);
+            this.label19.Size = new System.Drawing.Size(14, 13);
             this.label19.TabIndex = 218;
             this.label19.Text = "6";
             // 
@@ -613,7 +611,7 @@ namespace Cluster.UI
             this.label18.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label18.Location = new System.Drawing.Point(480, 305);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(17, 17);
+            this.label18.Size = new System.Drawing.Size(14, 13);
             this.label18.TabIndex = 217;
             this.label18.Text = "5";
             // 
@@ -627,7 +625,7 @@ namespace Cluster.UI
             this.label17.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label17.Location = new System.Drawing.Point(480, 278);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(17, 17);
+            this.label17.Size = new System.Drawing.Size(14, 13);
             this.label17.TabIndex = 216;
             this.label17.Text = "4";
             // 
@@ -641,7 +639,7 @@ namespace Cluster.UI
             this.label16.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label16.Location = new System.Drawing.Point(480, 249);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(17, 17);
+            this.label16.Size = new System.Drawing.Size(14, 13);
             this.label16.TabIndex = 215;
             this.label16.Text = "3";
             // 
@@ -655,7 +653,7 @@ namespace Cluster.UI
             this.label15.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label15.Location = new System.Drawing.Point(480, 223);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(17, 17);
+            this.label15.Size = new System.Drawing.Size(14, 13);
             this.label15.TabIndex = 214;
             this.label15.Text = "2";
             // 
@@ -669,7 +667,7 @@ namespace Cluster.UI
             this.label14.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label14.Location = new System.Drawing.Point(480, 193);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(17, 17);
+            this.label14.Size = new System.Drawing.Size(14, 13);
             this.label14.TabIndex = 213;
             this.label14.Text = "1";
             // 
@@ -682,7 +680,7 @@ namespace Cluster.UI
             this.textBoxCreationDate.Location = new System.Drawing.Point(819, 439);
             this.textBoxCreationDate.Name = "textBoxCreationDate";
             this.textBoxCreationDate.ReadOnly = true;
-            this.textBoxCreationDate.Size = new System.Drawing.Size(147, 24);
+            this.textBoxCreationDate.Size = new System.Drawing.Size(147, 21);
             this.textBoxCreationDate.TabIndex = 212;
             // 
             // textBoxMachineView
@@ -694,7 +692,7 @@ namespace Cluster.UI
             this.textBoxMachineView.Location = new System.Drawing.Point(818, 413);
             this.textBoxMachineView.Name = "textBoxMachineView";
             this.textBoxMachineView.ReadOnly = true;
-            this.textBoxMachineView.Size = new System.Drawing.Size(76, 24);
+            this.textBoxMachineView.Size = new System.Drawing.Size(76, 21);
             this.textBoxMachineView.TabIndex = 211;
             // 
             // textBoxDiameterView
@@ -706,7 +704,7 @@ namespace Cluster.UI
             this.textBoxDiameterView.Location = new System.Drawing.Point(818, 386);
             this.textBoxDiameterView.Name = "textBoxDiameterView";
             this.textBoxDiameterView.ReadOnly = true;
-            this.textBoxDiameterView.Size = new System.Drawing.Size(76, 24);
+            this.textBoxDiameterView.Size = new System.Drawing.Size(76, 21);
             this.textBoxDiameterView.TabIndex = 210;
             // 
             // textBoxThreadTypeView
@@ -718,7 +716,7 @@ namespace Cluster.UI
             this.textBoxThreadTypeView.Location = new System.Drawing.Point(818, 357);
             this.textBoxThreadTypeView.Name = "textBoxThreadTypeView";
             this.textBoxThreadTypeView.ReadOnly = true;
-            this.textBoxThreadTypeView.Size = new System.Drawing.Size(76, 24);
+            this.textBoxThreadTypeView.Size = new System.Drawing.Size(76, 21);
             this.textBoxThreadTypeView.TabIndex = 209;
             // 
             // textBoxZajust
@@ -730,7 +728,7 @@ namespace Cluster.UI
             this.textBoxZajust.Location = new System.Drawing.Point(923, 276);
             this.textBoxZajust.Name = "textBoxZajust";
             this.textBoxZajust.ReadOnly = true;
-            this.textBoxZajust.Size = new System.Drawing.Size(76, 24);
+            this.textBoxZajust.Size = new System.Drawing.Size(76, 21);
             this.textBoxZajust.TabIndex = 208;
             // 
             // textBoxThreadPasses
@@ -742,7 +740,7 @@ namespace Cluster.UI
             this.textBoxThreadPasses.Location = new System.Drawing.Point(923, 248);
             this.textBoxThreadPasses.Name = "textBoxThreadPasses";
             this.textBoxThreadPasses.ReadOnly = true;
-            this.textBoxThreadPasses.Size = new System.Drawing.Size(76, 24);
+            this.textBoxThreadPasses.Size = new System.Drawing.Size(76, 21);
             this.textBoxThreadPasses.TabIndex = 207;
             // 
             // textBoxStandoffSeal
@@ -754,7 +752,7 @@ namespace Cluster.UI
             this.textBoxStandoffSeal.Location = new System.Drawing.Point(923, 220);
             this.textBoxStandoffSeal.Name = "textBoxStandoffSeal";
             this.textBoxStandoffSeal.ReadOnly = true;
-            this.textBoxStandoffSeal.Size = new System.Drawing.Size(76, 24);
+            this.textBoxStandoffSeal.Size = new System.Drawing.Size(76, 21);
             this.textBoxStandoffSeal.TabIndex = 206;
             // 
             // textBoxStandoff
@@ -766,7 +764,7 @@ namespace Cluster.UI
             this.textBoxStandoff.Location = new System.Drawing.Point(923, 192);
             this.textBoxStandoff.Name = "textBoxStandoff";
             this.textBoxStandoff.ReadOnly = true;
-            this.textBoxStandoff.Size = new System.Drawing.Size(76, 24);
+            this.textBoxStandoff.Size = new System.Drawing.Size(76, 21);
             this.textBoxStandoff.TabIndex = 205;
             // 
             // textBoxCannel2Z7
@@ -778,7 +776,7 @@ namespace Cluster.UI
             this.textBoxCannel2Z7.Location = new System.Drawing.Point(584, 634);
             this.textBoxCannel2Z7.Name = "textBoxCannel2Z7";
             this.textBoxCannel2Z7.ReadOnly = true;
-            this.textBoxCannel2Z7.Size = new System.Drawing.Size(76, 24);
+            this.textBoxCannel2Z7.Size = new System.Drawing.Size(76, 21);
             this.textBoxCannel2Z7.TabIndex = 204;
             // 
             // textBoxCannel2Z6
@@ -790,7 +788,7 @@ namespace Cluster.UI
             this.textBoxCannel2Z6.Location = new System.Drawing.Point(584, 606);
             this.textBoxCannel2Z6.Name = "textBoxCannel2Z6";
             this.textBoxCannel2Z6.ReadOnly = true;
-            this.textBoxCannel2Z6.Size = new System.Drawing.Size(76, 24);
+            this.textBoxCannel2Z6.Size = new System.Drawing.Size(76, 21);
             this.textBoxCannel2Z6.TabIndex = 203;
             // 
             // textBoxCannel2Z5
@@ -802,7 +800,7 @@ namespace Cluster.UI
             this.textBoxCannel2Z5.Location = new System.Drawing.Point(584, 578);
             this.textBoxCannel2Z5.Name = "textBoxCannel2Z5";
             this.textBoxCannel2Z5.ReadOnly = true;
-            this.textBoxCannel2Z5.Size = new System.Drawing.Size(76, 24);
+            this.textBoxCannel2Z5.Size = new System.Drawing.Size(76, 21);
             this.textBoxCannel2Z5.TabIndex = 202;
             // 
             // textBoxCannel2Z4
@@ -814,7 +812,7 @@ namespace Cluster.UI
             this.textBoxCannel2Z4.Location = new System.Drawing.Point(584, 550);
             this.textBoxCannel2Z4.Name = "textBoxCannel2Z4";
             this.textBoxCannel2Z4.ReadOnly = true;
-            this.textBoxCannel2Z4.Size = new System.Drawing.Size(76, 24);
+            this.textBoxCannel2Z4.Size = new System.Drawing.Size(76, 21);
             this.textBoxCannel2Z4.TabIndex = 201;
             // 
             // textBoxCannel2Z3
@@ -826,7 +824,7 @@ namespace Cluster.UI
             this.textBoxCannel2Z3.Location = new System.Drawing.Point(584, 522);
             this.textBoxCannel2Z3.Name = "textBoxCannel2Z3";
             this.textBoxCannel2Z3.ReadOnly = true;
-            this.textBoxCannel2Z3.Size = new System.Drawing.Size(76, 24);
+            this.textBoxCannel2Z3.Size = new System.Drawing.Size(76, 21);
             this.textBoxCannel2Z3.TabIndex = 200;
             // 
             // textBoxCannel2Z2
@@ -838,7 +836,7 @@ namespace Cluster.UI
             this.textBoxCannel2Z2.Location = new System.Drawing.Point(584, 494);
             this.textBoxCannel2Z2.Name = "textBoxCannel2Z2";
             this.textBoxCannel2Z2.ReadOnly = true;
-            this.textBoxCannel2Z2.Size = new System.Drawing.Size(76, 24);
+            this.textBoxCannel2Z2.Size = new System.Drawing.Size(76, 21);
             this.textBoxCannel2Z2.TabIndex = 199;
             // 
             // textBoxCannel2Z1
@@ -850,7 +848,7 @@ namespace Cluster.UI
             this.textBoxCannel2Z1.Location = new System.Drawing.Point(584, 466);
             this.textBoxCannel2Z1.Name = "textBoxCannel2Z1";
             this.textBoxCannel2Z1.ReadOnly = true;
-            this.textBoxCannel2Z1.Size = new System.Drawing.Size(76, 24);
+            this.textBoxCannel2Z1.Size = new System.Drawing.Size(76, 21);
             this.textBoxCannel2Z1.TabIndex = 198;
             // 
             // textBoxCannel2X7
@@ -862,7 +860,7 @@ namespace Cluster.UI
             this.textBoxCannel2X7.Location = new System.Drawing.Point(502, 634);
             this.textBoxCannel2X7.Name = "textBoxCannel2X7";
             this.textBoxCannel2X7.ReadOnly = true;
-            this.textBoxCannel2X7.Size = new System.Drawing.Size(76, 24);
+            this.textBoxCannel2X7.Size = new System.Drawing.Size(76, 21);
             this.textBoxCannel2X7.TabIndex = 197;
             // 
             // textBoxCannel2X6
@@ -874,7 +872,7 @@ namespace Cluster.UI
             this.textBoxCannel2X6.Location = new System.Drawing.Point(502, 606);
             this.textBoxCannel2X6.Name = "textBoxCannel2X6";
             this.textBoxCannel2X6.ReadOnly = true;
-            this.textBoxCannel2X6.Size = new System.Drawing.Size(76, 24);
+            this.textBoxCannel2X6.Size = new System.Drawing.Size(76, 21);
             this.textBoxCannel2X6.TabIndex = 196;
             // 
             // textBoxCannel2X5
@@ -886,7 +884,7 @@ namespace Cluster.UI
             this.textBoxCannel2X5.Location = new System.Drawing.Point(502, 578);
             this.textBoxCannel2X5.Name = "textBoxCannel2X5";
             this.textBoxCannel2X5.ReadOnly = true;
-            this.textBoxCannel2X5.Size = new System.Drawing.Size(76, 24);
+            this.textBoxCannel2X5.Size = new System.Drawing.Size(76, 21);
             this.textBoxCannel2X5.TabIndex = 195;
             // 
             // textBoxCannel2X4
@@ -898,7 +896,7 @@ namespace Cluster.UI
             this.textBoxCannel2X4.Location = new System.Drawing.Point(502, 550);
             this.textBoxCannel2X4.Name = "textBoxCannel2X4";
             this.textBoxCannel2X4.ReadOnly = true;
-            this.textBoxCannel2X4.Size = new System.Drawing.Size(76, 24);
+            this.textBoxCannel2X4.Size = new System.Drawing.Size(76, 21);
             this.textBoxCannel2X4.TabIndex = 194;
             // 
             // textBoxCannel2X3
@@ -910,7 +908,7 @@ namespace Cluster.UI
             this.textBoxCannel2X3.Location = new System.Drawing.Point(502, 522);
             this.textBoxCannel2X3.Name = "textBoxCannel2X3";
             this.textBoxCannel2X3.ReadOnly = true;
-            this.textBoxCannel2X3.Size = new System.Drawing.Size(76, 24);
+            this.textBoxCannel2X3.Size = new System.Drawing.Size(76, 21);
             this.textBoxCannel2X3.TabIndex = 193;
             // 
             // textBoxCannel2X2
@@ -922,7 +920,7 @@ namespace Cluster.UI
             this.textBoxCannel2X2.Location = new System.Drawing.Point(502, 494);
             this.textBoxCannel2X2.Name = "textBoxCannel2X2";
             this.textBoxCannel2X2.ReadOnly = true;
-            this.textBoxCannel2X2.Size = new System.Drawing.Size(76, 24);
+            this.textBoxCannel2X2.Size = new System.Drawing.Size(76, 21);
             this.textBoxCannel2X2.TabIndex = 192;
             // 
             // textBoxCannel2X1
@@ -934,7 +932,7 @@ namespace Cluster.UI
             this.textBoxCannel2X1.Location = new System.Drawing.Point(502, 466);
             this.textBoxCannel2X1.Name = "textBoxCannel2X1";
             this.textBoxCannel2X1.ReadOnly = true;
-            this.textBoxCannel2X1.Size = new System.Drawing.Size(76, 24);
+            this.textBoxCannel2X1.Size = new System.Drawing.Size(76, 21);
             this.textBoxCannel2X1.TabIndex = 191;
             // 
             // textBoxY4
@@ -946,7 +944,7 @@ namespace Cluster.UI
             this.textBoxY4.Location = new System.Drawing.Point(694, 274);
             this.textBoxY4.Name = "textBoxY4";
             this.textBoxY4.ReadOnly = true;
-            this.textBoxY4.Size = new System.Drawing.Size(76, 24);
+            this.textBoxY4.Size = new System.Drawing.Size(76, 21);
             this.textBoxY4.TabIndex = 190;
             // 
             // textBoxY3
@@ -958,7 +956,7 @@ namespace Cluster.UI
             this.textBoxY3.Location = new System.Drawing.Point(694, 247);
             this.textBoxY3.Name = "textBoxY3";
             this.textBoxY3.ReadOnly = true;
-            this.textBoxY3.Size = new System.Drawing.Size(76, 24);
+            this.textBoxY3.Size = new System.Drawing.Size(76, 21);
             this.textBoxY3.TabIndex = 189;
             // 
             // textBoxY2
@@ -970,7 +968,7 @@ namespace Cluster.UI
             this.textBoxY2.Location = new System.Drawing.Point(694, 218);
             this.textBoxY2.Name = "textBoxY2";
             this.textBoxY2.ReadOnly = true;
-            this.textBoxY2.Size = new System.Drawing.Size(76, 24);
+            this.textBoxY2.Size = new System.Drawing.Size(76, 21);
             this.textBoxY2.TabIndex = 188;
             // 
             // textBoxY1
@@ -982,7 +980,7 @@ namespace Cluster.UI
             this.textBoxY1.Location = new System.Drawing.Point(694, 190);
             this.textBoxY1.Name = "textBoxY1";
             this.textBoxY1.ReadOnly = true;
-            this.textBoxY1.Size = new System.Drawing.Size(76, 24);
+            this.textBoxY1.Size = new System.Drawing.Size(76, 21);
             this.textBoxY1.TabIndex = 187;
             // 
             // textBoxZ7
@@ -994,7 +992,7 @@ namespace Cluster.UI
             this.textBoxZ7.Location = new System.Drawing.Point(584, 359);
             this.textBoxZ7.Name = "textBoxZ7";
             this.textBoxZ7.ReadOnly = true;
-            this.textBoxZ7.Size = new System.Drawing.Size(76, 24);
+            this.textBoxZ7.Size = new System.Drawing.Size(76, 21);
             this.textBoxZ7.TabIndex = 186;
             // 
             // textBoxZ6
@@ -1006,7 +1004,7 @@ namespace Cluster.UI
             this.textBoxZ6.Location = new System.Drawing.Point(584, 331);
             this.textBoxZ6.Name = "textBoxZ6";
             this.textBoxZ6.ReadOnly = true;
-            this.textBoxZ6.Size = new System.Drawing.Size(76, 24);
+            this.textBoxZ6.Size = new System.Drawing.Size(76, 21);
             this.textBoxZ6.TabIndex = 185;
             // 
             // textBoxZ5
@@ -1018,7 +1016,7 @@ namespace Cluster.UI
             this.textBoxZ5.Location = new System.Drawing.Point(584, 303);
             this.textBoxZ5.Name = "textBoxZ5";
             this.textBoxZ5.ReadOnly = true;
-            this.textBoxZ5.Size = new System.Drawing.Size(76, 24);
+            this.textBoxZ5.Size = new System.Drawing.Size(76, 21);
             this.textBoxZ5.TabIndex = 184;
             // 
             // textBoxZ4
@@ -1030,7 +1028,7 @@ namespace Cluster.UI
             this.textBoxZ4.Location = new System.Drawing.Point(584, 275);
             this.textBoxZ4.Name = "textBoxZ4";
             this.textBoxZ4.ReadOnly = true;
-            this.textBoxZ4.Size = new System.Drawing.Size(76, 24);
+            this.textBoxZ4.Size = new System.Drawing.Size(76, 21);
             this.textBoxZ4.TabIndex = 183;
             // 
             // textBoxZ3
@@ -1042,7 +1040,7 @@ namespace Cluster.UI
             this.textBoxZ3.Location = new System.Drawing.Point(584, 247);
             this.textBoxZ3.Name = "textBoxZ3";
             this.textBoxZ3.ReadOnly = true;
-            this.textBoxZ3.Size = new System.Drawing.Size(76, 24);
+            this.textBoxZ3.Size = new System.Drawing.Size(76, 21);
             this.textBoxZ3.TabIndex = 182;
             // 
             // textBoxZ2
@@ -1054,7 +1052,7 @@ namespace Cluster.UI
             this.textBoxZ2.Location = new System.Drawing.Point(584, 219);
             this.textBoxZ2.Name = "textBoxZ2";
             this.textBoxZ2.ReadOnly = true;
-            this.textBoxZ2.Size = new System.Drawing.Size(76, 24);
+            this.textBoxZ2.Size = new System.Drawing.Size(76, 21);
             this.textBoxZ2.TabIndex = 181;
             // 
             // textBoxZ1
@@ -1066,7 +1064,7 @@ namespace Cluster.UI
             this.textBoxZ1.Location = new System.Drawing.Point(584, 191);
             this.textBoxZ1.Name = "textBoxZ1";
             this.textBoxZ1.ReadOnly = true;
-            this.textBoxZ1.Size = new System.Drawing.Size(76, 24);
+            this.textBoxZ1.Size = new System.Drawing.Size(76, 21);
             this.textBoxZ1.TabIndex = 180;
             // 
             // textBoxX7
@@ -1078,7 +1076,7 @@ namespace Cluster.UI
             this.textBoxX7.Location = new System.Drawing.Point(502, 359);
             this.textBoxX7.Name = "textBoxX7";
             this.textBoxX7.ReadOnly = true;
-            this.textBoxX7.Size = new System.Drawing.Size(76, 24);
+            this.textBoxX7.Size = new System.Drawing.Size(76, 21);
             this.textBoxX7.TabIndex = 179;
             // 
             // textBoxX6
@@ -1090,7 +1088,7 @@ namespace Cluster.UI
             this.textBoxX6.Location = new System.Drawing.Point(502, 331);
             this.textBoxX6.Name = "textBoxX6";
             this.textBoxX6.ReadOnly = true;
-            this.textBoxX6.Size = new System.Drawing.Size(76, 24);
+            this.textBoxX6.Size = new System.Drawing.Size(76, 21);
             this.textBoxX6.TabIndex = 178;
             // 
             // textBoxX5
@@ -1102,7 +1100,7 @@ namespace Cluster.UI
             this.textBoxX5.Location = new System.Drawing.Point(502, 303);
             this.textBoxX5.Name = "textBoxX5";
             this.textBoxX5.ReadOnly = true;
-            this.textBoxX5.Size = new System.Drawing.Size(76, 24);
+            this.textBoxX5.Size = new System.Drawing.Size(76, 21);
             this.textBoxX5.TabIndex = 177;
             // 
             // textBoxX4
@@ -1114,7 +1112,7 @@ namespace Cluster.UI
             this.textBoxX4.Location = new System.Drawing.Point(502, 275);
             this.textBoxX4.Name = "textBoxX4";
             this.textBoxX4.ReadOnly = true;
-            this.textBoxX4.Size = new System.Drawing.Size(76, 24);
+            this.textBoxX4.Size = new System.Drawing.Size(76, 21);
             this.textBoxX4.TabIndex = 176;
             // 
             // textBoxX3
@@ -1126,7 +1124,7 @@ namespace Cluster.UI
             this.textBoxX3.Location = new System.Drawing.Point(502, 247);
             this.textBoxX3.Name = "textBoxX3";
             this.textBoxX3.ReadOnly = true;
-            this.textBoxX3.Size = new System.Drawing.Size(76, 24);
+            this.textBoxX3.Size = new System.Drawing.Size(76, 21);
             this.textBoxX3.TabIndex = 175;
             // 
             // textBoxX2
@@ -1138,7 +1136,7 @@ namespace Cluster.UI
             this.textBoxX2.Location = new System.Drawing.Point(502, 219);
             this.textBoxX2.Name = "textBoxX2";
             this.textBoxX2.ReadOnly = true;
-            this.textBoxX2.Size = new System.Drawing.Size(76, 24);
+            this.textBoxX2.Size = new System.Drawing.Size(76, 21);
             this.textBoxX2.TabIndex = 174;
             // 
             // textBoxX1
@@ -1150,7 +1148,7 @@ namespace Cluster.UI
             this.textBoxX1.Location = new System.Drawing.Point(502, 191);
             this.textBoxX1.Name = "textBoxX1";
             this.textBoxX1.ReadOnly = true;
-            this.textBoxX1.Size = new System.Drawing.Size(76, 24);
+            this.textBoxX1.Size = new System.Drawing.Size(76, 21);
             this.textBoxX1.TabIndex = 173;
             // 
             // textBoxOffsetName
@@ -1159,42 +1157,38 @@ namespace Cluster.UI
             this.textBoxOffsetName.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBoxOffsetName.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxOffsetName.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.textBoxOffsetName.Location = new System.Drawing.Point(584, 124);
+            this.textBoxOffsetName.Location = new System.Drawing.Point(514, 124);
             this.textBoxOffsetName.Name = "textBoxOffsetName";
             this.textBoxOffsetName.ReadOnly = true;
-            this.textBoxOffsetName.Size = new System.Drawing.Size(224, 24);
+            this.textBoxOffsetName.Size = new System.Drawing.Size(403, 21);
             this.textBoxOffsetName.TabIndex = 172;
             // 
             // checkBoxProductBlank
             // 
-            this.checkBoxProductBlank.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.checkBoxProductBlank.AutoSize = true;
             this.checkBoxProductBlank.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxProductBlank.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.checkBoxProductBlank.ForeColor = System.Drawing.Color.White;
             this.checkBoxProductBlank.Location = new System.Drawing.Point(92, 220);
             this.checkBoxProductBlank.Name = "checkBoxProductBlank";
-            this.checkBoxProductBlank.Size = new System.Drawing.Size(159, 21);
+            this.checkBoxProductBlank.Size = new System.Drawing.Size(127, 17);
             this.checkBoxProductBlank.TabIndex = 171;
             this.checkBoxProductBlank.Text = "Любой сортамент";
             this.checkBoxProductBlank.UseVisualStyleBackColor = false;
             // 
             // listBoxViewDataList
             // 
-            this.listBoxViewDataList.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.listBoxViewDataList.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.listBoxViewDataList.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listBoxViewDataList.FormattingEnabled = true;
-            this.listBoxViewDataList.ItemHeight = 17;
-            this.listBoxViewDataList.Location = new System.Drawing.Point(63, 259);
+            this.listBoxViewDataList.Location = new System.Drawing.Point(12, 259);
             this.listBoxViewDataList.Name = "listBoxViewDataList";
-            this.listBoxViewDataList.Size = new System.Drawing.Size(342, 361);
+            this.listBoxViewDataList.Size = new System.Drawing.Size(426, 355);
             this.listBoxViewDataList.TabIndex = 170;
             this.listBoxViewDataList.SelectedIndexChanged += new System.EventHandler(this.listBoxViewDataList_SelectedIndexChanged);
             // 
             // SearchButton
             // 
-            this.SearchButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.SearchButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
             this.SearchButton.FlatAppearance.BorderColor = System.Drawing.Color.Maroon;
             this.SearchButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -1212,30 +1206,27 @@ namespace Cluster.UI
             // 
             // checkBoxPickAllTime
             // 
-            this.checkBoxPickAllTime.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.checkBoxPickAllTime.AutoSize = true;
             this.checkBoxPickAllTime.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxPickAllTime.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.checkBoxPickAllTime.ForeColor = System.Drawing.Color.White;
             this.checkBoxPickAllTime.Location = new System.Drawing.Point(229, 136);
             this.checkBoxPickAllTime.Name = "checkBoxPickAllTime";
-            this.checkBoxPickAllTime.Size = new System.Drawing.Size(124, 21);
+            this.checkBoxPickAllTime.Size = new System.Drawing.Size(103, 17);
             this.checkBoxPickAllTime.TabIndex = 168;
             this.checkBoxPickAllTime.Text = "За все время";
             this.checkBoxPickAllTime.UseVisualStyleBackColor = false;
             // 
             // dateTimePickerForView
             // 
-            this.dateTimePickerForView.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.dateTimePickerForView.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dateTimePickerForView.Location = new System.Drawing.Point(229, 110);
             this.dateTimePickerForView.Name = "dateTimePickerForView";
-            this.dateTimePickerForView.Size = new System.Drawing.Size(200, 24);
+            this.dateTimePickerForView.Size = new System.Drawing.Size(200, 21);
             this.dateTimePickerForView.TabIndex = 167;
             // 
             // laberThrType
             // 
-            this.laberThrType.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.laberThrType.AutoSize = true;
             this.laberThrType.BackColor = System.Drawing.Color.Transparent;
             this.laberThrType.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1243,13 +1234,12 @@ namespace Cluster.UI
             this.laberThrType.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.laberThrType.Location = new System.Drawing.Point(10, 113);
             this.laberThrType.Name = "laberThrType";
-            this.laberThrType.Size = new System.Drawing.Size(98, 17);
+            this.laberThrType.Size = new System.Drawing.Size(80, 13);
             this.laberThrType.TabIndex = 166;
             this.laberThrType.Text = "Тип резьбы:";
             // 
             // labelDiameter
             // 
-            this.labelDiameter.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelDiameter.AutoSize = true;
             this.labelDiameter.BackColor = System.Drawing.Color.Transparent;
             this.labelDiameter.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1257,13 +1247,12 @@ namespace Cluster.UI
             this.labelDiameter.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.labelDiameter.Location = new System.Drawing.Point(30, 155);
             this.labelDiameter.Name = "labelDiameter";
-            this.labelDiameter.Size = new System.Drawing.Size(75, 17);
+            this.labelDiameter.Size = new System.Drawing.Size(60, 13);
             this.labelDiameter.TabIndex = 165;
             this.labelDiameter.Text = "Диаметр:";
             // 
             // labelMachine
             // 
-            this.labelMachine.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelMachine.AutoSize = true;
             this.labelMachine.BackColor = System.Drawing.Color.Transparent;
             this.labelMachine.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1271,13 +1260,12 @@ namespace Cluster.UI
             this.labelMachine.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.labelMachine.Location = new System.Drawing.Point(35, 197);
             this.labelMachine.Name = "labelMachine";
-            this.labelMachine.Size = new System.Drawing.Size(65, 17);
+            this.labelMachine.Size = new System.Drawing.Size(54, 13);
             this.labelMachine.TabIndex = 164;
             this.labelMachine.Text = "Станок:";
             // 
             // comboBoxMachineNumberView
             // 
-            this.comboBoxMachineNumberView.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxMachineNumberView.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.comboBoxMachineNumberView.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxMachineNumberView.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -1289,12 +1277,11 @@ namespace Cluster.UI
             "РНС 2"});
             this.comboBoxMachineNumberView.Location = new System.Drawing.Point(92, 194);
             this.comboBoxMachineNumberView.Name = "comboBoxMachineNumberView";
-            this.comboBoxMachineNumberView.Size = new System.Drawing.Size(121, 25);
+            this.comboBoxMachineNumberView.Size = new System.Drawing.Size(121, 21);
             this.comboBoxMachineNumberView.TabIndex = 163;
             // 
             // comboBoxProductDiameterView
             // 
-            this.comboBoxProductDiameterView.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxProductDiameterView.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.comboBoxProductDiameterView.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxProductDiameterView.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -1308,12 +1295,11 @@ namespace Cluster.UI
             "426"});
             this.comboBoxProductDiameterView.Location = new System.Drawing.Point(92, 152);
             this.comboBoxProductDiameterView.Name = "comboBoxProductDiameterView";
-            this.comboBoxProductDiameterView.Size = new System.Drawing.Size(121, 25);
+            this.comboBoxProductDiameterView.Size = new System.Drawing.Size(121, 21);
             this.comboBoxProductDiameterView.TabIndex = 162;
             // 
             // comboBoxThreadTypeView
             // 
-            this.comboBoxThreadTypeView.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxThreadTypeView.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.comboBoxThreadTypeView.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxThreadTypeView.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -1328,7 +1314,7 @@ namespace Cluster.UI
             "ВМЗ-4"});
             this.comboBoxThreadTypeView.Location = new System.Drawing.Point(92, 110);
             this.comboBoxThreadTypeView.Name = "comboBoxThreadTypeView";
-            this.comboBoxThreadTypeView.Size = new System.Drawing.Size(121, 25);
+            this.comboBoxThreadTypeView.Size = new System.Drawing.Size(121, 21);
             this.comboBoxThreadTypeView.TabIndex = 161;
             // 
             // pictureBox1
@@ -1352,7 +1338,7 @@ namespace Cluster.UI
             this.label38.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label38.Location = new System.Drawing.Point(720, 174);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(17, 17);
+            this.label38.Size = new System.Drawing.Size(14, 13);
             this.label38.TabIndex = 257;
             this.label38.Text = "Y";
             // 
@@ -1366,7 +1352,7 @@ namespace Cluster.UI
             this.label37.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label37.Location = new System.Drawing.Point(614, 450);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(18, 17);
+            this.label37.Size = new System.Drawing.Size(15, 13);
             this.label37.TabIndex = 256;
             this.label37.Text = "Z";
             // 
@@ -1380,7 +1366,7 @@ namespace Cluster.UI
             this.label36.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label36.Location = new System.Drawing.Point(614, 178);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(18, 17);
+            this.label36.Size = new System.Drawing.Size(15, 13);
             this.label36.TabIndex = 255;
             this.label36.Text = "Z";
             // 
@@ -1394,7 +1380,7 @@ namespace Cluster.UI
             this.label35.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label35.Location = new System.Drawing.Point(534, 450);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(18, 17);
+            this.label35.Size = new System.Drawing.Size(15, 13);
             this.label35.TabIndex = 254;
             this.label35.Text = "X";
             // 
@@ -1408,7 +1394,7 @@ namespace Cluster.UI
             this.label5.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label5.Location = new System.Drawing.Point(534, 178);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(18, 17);
+            this.label5.Size = new System.Drawing.Size(15, 13);
             this.label5.TabIndex = 253;
             this.label5.Text = "X";
             // 

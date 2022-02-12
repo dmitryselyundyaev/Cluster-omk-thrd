@@ -1,7 +1,7 @@
 ﻿
 namespace Cluster.UI
 {
-    partial class ThrdGeometry
+    partial class ThrdGeometry<T>
     {
         /// <summary>
         /// Required designer variable.
@@ -89,6 +89,7 @@ namespace Cluster.UI
             this.AxisCheckButton.TabIndex = 37;
             this.AxisCheckButton.Text = "Запустить проверку";
             this.AxisCheckButton.UseVisualStyleBackColor = false;
+            this.AxisCheckButton.Click += new System.EventHandler(this.AxisCheckButton_Click);
             // 
             // Channel2Z
             // 
