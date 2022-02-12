@@ -139,7 +139,7 @@ namespace Cluster.UI
                         {
                             var source = database.OffsetDatas
                             .Where(u => u.Product.ThreadType == comboBoxThreadTypeView.Text)
-                            .Where(u => DbFunctions.TruncateTime(u.Created) == dateTimePickerForView.Value.Date)
+                            .Where(u => u.Created.ToString().Substring(0, 10) == dateTimePickerForView.Value.Date.ToString().Substring(0, 10))
                             .OrderByDescending(u => u.OffsetDataId).ToList();
                             listBoxViewDataList.DataSource = new BindingList<OffsetData>(source);
                         }
@@ -150,7 +150,7 @@ namespace Cluster.UI
                         {
                             var source = database.OffsetDatas
                             .Where(u => u.Product.Diameter == convertedDiameter)
-                            .Where(u => DbFunctions.TruncateTime(u.Created) == dateTimePickerForView.Value.Date)
+                            .Where(u => u.Created.ToString().Substring(0, 10) == dateTimePickerForView.Value.Date.ToString().Substring(0, 10))
                             .OrderByDescending(u => u.OffsetDataId).ToList();
                             listBoxViewDataList.DataSource = new BindingList<OffsetData>(source);
                         }
@@ -161,7 +161,7 @@ namespace Cluster.UI
                         {
                             var source = database.OffsetDatas
                             .Where(u => u.Machine == comboBoxMachineNumberView.Text)
-                            .Where(u => DbFunctions.TruncateTime(u.Created) == dateTimePickerForView.Value.Date)
+                            .Where(u => u.Created.ToString().Substring(0, 10) == dateTimePickerForView.Value.Date.ToString().Substring(0, 10))
                             .OrderByDescending(u => u.OffsetDataId).ToList();
                             listBoxViewDataList.DataSource = new BindingList<OffsetData>(source);
                         }
@@ -172,7 +172,7 @@ namespace Cluster.UI
                         {
                             var source = database.OffsetDatas.Where(u => u.Product.Diameter == convertedDiameter)
                             .Where(u => u.Product.ThreadType == comboBoxThreadTypeView.Text)
-                            .Where(u => DbFunctions.TruncateTime(u.Created) == dateTimePickerForView.Value.Date)
+                            .Where(u => u.Created.ToString().Substring(0, 10) == dateTimePickerForView.Value.Date.ToString().Substring(0, 10))
                             .OrderByDescending(u => u.OffsetDataId).ToList();
                             listBoxViewDataList.DataSource = new BindingList<OffsetData>(source);
                         }
@@ -184,7 +184,7 @@ namespace Cluster.UI
                             var source = database.OffsetDatas
                             .Where(u => u.Machine == comboBoxMachineNumberView.Text)
                             .Where(u => u.Product.ThreadType == comboBoxThreadTypeView.Text)
-                            .Where(u => DbFunctions.TruncateTime(u.Created) == dateTimePickerForView.Value.Date)
+                            .Where(u => u.Created.ToString().Substring(0, 10) == dateTimePickerForView.Value.Date.ToString().Substring(0, 10))
                             .OrderByDescending(u => u.OffsetDataId).ToList();
                             listBoxViewDataList.DataSource = new BindingList<OffsetData>(source);
                         }
@@ -196,7 +196,7 @@ namespace Cluster.UI
                             var source = database.OffsetDatas
                             .Where(u => u.Machine == comboBoxMachineNumberView.Text)
                             .Where(u => u.Product.Diameter == convertedDiameter)
-                            .Where(u => DbFunctions.TruncateTime(u.Created) == dateTimePickerForView.Value.Date)
+                            .Where(u => u.Created.ToString().Substring(0, 10) == dateTimePickerForView.Value.Date.ToString().Substring(0, 10))
                             .OrderByDescending(u => u.OffsetDataId).ToList();
                             listBoxViewDataList.DataSource = new BindingList<OffsetData>(source);
                         }
@@ -209,7 +209,7 @@ namespace Cluster.UI
                             .Where(u => u.Product.ThreadType == comboBoxThreadTypeView.Text)
                             .Where(u => u.Machine == comboBoxMachineNumberView.Text)
                             .Where(u => u.Product.Diameter == convertedDiameter)
-                            .Where(u => DbFunctions.TruncateTime(u.Created) == dateTimePickerForView.Value.Date)
+                            .Where(u => u.Created.ToString().Substring(0, 10) == dateTimePickerForView.Value.Date.ToString().Substring(0, 10))
                             .OrderByDescending(u => u.OffsetDataId).ToList();
                         listBoxViewDataList.DataSource = new BindingList<OffsetData>(source);
                         }
