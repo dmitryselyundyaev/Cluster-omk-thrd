@@ -47,7 +47,8 @@ namespace Cluster.UI
                 {
                     using (var cont = new ClusterDbContext())
                     {
-                        var source = database.OffsetDatas.Where(u => DbFunctions.TruncateTime(u.Created) == dateTimePickerForView.Value.Date).OrderByDescending(u => u.OffsetDataId).ToList();
+                        //TODO SUBSTRING ALL DATES
+                        var source = database.OffsetDatas.Where(u => u.Created.ToString().Substring(0,10) == dateTimePickerForView.Value.Date.ToString().Substring(0, 10)).OrderByDescending(u => u.OffsetDataId).ToList();
                         listBoxViewDataList.DataSource = new BindingList<OffsetData>(source);
 
                     }
