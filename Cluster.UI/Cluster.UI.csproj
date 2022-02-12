@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{820E4365-9D16-49EA-A5B8-43944397A2B6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Cluster.UI</RootNamespace>
+    <AssemblyName>Cluster.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite.CodeFirst, Version=1.7.0.34, Culture=neutral, PublicKeyToken=eb96ba0a78d831a7, processorArchitecture=MSIL">
+      <HintPath>packages\SQLite.CodeFirst.1.7.0.34\lib\net45\SQLite.CodeFirst.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.EF6.1.0.115.5\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.Linq.1.0.115.5\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainSetting.Designer.cs">
+      <DependentUpon>MainSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThrdCreateOffset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThrdCreateOffset.Designer.cs">
+      <DependentUpon>ThrdCreateOffset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThrdCuttingSpeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThrdCuttingSpeed.Designer.cs">
+      <DependentUpon>ThrdCuttingSpeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThrdFaqMachine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThrdFaqMachine.Designer.cs">
+      <DependentUpon>ThrdFaqMachine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThrdFaqThread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThrdFaqThread.Designer.cs">
+      <DependentUpon>ThrdFaqThread.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThrdGeometry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThrdGeometry.Designer.cs">
+      <DependentUpon>ThrdGeometry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThrdKpvo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThrdKpvo.Designer.cs">
+      <DependentUpon>ThrdKpvo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThrdPlanPerfomance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThrdPlanPerfomance.Designer.cs">
+      <DependentUpon>ThrdPlanPerfomance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThrdProgram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThrdProgram.Designer.cs">
+      <DependentUpon>ThrdProgram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThrdSetUpCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThrdSetUpCard.Designer.cs">
+      <DependentUpon>ThrdSetUpCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThrdViewOffset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThrdViewOffset.Designer.cs">
+      <DependentUpon>ThrdViewOffset.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainSetting.resx">
+      <DependentUpon>MainSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ThrdCreateOffset.resx">
+      <DependentUpon>ThrdCreateOffset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThrdCuttingSpeed.resx">
+      <DependentUpon>ThrdCuttingSpeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThrdFaqMachine.resx">
+      <DependentUpon>ThrdFaqMachine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThrdFaqThread.resx">
+      <DependentUpon>ThrdFaqThread.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThrdGeometry.resx">
+      <DependentUpon>ThrdGeometry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThrdKpvo.resx">
+      <DependentUpon>ThrdKpvo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThrdPlanPerfomance.resx">
+      <DependentUpon>ThrdPlanPerfomance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThrdProgram.resx">
+      <DependentUpon>ThrdProgram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThrdSetUpCard.resx">
+      <DependentUpon>ThrdSetUpCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThrdViewOffset.resx">
+      <DependentUpon>ThrdViewOffset.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dropdown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Полный. Горизантальная версия.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data-integration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\support.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-docs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-right-chevron-120893 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Лого+ Слоган_ светло серый.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Основной. Горизантальная %28светлая%29 версия.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Слоган.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cluster.BL\Cluster.BL.csproj">
+      <Project>{820a6366-b445-4572-ab8d-a1c31ac11547}</Project>
+      <Name>Cluster.BL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>
