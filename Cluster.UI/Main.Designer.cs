@@ -57,12 +57,12 @@ namespace Cluster.UI
             this.panelLogo = new System.Windows.Forms.Panel();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.panelChildFormName = new System.Windows.Forms.Panel();
+            this.labelHeaderName = new System.Windows.Forms.Label();
             this.buttonCloseChildForm = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonMinimizeApp = new System.Windows.Forms.Button();
             this.buttonFullScreenApp = new System.Windows.Forms.Button();
             this.buttonCloseApp = new System.Windows.Forms.Button();
-            this.labelHeaderName = new System.Windows.Forms.Label();
             this.panelSidaMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelThrdDocuments.SuspendLayout();
@@ -99,7 +99,7 @@ namespace Cluster.UI
             // 
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox2.Location = new System.Drawing.Point(0, 754);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(247, 62);
             this.pictureBox2.TabIndex = 9;
@@ -565,6 +565,19 @@ namespace Cluster.UI
             this.panelChildFormName.Size = new System.Drawing.Size(1304, 76);
             this.panelChildFormName.TabIndex = 1;
             // 
+            // labelHeaderName
+            // 
+            this.labelHeaderName.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelHeaderName.AutoSize = true;
+            this.labelHeaderName.Font = new System.Drawing.Font("Verdana", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelHeaderName.ForeColor = System.Drawing.Color.Black;
+            this.labelHeaderName.Location = new System.Drawing.Point(418, 29);
+            this.labelHeaderName.Name = "labelHeaderName";
+            this.labelHeaderName.Size = new System.Drawing.Size(278, 36);
+            this.labelHeaderName.TabIndex = 1;
+            this.labelHeaderName.Text = "Главный экран";
+            this.labelHeaderName.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // buttonCloseChildForm
             // 
             this.buttonCloseChildForm.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -589,7 +602,7 @@ namespace Cluster.UI
             // 
             this.pictureBox1.Image = global::Cluster.UI.Properties.Resources._1;
             this.pictureBox1.Location = new System.Drawing.Point(1, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(145, 34);
             this.pictureBox1.TabIndex = 7;
@@ -648,18 +661,6 @@ namespace Cluster.UI
             this.buttonCloseApp.TabIndex = 3;
             this.buttonCloseApp.UseVisualStyleBackColor = false;
             this.buttonCloseApp.Click += new System.EventHandler(this.buttonCloseApp_Click);
-            // 
-            // labelHeaderName
-            // 
-            this.labelHeaderName.AutoSize = true;
-            this.labelHeaderName.Font = new System.Drawing.Font("Verdana", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelHeaderName.ForeColor = System.Drawing.Color.Black;
-            this.labelHeaderName.Location = new System.Drawing.Point(466, 29);
-            this.labelHeaderName.Name = "labelHeaderName";
-            this.labelHeaderName.Size = new System.Drawing.Size(278, 36);
-            this.labelHeaderName.TabIndex = 1;
-            this.labelHeaderName.Text = "Главный экран";
-            this.labelHeaderName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Main
             // 

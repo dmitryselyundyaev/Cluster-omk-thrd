@@ -15,6 +15,7 @@ namespace Cluster.UI
         {
             if(textBoxPassword.Text == "adminadmin")
             {
+                folderBrowserDialog.Description = "Укажите путь к файлу";
                 if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
                 {
                     string sourceDir = folderBrowserDialog.SelectedPath.ToString();
@@ -37,6 +38,7 @@ namespace Cluster.UI
 
         private void buttonBackUpDataBase_Click(object sender, System.EventArgs e)
         {
+            folderBrowserDialog.Description = "Укажите путь для сохранения";
             if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
             {
                 string sourceDir = @".\";
