@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System.IO;
+using System.Windows.Forms;
 
 namespace Cluster.UI
 {
@@ -9,9 +10,48 @@ namespace Cluster.UI
             InitializeComponent();
         }
 
+
+        private void buttonRestoreDataBase_Click(object sender, System.EventArgs e)
+        {
+            if(textBoxPassword.Text == "adminadmin")
+            {
+                if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string sourceDir = folderBrowserDialog.SelectedPath.ToString();
+                    string backupDir = @".\";
+                    try
+                    {
+                        File.Copy(Path.Combine(sourceDir, "Cluster.sqlite"), Path.Combine(backupDir, "Cluster.sqlite"));
+                    }
+                    catch (IOException)
+                    {
+
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Введите пароль");
+            }
+        }
+
         private void buttonBackUpDataBase_Click(object sender, System.EventArgs e)
         {
-            
+            if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
+            {
+                string sourceDir = @".\";
+                string backupDir = folderBrowserDialog.SelectedPath.ToString();
+                try
+                {
+                    File.Copy(Path.Combine(sourceDir, "Cluster.sqlite"), Path.Combine(backupDir, "Cluster.sqlite"));
+                }
+                catch (IOException)
+                {
+
+                }
+            }
+
         }
+
     }
 }

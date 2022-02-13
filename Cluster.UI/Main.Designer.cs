@@ -62,6 +62,7 @@ namespace Cluster.UI
             this.buttonMinimizeApp = new System.Windows.Forms.Button();
             this.buttonFullScreenApp = new System.Windows.Forms.Button();
             this.buttonCloseApp = new System.Windows.Forms.Button();
+            this.labelHeaderName = new System.Windows.Forms.Label();
             this.panelSidaMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelThrdDocuments.SuspendLayout();
@@ -88,18 +89,19 @@ namespace Cluster.UI
             this.panelSidaMenu.Controls.Add(this.buttonThrdOffset);
             this.panelSidaMenu.Controls.Add(this.panelLogo);
             this.panelSidaMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelSidaMenu.Location = new System.Drawing.Point(1, 32);
-            this.panelSidaMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelSidaMenu.Location = new System.Drawing.Point(1, 39);
+            this.panelSidaMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelSidaMenu.Name = "panelSidaMenu";
-            this.panelSidaMenu.Size = new System.Drawing.Size(185, 683);
+            this.panelSidaMenu.Size = new System.Drawing.Size(247, 841);
             this.panelSidaMenu.TabIndex = 0;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 610);
+            this.pictureBox2.Location = new System.Drawing.Point(0, 754);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(185, 50);
+            this.pictureBox2.Size = new System.Drawing.Size(247, 62);
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
             // 
@@ -115,11 +117,11 @@ namespace Cluster.UI
             this.buttonSettings.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonSettings.Image = global::Cluster.UI.Properties.Resources.setting;
             this.buttonSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonSettings.Location = new System.Drawing.Point(0, 573);
-            this.buttonSettings.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSettings.Location = new System.Drawing.Point(0, 708);
+            this.buttonSettings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonSettings.Name = "buttonSettings";
-            this.buttonSettings.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.buttonSettings.Size = new System.Drawing.Size(185, 37);
+            this.buttonSettings.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.buttonSettings.Size = new System.Drawing.Size(247, 46);
             this.buttonSettings.TabIndex = 8;
             this.buttonSettings.TabStop = false;
             this.buttonSettings.Text = "         Настройки";
@@ -134,10 +136,10 @@ namespace Cluster.UI
             this.panelThrdDocuments.Controls.Add(this.buttonThrdKPVOTubeTime);
             this.panelThrdDocuments.Controls.Add(this.buttonThrdKPVOThread);
             this.panelThrdDocuments.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelThrdDocuments.Location = new System.Drawing.Point(0, 462);
-            this.panelThrdDocuments.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelThrdDocuments.Location = new System.Drawing.Point(0, 571);
+            this.panelThrdDocuments.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelThrdDocuments.Name = "panelThrdDocuments";
-            this.panelThrdDocuments.Size = new System.Drawing.Size(185, 111);
+            this.panelThrdDocuments.Size = new System.Drawing.Size(247, 137);
             this.panelThrdDocuments.TabIndex = 7;
             // 
             // buttonThrdSetUpCards
@@ -153,11 +155,11 @@ namespace Cluster.UI
             this.buttonThrdSetUpCards.ForeColor = System.Drawing.Color.White;
             this.buttonThrdSetUpCards.Image = ((System.Drawing.Image)(resources.GetObject("buttonThrdSetUpCards.Image")));
             this.buttonThrdSetUpCards.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonThrdSetUpCards.Location = new System.Drawing.Point(0, 74);
-            this.buttonThrdSetUpCards.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonThrdSetUpCards.Location = new System.Drawing.Point(0, 92);
+            this.buttonThrdSetUpCards.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonThrdSetUpCards.Name = "buttonThrdSetUpCards";
-            this.buttonThrdSetUpCards.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.buttonThrdSetUpCards.Size = new System.Drawing.Size(185, 37);
+            this.buttonThrdSetUpCards.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.buttonThrdSetUpCards.Size = new System.Drawing.Size(247, 46);
             this.buttonThrdSetUpCards.TabIndex = 9;
             this.buttonThrdSetUpCards.TabStop = false;
             this.buttonThrdSetUpCards.Text = "     Карты наладки";
@@ -178,11 +180,11 @@ namespace Cluster.UI
             this.buttonThrdKPVOTubeTime.ForeColor = System.Drawing.Color.White;
             this.buttonThrdKPVOTubeTime.Image = ((System.Drawing.Image)(resources.GetObject("buttonThrdKPVOTubeTime.Image")));
             this.buttonThrdKPVOTubeTime.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonThrdKPVOTubeTime.Location = new System.Drawing.Point(0, 37);
-            this.buttonThrdKPVOTubeTime.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonThrdKPVOTubeTime.Location = new System.Drawing.Point(0, 46);
+            this.buttonThrdKPVOTubeTime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonThrdKPVOTubeTime.Name = "buttonThrdKPVOTubeTime";
-            this.buttonThrdKPVOTubeTime.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.buttonThrdKPVOTubeTime.Size = new System.Drawing.Size(185, 37);
+            this.buttonThrdKPVOTubeTime.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.buttonThrdKPVOTubeTime.Size = new System.Drawing.Size(247, 46);
             this.buttonThrdKPVOTubeTime.TabIndex = 8;
             this.buttonThrdKPVOTubeTime.TabStop = false;
             this.buttonThrdKPVOTubeTime.Text = "     Производительность";
@@ -204,10 +206,10 @@ namespace Cluster.UI
             this.buttonThrdKPVOThread.Image = ((System.Drawing.Image)(resources.GetObject("buttonThrdKPVOThread.Image")));
             this.buttonThrdKPVOThread.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonThrdKPVOThread.Location = new System.Drawing.Point(0, 0);
-            this.buttonThrdKPVOThread.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonThrdKPVOThread.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonThrdKPVOThread.Name = "buttonThrdKPVOThread";
-            this.buttonThrdKPVOThread.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.buttonThrdKPVOThread.Size = new System.Drawing.Size(185, 37);
+            this.buttonThrdKPVOThread.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.buttonThrdKPVOThread.Size = new System.Drawing.Size(247, 46);
             this.buttonThrdKPVOThread.TabIndex = 7;
             this.buttonThrdKPVOThread.TabStop = false;
             this.buttonThrdKPVOThread.Text = "     КПВО по РНС";
@@ -227,11 +229,11 @@ namespace Cluster.UI
             this.buttonThrdDocuments.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonThrdDocuments.Image = global::Cluster.UI.Properties.Resources.google_docs;
             this.buttonThrdDocuments.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonThrdDocuments.Location = new System.Drawing.Point(0, 425);
-            this.buttonThrdDocuments.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonThrdDocuments.Location = new System.Drawing.Point(0, 525);
+            this.buttonThrdDocuments.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonThrdDocuments.Name = "buttonThrdDocuments";
-            this.buttonThrdDocuments.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.buttonThrdDocuments.Size = new System.Drawing.Size(185, 37);
+            this.buttonThrdDocuments.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.buttonThrdDocuments.Size = new System.Drawing.Size(247, 46);
             this.buttonThrdDocuments.TabIndex = 6;
             this.buttonThrdDocuments.TabStop = false;
             this.buttonThrdDocuments.Text = "         Документация";
@@ -245,10 +247,10 @@ namespace Cluster.UI
             this.panelThrdFaqSubMenu.Controls.Add(this.buttonThrdSetUpProblems);
             this.panelThrdFaqSubMenu.Controls.Add(this.buttonThrdFAQProblems);
             this.panelThrdFaqSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelThrdFaqSubMenu.Location = new System.Drawing.Point(0, 353);
-            this.panelThrdFaqSubMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelThrdFaqSubMenu.Location = new System.Drawing.Point(0, 436);
+            this.panelThrdFaqSubMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelThrdFaqSubMenu.Name = "panelThrdFaqSubMenu";
-            this.panelThrdFaqSubMenu.Size = new System.Drawing.Size(185, 72);
+            this.panelThrdFaqSubMenu.Size = new System.Drawing.Size(247, 89);
             this.panelThrdFaqSubMenu.TabIndex = 1;
             // 
             // buttonThrdSetUpProblems
@@ -264,11 +266,11 @@ namespace Cluster.UI
             this.buttonThrdSetUpProblems.ForeColor = System.Drawing.Color.White;
             this.buttonThrdSetUpProblems.Image = ((System.Drawing.Image)(resources.GetObject("buttonThrdSetUpProblems.Image")));
             this.buttonThrdSetUpProblems.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonThrdSetUpProblems.Location = new System.Drawing.Point(0, 37);
-            this.buttonThrdSetUpProblems.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonThrdSetUpProblems.Location = new System.Drawing.Point(0, 46);
+            this.buttonThrdSetUpProblems.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonThrdSetUpProblems.Name = "buttonThrdSetUpProblems";
-            this.buttonThrdSetUpProblems.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.buttonThrdSetUpProblems.Size = new System.Drawing.Size(185, 37);
+            this.buttonThrdSetUpProblems.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.buttonThrdSetUpProblems.Size = new System.Drawing.Size(247, 46);
             this.buttonThrdSetUpProblems.TabIndex = 8;
             this.buttonThrdSetUpProblems.TabStop = false;
             this.buttonThrdSetUpProblems.Text = "     Настройка станка";
@@ -290,10 +292,10 @@ namespace Cluster.UI
             this.buttonThrdFAQProblems.Image = ((System.Drawing.Image)(resources.GetObject("buttonThrdFAQProblems.Image")));
             this.buttonThrdFAQProblems.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonThrdFAQProblems.Location = new System.Drawing.Point(0, 0);
-            this.buttonThrdFAQProblems.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonThrdFAQProblems.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonThrdFAQProblems.Name = "buttonThrdFAQProblems";
-            this.buttonThrdFAQProblems.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.buttonThrdFAQProblems.Size = new System.Drawing.Size(185, 37);
+            this.buttonThrdFAQProblems.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.buttonThrdFAQProblems.Size = new System.Drawing.Size(247, 46);
             this.buttonThrdFAQProblems.TabIndex = 7;
             this.buttonThrdFAQProblems.TabStop = false;
             this.buttonThrdFAQProblems.Text = "     Проблемы с резьбой";
@@ -313,11 +315,11 @@ namespace Cluster.UI
             this.buttonThrdFaq.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonThrdFaq.Image = global::Cluster.UI.Properties.Resources.information;
             this.buttonThrdFaq.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonThrdFaq.Location = new System.Drawing.Point(0, 316);
-            this.buttonThrdFaq.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonThrdFaq.Location = new System.Drawing.Point(0, 390);
+            this.buttonThrdFaq.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonThrdFaq.Name = "buttonThrdFaq";
-            this.buttonThrdFaq.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.buttonThrdFaq.Size = new System.Drawing.Size(185, 37);
+            this.buttonThrdFaq.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.buttonThrdFaq.Size = new System.Drawing.Size(247, 46);
             this.buttonThrdFaq.TabIndex = 5;
             this.buttonThrdFaq.TabStop = false;
             this.buttonThrdFaq.Text = "         FAQ ";
@@ -332,10 +334,10 @@ namespace Cluster.UI
             this.panelThrdToolsSubMenu.Controls.Add(this.buttonThrdProgramList);
             this.panelThrdToolsSubMenu.Controls.Add(this.buttonThrdMachineGeometry);
             this.panelThrdToolsSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelThrdToolsSubMenu.Location = new System.Drawing.Point(0, 209);
-            this.panelThrdToolsSubMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelThrdToolsSubMenu.Location = new System.Drawing.Point(0, 258);
+            this.panelThrdToolsSubMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelThrdToolsSubMenu.Name = "panelThrdToolsSubMenu";
-            this.panelThrdToolsSubMenu.Size = new System.Drawing.Size(185, 107);
+            this.panelThrdToolsSubMenu.Size = new System.Drawing.Size(247, 132);
             this.panelThrdToolsSubMenu.TabIndex = 4;
             // 
             // buttonThrdSpeedSetUp
@@ -351,11 +353,11 @@ namespace Cluster.UI
             this.buttonThrdSpeedSetUp.ForeColor = System.Drawing.Color.White;
             this.buttonThrdSpeedSetUp.Image = ((System.Drawing.Image)(resources.GetObject("buttonThrdSpeedSetUp.Image")));
             this.buttonThrdSpeedSetUp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonThrdSpeedSetUp.Location = new System.Drawing.Point(0, 74);
-            this.buttonThrdSpeedSetUp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonThrdSpeedSetUp.Location = new System.Drawing.Point(0, 92);
+            this.buttonThrdSpeedSetUp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonThrdSpeedSetUp.Name = "buttonThrdSpeedSetUp";
-            this.buttonThrdSpeedSetUp.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.buttonThrdSpeedSetUp.Size = new System.Drawing.Size(185, 37);
+            this.buttonThrdSpeedSetUp.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.buttonThrdSpeedSetUp.Size = new System.Drawing.Size(247, 46);
             this.buttonThrdSpeedSetUp.TabIndex = 6;
             this.buttonThrdSpeedSetUp.TabStop = false;
             this.buttonThrdSpeedSetUp.Text = "     Скорость резания";
@@ -376,11 +378,11 @@ namespace Cluster.UI
             this.buttonThrdProgramList.ForeColor = System.Drawing.Color.White;
             this.buttonThrdProgramList.Image = ((System.Drawing.Image)(resources.GetObject("buttonThrdProgramList.Image")));
             this.buttonThrdProgramList.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonThrdProgramList.Location = new System.Drawing.Point(0, 37);
-            this.buttonThrdProgramList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonThrdProgramList.Location = new System.Drawing.Point(0, 46);
+            this.buttonThrdProgramList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonThrdProgramList.Name = "buttonThrdProgramList";
-            this.buttonThrdProgramList.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.buttonThrdProgramList.Size = new System.Drawing.Size(185, 37);
+            this.buttonThrdProgramList.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.buttonThrdProgramList.Size = new System.Drawing.Size(247, 46);
             this.buttonThrdProgramList.TabIndex = 5;
             this.buttonThrdProgramList.TabStop = false;
             this.buttonThrdProgramList.Text = "     Исходные программы";
@@ -402,10 +404,10 @@ namespace Cluster.UI
             this.buttonThrdMachineGeometry.Image = ((System.Drawing.Image)(resources.GetObject("buttonThrdMachineGeometry.Image")));
             this.buttonThrdMachineGeometry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonThrdMachineGeometry.Location = new System.Drawing.Point(0, 0);
-            this.buttonThrdMachineGeometry.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonThrdMachineGeometry.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonThrdMachineGeometry.Name = "buttonThrdMachineGeometry";
-            this.buttonThrdMachineGeometry.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.buttonThrdMachineGeometry.Size = new System.Drawing.Size(185, 37);
+            this.buttonThrdMachineGeometry.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.buttonThrdMachineGeometry.Size = new System.Drawing.Size(247, 46);
             this.buttonThrdMachineGeometry.TabIndex = 4;
             this.buttonThrdMachineGeometry.TabStop = false;
             this.buttonThrdMachineGeometry.Text = "     Геометрия станка";
@@ -425,11 +427,11 @@ namespace Cluster.UI
             this.buttonThrdTools.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonThrdTools.Image = global::Cluster.UI.Properties.Resources.support;
             this.buttonThrdTools.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonThrdTools.Location = new System.Drawing.Point(0, 172);
-            this.buttonThrdTools.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonThrdTools.Location = new System.Drawing.Point(0, 212);
+            this.buttonThrdTools.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonThrdTools.Name = "buttonThrdTools";
-            this.buttonThrdTools.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.buttonThrdTools.Size = new System.Drawing.Size(185, 37);
+            this.buttonThrdTools.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.buttonThrdTools.Size = new System.Drawing.Size(247, 46);
             this.buttonThrdTools.TabIndex = 0;
             this.buttonThrdTools.TabStop = false;
             this.buttonThrdTools.Text = "         Инструменты";
@@ -443,10 +445,10 @@ namespace Cluster.UI
             this.panelThrdOffsetSubMenu.Controls.Add(this.buttonThrdOffsetView);
             this.panelThrdOffsetSubMenu.Controls.Add(this.buttonThrdOffsetAdd);
             this.panelThrdOffsetSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelThrdOffsetSubMenu.Location = new System.Drawing.Point(0, 99);
-            this.panelThrdOffsetSubMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelThrdOffsetSubMenu.Location = new System.Drawing.Point(0, 122);
+            this.panelThrdOffsetSubMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelThrdOffsetSubMenu.Name = "panelThrdOffsetSubMenu";
-            this.panelThrdOffsetSubMenu.Size = new System.Drawing.Size(185, 73);
+            this.panelThrdOffsetSubMenu.Size = new System.Drawing.Size(247, 90);
             this.panelThrdOffsetSubMenu.TabIndex = 2;
             // 
             // buttonThrdOffsetView
@@ -462,11 +464,11 @@ namespace Cluster.UI
             this.buttonThrdOffsetView.ForeColor = System.Drawing.Color.White;
             this.buttonThrdOffsetView.Image = ((System.Drawing.Image)(resources.GetObject("buttonThrdOffsetView.Image")));
             this.buttonThrdOffsetView.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonThrdOffsetView.Location = new System.Drawing.Point(0, 37);
-            this.buttonThrdOffsetView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonThrdOffsetView.Location = new System.Drawing.Point(0, 46);
+            this.buttonThrdOffsetView.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonThrdOffsetView.Name = "buttonThrdOffsetView";
-            this.buttonThrdOffsetView.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.buttonThrdOffsetView.Size = new System.Drawing.Size(185, 37);
+            this.buttonThrdOffsetView.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.buttonThrdOffsetView.Size = new System.Drawing.Size(247, 46);
             this.buttonThrdOffsetView.TabIndex = 1;
             this.buttonThrdOffsetView.TabStop = false;
             this.buttonThrdOffsetView.Text = "     Просмотреть оффсет";
@@ -488,10 +490,10 @@ namespace Cluster.UI
             this.buttonThrdOffsetAdd.Image = ((System.Drawing.Image)(resources.GetObject("buttonThrdOffsetAdd.Image")));
             this.buttonThrdOffsetAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonThrdOffsetAdd.Location = new System.Drawing.Point(0, 0);
-            this.buttonThrdOffsetAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonThrdOffsetAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonThrdOffsetAdd.Name = "buttonThrdOffsetAdd";
-            this.buttonThrdOffsetAdd.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.buttonThrdOffsetAdd.Size = new System.Drawing.Size(185, 37);
+            this.buttonThrdOffsetAdd.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.buttonThrdOffsetAdd.Size = new System.Drawing.Size(247, 46);
             this.buttonThrdOffsetAdd.TabIndex = 0;
             this.buttonThrdOffsetAdd.TabStop = false;
             this.buttonThrdOffsetAdd.Text = "     Добавить оффсет";
@@ -511,11 +513,11 @@ namespace Cluster.UI
             this.buttonThrdOffset.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonThrdOffset.Image = global::Cluster.UI.Properties.Resources.data_integration;
             this.buttonThrdOffset.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonThrdOffset.Location = new System.Drawing.Point(0, 62);
-            this.buttonThrdOffset.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonThrdOffset.Location = new System.Drawing.Point(0, 76);
+            this.buttonThrdOffset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonThrdOffset.Name = "buttonThrdOffset";
-            this.buttonThrdOffset.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.buttonThrdOffset.Size = new System.Drawing.Size(185, 37);
+            this.buttonThrdOffset.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
+            this.buttonThrdOffset.Size = new System.Drawing.Size(247, 46);
             this.buttonThrdOffset.TabIndex = 0;
             this.buttonThrdOffset.TabStop = false;
             this.buttonThrdOffset.Text = "         Оффсет";
@@ -530,10 +532,10 @@ namespace Cluster.UI
             this.panelLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Padding = new System.Windows.Forms.Padding(0, 0, 0, 1);
-            this.panelLogo.Size = new System.Drawing.Size(185, 62);
+            this.panelLogo.Size = new System.Drawing.Size(247, 76);
             this.panelLogo.TabIndex = 1;
             // 
             // panelChildForm
@@ -543,23 +545,24 @@ namespace Cluster.UI
             this.panelChildForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelChildForm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelChildForm.Location = new System.Drawing.Point(186, 32);
-            this.panelChildForm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelChildForm.Location = new System.Drawing.Point(248, 39);
+            this.panelChildForm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(978, 683);
+            this.panelChildForm.Size = new System.Drawing.Size(1304, 841);
             this.panelChildForm.TabIndex = 2;
             // 
             // panelChildFormName
             // 
             this.panelChildFormName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
             this.panelChildFormName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelChildFormName.Controls.Add(this.labelHeaderName);
             this.panelChildFormName.Controls.Add(this.buttonCloseChildForm);
             this.panelChildFormName.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelChildFormName.Location = new System.Drawing.Point(186, 32);
-            this.panelChildFormName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelChildFormName.Location = new System.Drawing.Point(248, 39);
+            this.panelChildFormName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelChildFormName.Name = "panelChildFormName";
-            this.panelChildFormName.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panelChildFormName.Size = new System.Drawing.Size(978, 62);
+            this.panelChildFormName.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelChildFormName.Size = new System.Drawing.Size(1304, 76);
             this.panelChildFormName.TabIndex = 1;
             // 
             // buttonCloseChildForm
@@ -573,10 +576,10 @@ namespace Cluster.UI
             this.buttonCloseChildForm.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.buttonCloseChildForm.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
             this.buttonCloseChildForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCloseChildForm.Location = new System.Drawing.Point(943, 32);
-            this.buttonCloseChildForm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonCloseChildForm.Location = new System.Drawing.Point(1258, 39);
+            this.buttonCloseChildForm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonCloseChildForm.Name = "buttonCloseChildForm";
-            this.buttonCloseChildForm.Size = new System.Drawing.Size(29, 24);
+            this.buttonCloseChildForm.Size = new System.Drawing.Size(39, 30);
             this.buttonCloseChildForm.TabIndex = 0;
             this.buttonCloseChildForm.UseVisualStyleBackColor = false;
             this.buttonCloseChildForm.Visible = false;
@@ -586,8 +589,9 @@ namespace Cluster.UI
             // 
             this.pictureBox1.Image = global::Cluster.UI.Properties.Resources._1;
             this.pictureBox1.Location = new System.Drawing.Point(1, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(109, 28);
+            this.pictureBox1.Size = new System.Drawing.Size(145, 34);
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
@@ -601,10 +605,10 @@ namespace Cluster.UI
             this.buttonMinimizeApp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.buttonMinimizeApp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
             this.buttonMinimizeApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonMinimizeApp.Location = new System.Drawing.Point(1067, 4);
-            this.buttonMinimizeApp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonMinimizeApp.Location = new System.Drawing.Point(1423, 5);
+            this.buttonMinimizeApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonMinimizeApp.Name = "buttonMinimizeApp";
-            this.buttonMinimizeApp.Size = new System.Drawing.Size(29, 24);
+            this.buttonMinimizeApp.Size = new System.Drawing.Size(39, 30);
             this.buttonMinimizeApp.TabIndex = 5;
             this.buttonMinimizeApp.UseVisualStyleBackColor = false;
             this.buttonMinimizeApp.Click += new System.EventHandler(this.buttonMinimizeApp_Click);
@@ -619,10 +623,10 @@ namespace Cluster.UI
             this.buttonFullScreenApp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.buttonFullScreenApp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
             this.buttonFullScreenApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonFullScreenApp.Location = new System.Drawing.Point(1099, 5);
-            this.buttonFullScreenApp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonFullScreenApp.Location = new System.Drawing.Point(1465, 6);
+            this.buttonFullScreenApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonFullScreenApp.Name = "buttonFullScreenApp";
-            this.buttonFullScreenApp.Size = new System.Drawing.Size(29, 24);
+            this.buttonFullScreenApp.Size = new System.Drawing.Size(39, 30);
             this.buttonFullScreenApp.TabIndex = 4;
             this.buttonFullScreenApp.UseVisualStyleBackColor = false;
             this.buttonFullScreenApp.Click += new System.EventHandler(this.buttonFullScreenApp_Click);
@@ -637,20 +641,32 @@ namespace Cluster.UI
             this.buttonCloseApp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.buttonCloseApp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
             this.buttonCloseApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCloseApp.Location = new System.Drawing.Point(1131, 5);
-            this.buttonCloseApp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonCloseApp.Location = new System.Drawing.Point(1508, 6);
+            this.buttonCloseApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonCloseApp.Name = "buttonCloseApp";
-            this.buttonCloseApp.Size = new System.Drawing.Size(29, 24);
+            this.buttonCloseApp.Size = new System.Drawing.Size(39, 30);
             this.buttonCloseApp.TabIndex = 3;
             this.buttonCloseApp.UseVisualStyleBackColor = false;
             this.buttonCloseApp.Click += new System.EventHandler(this.buttonCloseApp_Click);
             // 
+            // labelHeaderName
+            // 
+            this.labelHeaderName.AutoSize = true;
+            this.labelHeaderName.Font = new System.Drawing.Font("Verdana", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelHeaderName.ForeColor = System.Drawing.Color.Black;
+            this.labelHeaderName.Location = new System.Drawing.Point(466, 29);
+            this.labelHeaderName.Name = "labelHeaderName";
+            this.labelHeaderName.Size = new System.Drawing.Size(278, 36);
+            this.labelHeaderName.TabIndex = 1;
+            this.labelHeaderName.Text = "Главный экран";
+            this.labelHeaderName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(74)))), ((int)(((byte)(98)))));
-            this.ClientSize = new System.Drawing.Size(1167, 718);
+            this.ClientSize = new System.Drawing.Size(1556, 884);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panelChildFormName);
             this.Controls.Add(this.buttonMinimizeApp);
@@ -662,10 +678,10 @@ namespace Cluster.UI
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.MinimumSize = new System.Drawing.Size(1150, 700);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MinimumSize = new System.Drawing.Size(1533, 862);
             this.Name = "Main";
-            this.Padding = new System.Windows.Forms.Padding(1, 32, 3, 3);
+            this.Padding = new System.Windows.Forms.Padding(1, 39, 4, 4);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CLUSTER";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -676,6 +692,7 @@ namespace Cluster.UI
             this.panelThrdToolsSubMenu.ResumeLayout(false);
             this.panelThrdOffsetSubMenu.ResumeLayout(false);
             this.panelChildFormName.ResumeLayout(false);
+            this.panelChildFormName.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -714,6 +731,7 @@ namespace Cluster.UI
         private PictureBox pictureBox1;
         private Panel panelLogo;
         private PictureBox pictureBox2;
+        private Label labelHeaderName;
     }
 }
 

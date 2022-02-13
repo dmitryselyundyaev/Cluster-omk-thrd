@@ -96,6 +96,18 @@ namespace Cluster.UI
         /// <summary>
         /// If sub menu is visible == close it.
         /// </summary>
+        /// 
+        public void ChildFormHeaderName()
+        {
+            if(ActiveButton != null)
+            {
+                labelHeaderName.Text = ActiveButton.Text;
+            }
+            else
+            {
+                labelHeaderName.Text = "Главный экран";
+            }
+        }
         private void HideSubMenu()
         {
             if (panelThrdOffsetSubMenu.Visible == true)
@@ -139,6 +151,7 @@ namespace Cluster.UI
                 ActiveButton.BackColor = Color.FromArgb(37, 94, 126);
                 ActiveButton.Enabled = true;
                 ActiveButton = null;
+                ChildFormHeaderName();
             }
             else if (ActiveButton != null)
             {
@@ -147,12 +160,14 @@ namespace Cluster.UI
                 ActiveButton = btn;
                 ActiveButton.BackColor = System.Drawing.Color.Maroon;
                 ActiveButton.Enabled = false;
+                ChildFormHeaderName();
             }
             else
             {
                 ActiveButton = btn;
                 ActiveButton.BackColor = System.Drawing.Color.Maroon;
                 ActiveButton.Enabled = false;
+                ChildFormHeaderName();
             }
 
             

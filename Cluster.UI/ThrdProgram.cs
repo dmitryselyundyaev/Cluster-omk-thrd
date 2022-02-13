@@ -22,8 +22,8 @@ namespace Cluster.UI
         {
             DesignButtons(ch1);
             listBoxFolderContent.Items.Clear();
-            string[] folderContent = Directory.GetFiles("/Projects/Cluster/Cluster.BL/CncProgramms/CH1");
-            SelectedPath = "/Projects/Cluster/Cluster.BL/CncProgramms/CH1";
+            string[] folderContent = Directory.GetFiles("./CncPrograms/CH1");
+            SelectedPath = "./CncPrograms/CH1";
             foreach (var file in folderContent)
             {
                 listBoxFolderContent.Items.Add(Path.GetFileName(file));
@@ -34,8 +34,8 @@ namespace Cluster.UI
         {
             DesignButtons(ch2);
             listBoxFolderContent.Items.Clear();
-            string[] folderContent = Directory.GetFiles("/Projects/Cluster/Cluster.BL/CncProgramms/CH2");
-            SelectedPath = "/Projects/Cluster/Cluster.BL/CncProgramms/CH2";
+            string[] folderContent = Directory.GetFiles("./CncPrograms/CH2");
+            SelectedPath = "./CncPrograms/CH2";
             foreach (var file in folderContent)
             {
                 listBoxFolderContent.Items.Add(Path.GetFileName(file));
@@ -46,8 +46,8 @@ namespace Cluster.UI
         {
             DesignButtons(tableAndPlug);
             listBoxFolderContent.Items.Clear();
-            string[] folderContent = Directory.GetFiles("/Projects/Cluster/Cluster.BL/CncProgramms/TABLE+PLUG");
-            SelectedPath = "/Projects/Cluster/Cluster.BL/CncProgramms/TABLE+PLUG";
+            string[] folderContent = Directory.GetFiles("./CncPrograms/TABLE+PLUG");
+            SelectedPath = "./CncPrograms/TABLE+PLUG";
             foreach (var file in folderContent)
             {
                 listBoxFolderContent.Items.Add(Path.GetFileName(file));
