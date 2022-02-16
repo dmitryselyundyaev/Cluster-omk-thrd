@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cluster.UI", "Cluster.UI\Cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cluster.BL", "Cluster.BL\Cluster.BL.csproj", "{820A6366-B445-4572-AB8D-A1C31AC11547}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FD485B5A-047B-47F7-90BE-389FFEFDBE78}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ClusterSetup", "ClusterSetup\ClusterSetup.vdproj", "{5A4A0F29-E159-4CE6-8421-6BCDA106D857}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,9 +25,10 @@ Global
 		{820E4365-9D16-49EA-A5B8-43944397A2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{820E4365-9D16-49EA-A5B8-43944397A2B6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{820A6366-B445-4572-AB8D-A1C31AC11547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{820A6366-B445-4572-AB8D-A1C31AC11547}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{820A6366-B445-4572-AB8D-A1C31AC11547}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{820A6366-B445-4572-AB8D-A1C31AC11547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A4A0F29-E159-4CE6-8421-6BCDA106D857}.Debug|Any CPU.ActiveCfg = Debug
+		{5A4A0F29-E159-4CE6-8421-6BCDA106D857}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

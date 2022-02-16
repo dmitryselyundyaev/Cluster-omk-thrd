@@ -85,6 +85,7 @@ namespace Cluster.UI
                 addedCh1.Y2 = Convert.ToDecimal(maskedTextBoxY2.Text);
                 addedCh1.Y3 = Convert.ToDecimal(maskedTextBoxY3.Text);
                 addedCh1.Y4 = Convert.ToDecimal(maskedTextBoxY4.Text);
+                addedCh1.Y5 = Convert.ToDecimal(maskedTextBoxY5.Text);
                 var addedCh2 = new ChannelTwo();
                 addedCh2.X1 = Convert.ToDecimal(maskedTextBoxCH2X1.Text);
                 addedCh2.Z1 = Convert.ToDecimal(maskedTextBoxCH2Z1.Text);
@@ -143,6 +144,9 @@ namespace Cluster.UI
                 if (database.OffsetDatas.Count() > dbCount)
                 {
                     labelIsSaved.Show();
+                    comboBoxMachineNumber.BackColor = Color.LightYellow;
+                    comboBoxProductDiameter.BackColor = Color.LightYellow;
+                    comboBoxThreadType.BackColor = Color.LightYellow;
                 }
                 else
                 {

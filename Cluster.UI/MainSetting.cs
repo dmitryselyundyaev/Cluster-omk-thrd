@@ -13,7 +13,7 @@ namespace Cluster.UI
 
         private void buttonRestoreDataBase_Click(object sender, System.EventArgs e)
         {
-            if(textBoxPassword.Text == "adminadmin")
+            if(textBoxPassword.Text == "yfkflxbr")
             {
                 folderBrowserDialog.Description = "Укажите путь к файлу";
                 if (folderBrowserDialog.ShowDialog() == DialogResult.OK)

@@ -36,7 +36,7 @@ namespace Cluster.BL.Model.Tables
 
         public override string ToString()
         {
-            return $"Станок:{Machine}           Сортамент:{Product.ThreadType}/{Product.Diameter}          От:{Created}";
+            return $"Станок:{Machine} | Сортамент:{Product.ThreadType}/{Product.Diameter} | От:{Created}";
         }
     }
 }

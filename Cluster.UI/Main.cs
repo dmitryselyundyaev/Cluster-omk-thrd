@@ -62,7 +62,7 @@ namespace Cluster.UI
         /// <summary>
         /// Current form.
         /// </summary>
-        private Form ActiveForm = null;
+        public Form ActiveForm = null;
         /// <summary>
         /// Opening child form method.
         /// </summary>
@@ -158,14 +158,14 @@ namespace Cluster.UI
                 ActiveButton.Enabled = true;
                 ActiveButton.BackColor = Color.FromArgb(37, 94, 126);
                 ActiveButton = btn;
-                ActiveButton.BackColor = System.Drawing.Color.Maroon;
+                ActiveButton.BackColor = System.Drawing.Color.GhostWhite;
                 ActiveButton.Enabled = false;
                 ChildFormHeaderName();
             }
             else
             {
                 ActiveButton = btn;
-                ActiveButton.BackColor = System.Drawing.Color.Maroon;
+                ActiveButton.BackColor = System.Drawing.Color.GhostWhite;
                 ActiveButton.Enabled = false;
                 ChildFormHeaderName();
             }
@@ -297,5 +297,31 @@ namespace Cluster.UI
             OpenChildForm(new MainSetting());
         }
         #endregion
+
+        private void panelLogo_Paint(object sender, PaintEventArgs e)
+        {
+            panelLogo.DoubleClick += PanelLogo_DoubleClick;
+        }
+        public Timer T = new Timer();
+        public int EggCounter = 0;
+        private void PanelLogo_DoubleClick(object sender, EventArgs e)
+        {
+            if (!pictureBoxCOWUFO.Visible && EggCounter < 1)
+            {
+                pictureBoxCOWUFO.Visible = true;
+                T.Interval = 5000;
+                T.Tick += new EventHandler(PlayTime);
+                T.Start();
+                EggCounter++;
+                
+            }
+        }
+
+        private void PlayTime(object sender, EventArgs e)
+        {
+
+            pictureBoxCOWUFO.Visible = false;
+            T.Stop();
+        }
     }
 }

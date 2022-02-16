@@ -33,6 +33,7 @@ namespace Cluster.BL.Model.Tables
         public decimal? Y2 { get; set; }
         public decimal? Y3 { get; set; }
         public decimal? Y4 { get; set; }
+        public decimal? Y5 { get; set; }
         public override string ToString()
         {
             return $"{Channel1Id}";

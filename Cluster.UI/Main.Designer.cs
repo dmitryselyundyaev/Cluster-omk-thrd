@@ -34,50 +34,52 @@ namespace Cluster.UI
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.panelSidaMenu = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.buttonSettings = new System.Windows.Forms.Button();
+            this.labelCreators = new System.Windows.Forms.Label();
             this.panelThrdDocuments = new System.Windows.Forms.Panel();
+            this.panelThrdFaqSubMenu = new System.Windows.Forms.Panel();
+            this.panelThrdToolsSubMenu = new System.Windows.Forms.Panel();
+            this.panelThrdOffsetSubMenu = new System.Windows.Forms.Panel();
+            this.panelChildForm = new System.Windows.Forms.Panel();
+            this.panelChildFormName = new System.Windows.Forms.Panel();
+            this.labelHeaderName = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.buttonCloseChildForm = new System.Windows.Forms.Button();
+            this.buttonMinimizeApp = new System.Windows.Forms.Button();
+            this.buttonFullScreenApp = new System.Windows.Forms.Button();
+            this.buttonCloseApp = new System.Windows.Forms.Button();
+            this.pictureBoxCOWUFO = new System.Windows.Forms.PictureBox();
+            this.buttonSettings = new System.Windows.Forms.Button();
             this.buttonThrdSetUpCards = new System.Windows.Forms.Button();
             this.buttonThrdKPVOTubeTime = new System.Windows.Forms.Button();
             this.buttonThrdKPVOThread = new System.Windows.Forms.Button();
             this.buttonThrdDocuments = new System.Windows.Forms.Button();
-            this.panelThrdFaqSubMenu = new System.Windows.Forms.Panel();
             this.buttonThrdSetUpProblems = new System.Windows.Forms.Button();
             this.buttonThrdFAQProblems = new System.Windows.Forms.Button();
             this.buttonThrdFaq = new System.Windows.Forms.Button();
-            this.panelThrdToolsSubMenu = new System.Windows.Forms.Panel();
             this.buttonThrdSpeedSetUp = new System.Windows.Forms.Button();
             this.buttonThrdProgramList = new System.Windows.Forms.Button();
             this.buttonThrdMachineGeometry = new System.Windows.Forms.Button();
             this.buttonThrdTools = new System.Windows.Forms.Button();
-            this.panelThrdOffsetSubMenu = new System.Windows.Forms.Panel();
             this.buttonThrdOffsetView = new System.Windows.Forms.Button();
             this.buttonThrdOffsetAdd = new System.Windows.Forms.Button();
             this.buttonThrdOffset = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
-            this.panelChildForm = new System.Windows.Forms.Panel();
-            this.panelChildFormName = new System.Windows.Forms.Panel();
-            this.labelHeaderName = new System.Windows.Forms.Label();
-            this.buttonCloseChildForm = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.buttonMinimizeApp = new System.Windows.Forms.Button();
-            this.buttonFullScreenApp = new System.Windows.Forms.Button();
-            this.buttonCloseApp = new System.Windows.Forms.Button();
             this.panelSidaMenu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelThrdDocuments.SuspendLayout();
             this.panelThrdFaqSubMenu.SuspendLayout();
             this.panelThrdToolsSubMenu.SuspendLayout();
             this.panelThrdOffsetSubMenu.SuspendLayout();
             this.panelChildFormName.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCOWUFO)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSidaMenu
             // 
             this.panelSidaMenu.AutoScroll = true;
             this.panelSidaMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
-            this.panelSidaMenu.Controls.Add(this.pictureBox2);
+            this.panelSidaMenu.Controls.Add(this.pictureBoxCOWUFO);
+            this.panelSidaMenu.Controls.Add(this.labelCreators);
             this.panelSidaMenu.Controls.Add(this.buttonSettings);
             this.panelSidaMenu.Controls.Add(this.panelThrdDocuments);
             this.panelSidaMenu.Controls.Add(this.buttonThrdDocuments);
@@ -92,18 +94,204 @@ namespace Cluster.UI
             this.panelSidaMenu.Location = new System.Drawing.Point(1, 39);
             this.panelSidaMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelSidaMenu.Name = "panelSidaMenu";
-            this.panelSidaMenu.Size = new System.Drawing.Size(247, 841);
+            this.panelSidaMenu.Size = new System.Drawing.Size(247, 866);
             this.panelSidaMenu.TabIndex = 0;
             // 
-            // pictureBox2
+            // labelCreators
             // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 754);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(247, 62);
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
+            this.labelCreators.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(74)))), ((int)(((byte)(98)))));
+            this.labelCreators.Dock = System.Windows.Forms.DockStyle.Top;
+            this.labelCreators.Font = new System.Drawing.Font("Unispace", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCreators.Location = new System.Drawing.Point(0, 754);
+            this.labelCreators.Name = "labelCreators";
+            this.labelCreators.Size = new System.Drawing.Size(247, 24);
+            this.labelCreators.TabIndex = 10;
+            this.labelCreators.Text = "DSelyundyaev/MSuroegin";
+            this.labelCreators.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panelThrdDocuments
+            // 
+            this.panelThrdDocuments.BackColor = System.Drawing.Color.Teal;
+            this.panelThrdDocuments.Controls.Add(this.buttonThrdSetUpCards);
+            this.panelThrdDocuments.Controls.Add(this.buttonThrdKPVOTubeTime);
+            this.panelThrdDocuments.Controls.Add(this.buttonThrdKPVOThread);
+            this.panelThrdDocuments.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelThrdDocuments.Location = new System.Drawing.Point(0, 571);
+            this.panelThrdDocuments.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelThrdDocuments.Name = "panelThrdDocuments";
+            this.panelThrdDocuments.Size = new System.Drawing.Size(247, 137);
+            this.panelThrdDocuments.TabIndex = 7;
+            // 
+            // panelThrdFaqSubMenu
+            // 
+            this.panelThrdFaqSubMenu.BackColor = System.Drawing.Color.Teal;
+            this.panelThrdFaqSubMenu.Controls.Add(this.buttonThrdSetUpProblems);
+            this.panelThrdFaqSubMenu.Controls.Add(this.buttonThrdFAQProblems);
+            this.panelThrdFaqSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelThrdFaqSubMenu.Location = new System.Drawing.Point(0, 436);
+            this.panelThrdFaqSubMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelThrdFaqSubMenu.Name = "panelThrdFaqSubMenu";
+            this.panelThrdFaqSubMenu.Size = new System.Drawing.Size(247, 89);
+            this.panelThrdFaqSubMenu.TabIndex = 1;
+            // 
+            // panelThrdToolsSubMenu
+            // 
+            this.panelThrdToolsSubMenu.BackColor = System.Drawing.Color.Teal;
+            this.panelThrdToolsSubMenu.Controls.Add(this.buttonThrdSpeedSetUp);
+            this.panelThrdToolsSubMenu.Controls.Add(this.buttonThrdProgramList);
+            this.panelThrdToolsSubMenu.Controls.Add(this.buttonThrdMachineGeometry);
+            this.panelThrdToolsSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelThrdToolsSubMenu.Location = new System.Drawing.Point(0, 258);
+            this.panelThrdToolsSubMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelThrdToolsSubMenu.Name = "panelThrdToolsSubMenu";
+            this.panelThrdToolsSubMenu.Size = new System.Drawing.Size(247, 132);
+            this.panelThrdToolsSubMenu.TabIndex = 4;
+            // 
+            // panelThrdOffsetSubMenu
+            // 
+            this.panelThrdOffsetSubMenu.BackColor = System.Drawing.Color.Teal;
+            this.panelThrdOffsetSubMenu.Controls.Add(this.buttonThrdOffsetView);
+            this.panelThrdOffsetSubMenu.Controls.Add(this.buttonThrdOffsetAdd);
+            this.panelThrdOffsetSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelThrdOffsetSubMenu.Location = new System.Drawing.Point(0, 122);
+            this.panelThrdOffsetSubMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelThrdOffsetSubMenu.Name = "panelThrdOffsetSubMenu";
+            this.panelThrdOffsetSubMenu.Size = new System.Drawing.Size(247, 90);
+            this.panelThrdOffsetSubMenu.TabIndex = 2;
+            // 
+            // panelChildForm
+            // 
+            this.panelChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(74)))), ((int)(((byte)(98)))));
+            this.panelChildForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelChildForm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelChildForm.Location = new System.Drawing.Point(248, 39);
+            this.panelChildForm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelChildForm.Name = "panelChildForm";
+            this.panelChildForm.Size = new System.Drawing.Size(1402, 866);
+            this.panelChildForm.TabIndex = 2;
+            // 
+            // panelChildFormName
+            // 
+            this.panelChildFormName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
+            this.panelChildFormName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelChildFormName.Controls.Add(this.labelHeaderName);
+            this.panelChildFormName.Controls.Add(this.buttonCloseChildForm);
+            this.panelChildFormName.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelChildFormName.Location = new System.Drawing.Point(248, 39);
+            this.panelChildFormName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelChildFormName.Name = "panelChildFormName";
+            this.panelChildFormName.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelChildFormName.Size = new System.Drawing.Size(1402, 76);
+            this.panelChildFormName.TabIndex = 1;
+            // 
+            // labelHeaderName
+            // 
+            this.labelHeaderName.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelHeaderName.AutoSize = true;
+            this.labelHeaderName.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelHeaderName.ForeColor = System.Drawing.Color.Black;
+            this.labelHeaderName.Location = new System.Drawing.Point(467, 29);
+            this.labelHeaderName.Name = "labelHeaderName";
+            this.labelHeaderName.Size = new System.Drawing.Size(250, 36);
+            this.labelHeaderName.TabIndex = 1;
+            this.labelHeaderName.Text = "Главный экран";
+            this.labelHeaderName.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Cluster.UI.Properties.Resources._1;
+            this.pictureBox1.Location = new System.Drawing.Point(1, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(152, 34);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
+            // buttonCloseChildForm
+            // 
+            this.buttonCloseChildForm.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonCloseChildForm.BackColor = System.Drawing.Color.Transparent;
+            this.buttonCloseChildForm.BackgroundImage = global::Cluster.UI.Properties.Resources.close;
+            this.buttonCloseChildForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonCloseChildForm.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.buttonCloseChildForm.FlatAppearance.BorderSize = 0;
+            this.buttonCloseChildForm.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonCloseChildForm.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
+            this.buttonCloseChildForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCloseChildForm.Location = new System.Drawing.Point(1356, 39);
+            this.buttonCloseChildForm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonCloseChildForm.Name = "buttonCloseChildForm";
+            this.buttonCloseChildForm.Size = new System.Drawing.Size(39, 30);
+            this.buttonCloseChildForm.TabIndex = 0;
+            this.buttonCloseChildForm.UseVisualStyleBackColor = false;
+            this.buttonCloseChildForm.Visible = false;
+            this.buttonCloseChildForm.Click += new System.EventHandler(this.buttonCloseChildForm_Click);
+            // 
+            // buttonMinimizeApp
+            // 
+            this.buttonMinimizeApp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonMinimizeApp.BackColor = System.Drawing.Color.Transparent;
+            this.buttonMinimizeApp.BackgroundImage = global::Cluster.UI.Properties.Resources.dropdown;
+            this.buttonMinimizeApp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonMinimizeApp.FlatAppearance.BorderSize = 0;
+            this.buttonMinimizeApp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonMinimizeApp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
+            this.buttonMinimizeApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonMinimizeApp.Location = new System.Drawing.Point(1521, 5);
+            this.buttonMinimizeApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonMinimizeApp.Name = "buttonMinimizeApp";
+            this.buttonMinimizeApp.Size = new System.Drawing.Size(39, 30);
+            this.buttonMinimizeApp.TabIndex = 5;
+            this.buttonMinimizeApp.UseVisualStyleBackColor = false;
+            this.buttonMinimizeApp.Click += new System.EventHandler(this.buttonMinimizeApp_Click);
+            // 
+            // buttonFullScreenApp
+            // 
+            this.buttonFullScreenApp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonFullScreenApp.BackColor = System.Drawing.Color.Transparent;
+            this.buttonFullScreenApp.BackgroundImage = global::Cluster.UI.Properties.Resources.maximize;
+            this.buttonFullScreenApp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonFullScreenApp.FlatAppearance.BorderSize = 0;
+            this.buttonFullScreenApp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonFullScreenApp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
+            this.buttonFullScreenApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFullScreenApp.Location = new System.Drawing.Point(1563, 6);
+            this.buttonFullScreenApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonFullScreenApp.Name = "buttonFullScreenApp";
+            this.buttonFullScreenApp.Size = new System.Drawing.Size(39, 30);
+            this.buttonFullScreenApp.TabIndex = 4;
+            this.buttonFullScreenApp.UseVisualStyleBackColor = false;
+            this.buttonFullScreenApp.Click += new System.EventHandler(this.buttonFullScreenApp_Click);
+            // 
+            // buttonCloseApp
+            // 
+            this.buttonCloseApp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonCloseApp.BackColor = System.Drawing.Color.Transparent;
+            this.buttonCloseApp.BackgroundImage = global::Cluster.UI.Properties.Resources.close;
+            this.buttonCloseApp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonCloseApp.FlatAppearance.BorderSize = 0;
+            this.buttonCloseApp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonCloseApp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
+            this.buttonCloseApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCloseApp.Location = new System.Drawing.Point(1606, 6);
+            this.buttonCloseApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonCloseApp.Name = "buttonCloseApp";
+            this.buttonCloseApp.Size = new System.Drawing.Size(39, 30);
+            this.buttonCloseApp.TabIndex = 3;
+            this.buttonCloseApp.UseVisualStyleBackColor = false;
+            this.buttonCloseApp.Click += new System.EventHandler(this.buttonCloseApp_Click);
+            // 
+            // pictureBoxCOWUFO
+            // 
+            this.pictureBoxCOWUFO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(160)))), ((int)(((byte)(100)))));
+            this.pictureBoxCOWUFO.Image = global::Cluster.UI.Properties.Resources.cowufo;
+            this.pictureBoxCOWUFO.Location = new System.Drawing.Point(-52, 73);
+            this.pictureBoxCOWUFO.Name = "pictureBoxCOWUFO";
+            this.pictureBoxCOWUFO.Size = new System.Drawing.Size(299, 793);
+            this.pictureBoxCOWUFO.TabIndex = 0;
+            this.pictureBoxCOWUFO.TabStop = false;
+            this.pictureBoxCOWUFO.Visible = false;
             // 
             // buttonSettings
             // 
@@ -128,19 +316,6 @@ namespace Cluster.UI
             this.buttonSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonSettings.UseVisualStyleBackColor = false;
             this.buttonSettings.Click += new System.EventHandler(this.buttonSettings_Click);
-            // 
-            // panelThrdDocuments
-            // 
-            this.panelThrdDocuments.BackColor = System.Drawing.Color.Teal;
-            this.panelThrdDocuments.Controls.Add(this.buttonThrdSetUpCards);
-            this.panelThrdDocuments.Controls.Add(this.buttonThrdKPVOTubeTime);
-            this.panelThrdDocuments.Controls.Add(this.buttonThrdKPVOThread);
-            this.panelThrdDocuments.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelThrdDocuments.Location = new System.Drawing.Point(0, 571);
-            this.panelThrdDocuments.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelThrdDocuments.Name = "panelThrdDocuments";
-            this.panelThrdDocuments.Size = new System.Drawing.Size(247, 137);
-            this.panelThrdDocuments.TabIndex = 7;
             // 
             // buttonThrdSetUpCards
             // 
@@ -241,18 +416,6 @@ namespace Cluster.UI
             this.buttonThrdDocuments.UseVisualStyleBackColor = false;
             this.buttonThrdDocuments.Click += new System.EventHandler(this.buttonThrdDocuments_Click);
             // 
-            // panelThrdFaqSubMenu
-            // 
-            this.panelThrdFaqSubMenu.BackColor = System.Drawing.Color.Teal;
-            this.panelThrdFaqSubMenu.Controls.Add(this.buttonThrdSetUpProblems);
-            this.panelThrdFaqSubMenu.Controls.Add(this.buttonThrdFAQProblems);
-            this.panelThrdFaqSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelThrdFaqSubMenu.Location = new System.Drawing.Point(0, 436);
-            this.panelThrdFaqSubMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelThrdFaqSubMenu.Name = "panelThrdFaqSubMenu";
-            this.panelThrdFaqSubMenu.Size = new System.Drawing.Size(247, 89);
-            this.panelThrdFaqSubMenu.TabIndex = 1;
-            // 
             // buttonThrdSetUpProblems
             // 
             this.buttonThrdSetUpProblems.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(94)))), ((int)(((byte)(126)))));
@@ -326,19 +489,6 @@ namespace Cluster.UI
             this.buttonThrdFaq.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonThrdFaq.UseVisualStyleBackColor = false;
             this.buttonThrdFaq.Click += new System.EventHandler(this.buttonThrdFaq_Click);
-            // 
-            // panelThrdToolsSubMenu
-            // 
-            this.panelThrdToolsSubMenu.BackColor = System.Drawing.Color.Teal;
-            this.panelThrdToolsSubMenu.Controls.Add(this.buttonThrdSpeedSetUp);
-            this.panelThrdToolsSubMenu.Controls.Add(this.buttonThrdProgramList);
-            this.panelThrdToolsSubMenu.Controls.Add(this.buttonThrdMachineGeometry);
-            this.panelThrdToolsSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelThrdToolsSubMenu.Location = new System.Drawing.Point(0, 258);
-            this.panelThrdToolsSubMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelThrdToolsSubMenu.Name = "panelThrdToolsSubMenu";
-            this.panelThrdToolsSubMenu.Size = new System.Drawing.Size(247, 132);
-            this.panelThrdToolsSubMenu.TabIndex = 4;
             // 
             // buttonThrdSpeedSetUp
             // 
@@ -439,18 +589,6 @@ namespace Cluster.UI
             this.buttonThrdTools.UseVisualStyleBackColor = false;
             this.buttonThrdTools.Click += new System.EventHandler(this.buttonThrdTools_Click);
             // 
-            // panelThrdOffsetSubMenu
-            // 
-            this.panelThrdOffsetSubMenu.BackColor = System.Drawing.Color.Teal;
-            this.panelThrdOffsetSubMenu.Controls.Add(this.buttonThrdOffsetView);
-            this.panelThrdOffsetSubMenu.Controls.Add(this.buttonThrdOffsetAdd);
-            this.panelThrdOffsetSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelThrdOffsetSubMenu.Location = new System.Drawing.Point(0, 122);
-            this.panelThrdOffsetSubMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelThrdOffsetSubMenu.Name = "panelThrdOffsetSubMenu";
-            this.panelThrdOffsetSubMenu.Size = new System.Drawing.Size(247, 90);
-            this.panelThrdOffsetSubMenu.TabIndex = 2;
-            // 
             // buttonThrdOffsetView
             // 
             this.buttonThrdOffsetView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(94)))), ((int)(((byte)(126)))));
@@ -537,137 +675,14 @@ namespace Cluster.UI
             this.panelLogo.Padding = new System.Windows.Forms.Padding(0, 0, 0, 1);
             this.panelLogo.Size = new System.Drawing.Size(247, 76);
             this.panelLogo.TabIndex = 1;
-            // 
-            // panelChildForm
-            // 
-            this.panelChildForm.AutoSize = true;
-            this.panelChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(74)))), ((int)(((byte)(98)))));
-            this.panelChildForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelChildForm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelChildForm.Location = new System.Drawing.Point(248, 39);
-            this.panelChildForm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(1304, 841);
-            this.panelChildForm.TabIndex = 2;
-            // 
-            // panelChildFormName
-            // 
-            this.panelChildFormName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(140)))), ((int)(((byte)(255)))));
-            this.panelChildFormName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelChildFormName.Controls.Add(this.labelHeaderName);
-            this.panelChildFormName.Controls.Add(this.buttonCloseChildForm);
-            this.panelChildFormName.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelChildFormName.Location = new System.Drawing.Point(248, 39);
-            this.panelChildFormName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelChildFormName.Name = "panelChildFormName";
-            this.panelChildFormName.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelChildFormName.Size = new System.Drawing.Size(1304, 76);
-            this.panelChildFormName.TabIndex = 1;
-            // 
-            // labelHeaderName
-            // 
-            this.labelHeaderName.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelHeaderName.AutoSize = true;
-            this.labelHeaderName.Font = new System.Drawing.Font("Verdana", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelHeaderName.ForeColor = System.Drawing.Color.Black;
-            this.labelHeaderName.Location = new System.Drawing.Point(418, 29);
-            this.labelHeaderName.Name = "labelHeaderName";
-            this.labelHeaderName.Size = new System.Drawing.Size(278, 36);
-            this.labelHeaderName.TabIndex = 1;
-            this.labelHeaderName.Text = "Главный экран";
-            this.labelHeaderName.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // buttonCloseChildForm
-            // 
-            this.buttonCloseChildForm.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonCloseChildForm.BackColor = System.Drawing.Color.Transparent;
-            this.buttonCloseChildForm.BackgroundImage = global::Cluster.UI.Properties.Resources.close;
-            this.buttonCloseChildForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonCloseChildForm.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.buttonCloseChildForm.FlatAppearance.BorderSize = 0;
-            this.buttonCloseChildForm.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.buttonCloseChildForm.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
-            this.buttonCloseChildForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCloseChildForm.Location = new System.Drawing.Point(1258, 39);
-            this.buttonCloseChildForm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonCloseChildForm.Name = "buttonCloseChildForm";
-            this.buttonCloseChildForm.Size = new System.Drawing.Size(39, 30);
-            this.buttonCloseChildForm.TabIndex = 0;
-            this.buttonCloseChildForm.UseVisualStyleBackColor = false;
-            this.buttonCloseChildForm.Visible = false;
-            this.buttonCloseChildForm.Click += new System.EventHandler(this.buttonCloseChildForm_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Cluster.UI.Properties.Resources._1;
-            this.pictureBox1.Location = new System.Drawing.Point(1, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(145, 34);
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            // 
-            // buttonMinimizeApp
-            // 
-            this.buttonMinimizeApp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonMinimizeApp.BackColor = System.Drawing.Color.Transparent;
-            this.buttonMinimizeApp.BackgroundImage = global::Cluster.UI.Properties.Resources.dropdown;
-            this.buttonMinimizeApp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonMinimizeApp.FlatAppearance.BorderSize = 0;
-            this.buttonMinimizeApp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.buttonMinimizeApp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
-            this.buttonMinimizeApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonMinimizeApp.Location = new System.Drawing.Point(1423, 5);
-            this.buttonMinimizeApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonMinimizeApp.Name = "buttonMinimizeApp";
-            this.buttonMinimizeApp.Size = new System.Drawing.Size(39, 30);
-            this.buttonMinimizeApp.TabIndex = 5;
-            this.buttonMinimizeApp.UseVisualStyleBackColor = false;
-            this.buttonMinimizeApp.Click += new System.EventHandler(this.buttonMinimizeApp_Click);
-            // 
-            // buttonFullScreenApp
-            // 
-            this.buttonFullScreenApp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonFullScreenApp.BackColor = System.Drawing.Color.Transparent;
-            this.buttonFullScreenApp.BackgroundImage = global::Cluster.UI.Properties.Resources.maximize;
-            this.buttonFullScreenApp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonFullScreenApp.FlatAppearance.BorderSize = 0;
-            this.buttonFullScreenApp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.buttonFullScreenApp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
-            this.buttonFullScreenApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonFullScreenApp.Location = new System.Drawing.Point(1465, 6);
-            this.buttonFullScreenApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonFullScreenApp.Name = "buttonFullScreenApp";
-            this.buttonFullScreenApp.Size = new System.Drawing.Size(39, 30);
-            this.buttonFullScreenApp.TabIndex = 4;
-            this.buttonFullScreenApp.UseVisualStyleBackColor = false;
-            this.buttonFullScreenApp.Click += new System.EventHandler(this.buttonFullScreenApp_Click);
-            // 
-            // buttonCloseApp
-            // 
-            this.buttonCloseApp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonCloseApp.BackColor = System.Drawing.Color.Transparent;
-            this.buttonCloseApp.BackgroundImage = global::Cluster.UI.Properties.Resources.close;
-            this.buttonCloseApp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonCloseApp.FlatAppearance.BorderSize = 0;
-            this.buttonCloseApp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.buttonCloseApp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
-            this.buttonCloseApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCloseApp.Location = new System.Drawing.Point(1508, 6);
-            this.buttonCloseApp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonCloseApp.Name = "buttonCloseApp";
-            this.buttonCloseApp.Size = new System.Drawing.Size(39, 30);
-            this.buttonCloseApp.TabIndex = 3;
-            this.buttonCloseApp.UseVisualStyleBackColor = false;
-            this.buttonCloseApp.Click += new System.EventHandler(this.buttonCloseApp_Click);
+            this.panelLogo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelLogo_Paint);
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(74)))), ((int)(((byte)(98)))));
-            this.ClientSize = new System.Drawing.Size(1556, 884);
+            this.ClientSize = new System.Drawing.Size(1654, 909);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panelChildFormName);
             this.Controls.Add(this.buttonMinimizeApp);
@@ -680,14 +695,13 @@ namespace Cluster.UI
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MinimumSize = new System.Drawing.Size(1533, 862);
+            this.MinimumSize = new System.Drawing.Size(1654, 909);
             this.Name = "Main";
             this.Padding = new System.Windows.Forms.Padding(1, 39, 4, 4);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CLUSTER";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panelSidaMenu.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panelThrdDocuments.ResumeLayout(false);
             this.panelThrdFaqSubMenu.ResumeLayout(false);
             this.panelThrdToolsSubMenu.ResumeLayout(false);
@@ -695,8 +709,8 @@ namespace Cluster.UI
             this.panelChildFormName.ResumeLayout(false);
             this.panelChildFormName.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCOWUFO)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -731,8 +745,9 @@ namespace Cluster.UI
         private System.Windows.Forms.Button buttonSettings;
         private PictureBox pictureBox1;
         private Panel panelLogo;
-        private PictureBox pictureBox2;
         private Label labelHeaderName;
+        private Label labelCreators;
+        private PictureBox pictureBoxCOWUFO;
     }
 }
 

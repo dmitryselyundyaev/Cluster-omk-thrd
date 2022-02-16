@@ -77,13 +77,13 @@ namespace Cluster.UI
             // AxisCheckButton
             // 
             this.AxisCheckButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.AxisCheckButton.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.AxisCheckButton.FlatAppearance.BorderColor = System.Drawing.Color.Maroon;
+            this.AxisCheckButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(94)))), ((int)(((byte)(126)))));
+            this.AxisCheckButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(156)))), ((int)(((byte)(255)))));
             this.AxisCheckButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.AxisCheckButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
             this.AxisCheckButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AxisCheckButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.AxisCheckButton.Location = new System.Drawing.Point(363, 608);
+            this.AxisCheckButton.ForeColor = System.Drawing.Color.White;
+            this.AxisCheckButton.Location = new System.Drawing.Point(512, 597);
             this.AxisCheckButton.Name = "AxisCheckButton";
             this.AxisCheckButton.Size = new System.Drawing.Size(344, 48);
             this.AxisCheckButton.TabIndex = 37;
@@ -97,9 +97,9 @@ namespace Cluster.UI
             this.Channel2Z.AutoSize = true;
             this.Channel2Z.BackColor = System.Drawing.Color.Transparent;
             this.Channel2Z.ForeColor = System.Drawing.Color.White;
-            this.Channel2Z.Location = new System.Drawing.Point(638, 105);
+            this.Channel2Z.Location = new System.Drawing.Point(793, 105);
             this.Channel2Z.Name = "Channel2Z";
-            this.Channel2Z.Size = new System.Drawing.Size(42, 13);
+            this.Channel2Z.Size = new System.Drawing.Size(48, 17);
             this.Channel2Z.TabIndex = 36;
             this.Channel2Z.Text = "#####";
             // 
@@ -109,9 +109,9 @@ namespace Cluster.UI
             this.Channel2X.AutoSize = true;
             this.Channel2X.BackColor = System.Drawing.Color.Transparent;
             this.Channel2X.ForeColor = System.Drawing.Color.White;
-            this.Channel2X.Location = new System.Drawing.Point(543, 311);
+            this.Channel2X.Location = new System.Drawing.Point(698, 311);
             this.Channel2X.Name = "Channel2X";
-            this.Channel2X.Size = new System.Drawing.Size(42, 13);
+            this.Channel2X.Size = new System.Drawing.Size(48, 17);
             this.Channel2X.TabIndex = 35;
             this.Channel2X.Text = "#####";
             // 
@@ -121,9 +121,9 @@ namespace Cluster.UI
             this.Channel1Y.AutoSize = true;
             this.Channel1Y.BackColor = System.Drawing.Color.Transparent;
             this.Channel1Y.ForeColor = System.Drawing.Color.White;
-            this.Channel1Y.Location = new System.Drawing.Point(433, 340);
+            this.Channel1Y.Location = new System.Drawing.Point(588, 340);
             this.Channel1Y.Name = "Channel1Y";
-            this.Channel1Y.Size = new System.Drawing.Size(42, 13);
+            this.Channel1Y.Size = new System.Drawing.Size(48, 17);
             this.Channel1Y.TabIndex = 34;
             this.Channel1Y.Text = "#####";
             // 
@@ -133,9 +133,9 @@ namespace Cluster.UI
             this.Channel1X.AutoSize = true;
             this.Channel1X.BackColor = System.Drawing.Color.Transparent;
             this.Channel1X.ForeColor = System.Drawing.Color.White;
-            this.Channel1X.Location = new System.Drawing.Point(433, 286);
+            this.Channel1X.Location = new System.Drawing.Point(588, 286);
             this.Channel1X.Name = "Channel1X";
-            this.Channel1X.Size = new System.Drawing.Size(42, 13);
+            this.Channel1X.Size = new System.Drawing.Size(48, 17);
             this.Channel1X.TabIndex = 33;
             this.Channel1X.Text = "#####";
             // 
@@ -145,9 +145,9 @@ namespace Cluster.UI
             this.Channel1Z.AutoSize = true;
             this.Channel1Z.BackColor = System.Drawing.Color.Transparent;
             this.Channel1Z.ForeColor = System.Drawing.Color.White;
-            this.Channel1Z.Location = new System.Drawing.Point(150, 299);
+            this.Channel1Z.Location = new System.Drawing.Point(305, 299);
             this.Channel1Z.Name = "Channel1Z";
-            this.Channel1Z.Size = new System.Drawing.Size(42, 13);
+            this.Channel1Z.Size = new System.Drawing.Size(48, 17);
             this.Channel1Z.TabIndex = 32;
             this.Channel1Z.Text = "#####";
             // 
@@ -157,9 +157,9 @@ namespace Cluster.UI
             this.X1Z.AutoSize = true;
             this.X1Z.BackColor = System.Drawing.Color.Transparent;
             this.X1Z.ForeColor = System.Drawing.Color.White;
-            this.X1Z.Location = new System.Drawing.Point(130, 286);
+            this.X1Z.Location = new System.Drawing.Point(285, 286);
             this.X1Z.Name = "X1Z";
-            this.X1Z.Size = new System.Drawing.Size(62, 13);
+            this.X1Z.Size = new System.Drawing.Size(82, 17);
             this.X1Z.TabIndex = 31;
             this.X1Z.Text = "Channel1-Z";
             // 
@@ -169,9 +169,9 @@ namespace Cluster.UI
             this.X1X.AutoSize = true;
             this.X1X.BackColor = System.Drawing.Color.Transparent;
             this.X1X.ForeColor = System.Drawing.Color.White;
-            this.X1X.Location = new System.Drawing.Point(433, 269);
+            this.X1X.Location = new System.Drawing.Point(588, 269);
             this.X1X.Name = "X1X";
-            this.X1X.Size = new System.Drawing.Size(62, 13);
+            this.X1X.Size = new System.Drawing.Size(82, 17);
             this.X1X.TabIndex = 30;
             this.X1X.Text = "Channel1-X";
             // 
@@ -181,9 +181,9 @@ namespace Cluster.UI
             this.X1Y.AutoSize = true;
             this.X1Y.BackColor = System.Drawing.Color.Transparent;
             this.X1Y.ForeColor = System.Drawing.Color.White;
-            this.X1Y.Location = new System.Drawing.Point(433, 357);
+            this.X1Y.Location = new System.Drawing.Point(588, 357);
             this.X1Y.Name = "X1Y";
-            this.X1Y.Size = new System.Drawing.Size(62, 13);
+            this.X1Y.Size = new System.Drawing.Size(82, 17);
             this.X1Y.TabIndex = 29;
             this.X1Y.Text = "Channel1-Y";
             // 
@@ -193,9 +193,9 @@ namespace Cluster.UI
             this.X2Z.AutoSize = true;
             this.X2Z.BackColor = System.Drawing.Color.Transparent;
             this.X2Z.ForeColor = System.Drawing.Color.White;
-            this.X2Z.Location = new System.Drawing.Point(639, 92);
+            this.X2Z.Location = new System.Drawing.Point(794, 92);
             this.X2Z.Name = "X2Z";
-            this.X2Z.Size = new System.Drawing.Size(68, 13);
+            this.X2Z.Size = new System.Drawing.Size(90, 17);
             this.X2Z.TabIndex = 28;
             this.X2Z.Text = "Channel2 - Z";
             // 
@@ -205,9 +205,9 @@ namespace Cluster.UI
             this.X2X.AutoSize = true;
             this.X2X.BackColor = System.Drawing.Color.Transparent;
             this.X2X.ForeColor = System.Drawing.Color.White;
-            this.X2X.Location = new System.Drawing.Point(543, 294);
+            this.X2X.Location = new System.Drawing.Point(698, 294);
             this.X2X.Name = "X2X";
-            this.X2X.Size = new System.Drawing.Size(68, 13);
+            this.X2X.Size = new System.Drawing.Size(90, 17);
             this.X2X.TabIndex = 27;
             this.X2X.Text = "Channel2 - X";
             // 
@@ -216,7 +216,7 @@ namespace Cluster.UI
             this.pictureBox15.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox15.BackColor = System.Drawing.Color.RoyalBlue;
             this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox15.Location = new System.Drawing.Point(130, 528);
+            this.pictureBox15.Location = new System.Drawing.Point(285, 528);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(865, 63);
             this.pictureBox15.TabIndex = 52;
@@ -227,7 +227,7 @@ namespace Cluster.UI
             this.pictureBox14.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox14.BackColor = System.Drawing.Color.RoyalBlue;
             this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox14.Location = new System.Drawing.Point(717, 114);
+            this.pictureBox14.Location = new System.Drawing.Point(872, 114);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(278, 421);
             this.pictureBox14.TabIndex = 51;
@@ -238,7 +238,7 @@ namespace Cluster.UI
             this.pictureBox13.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox13.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox13.Location = new System.Drawing.Point(676, 151);
+            this.pictureBox13.Location = new System.Drawing.Point(831, 151);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(44, 305);
             this.pictureBox13.TabIndex = 50;
@@ -249,7 +249,7 @@ namespace Cluster.UI
             this.pictureBox7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox7.Location = new System.Drawing.Point(446, 386);
+            this.pictureBox7.Location = new System.Drawing.Point(601, 386);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(43, 136);
             this.pictureBox7.TabIndex = 44;
@@ -260,7 +260,7 @@ namespace Cluster.UI
             this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox6.Location = new System.Drawing.Point(446, 114);
+            this.pictureBox6.Location = new System.Drawing.Point(601, 114);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(43, 136);
             this.pictureBox6.TabIndex = 43;
@@ -271,7 +271,7 @@ namespace Cluster.UI
             this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox5.BackColor = System.Drawing.Color.Coral;
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox5.Location = new System.Drawing.Point(130, 114);
+            this.pictureBox5.Location = new System.Drawing.Point(285, 114);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(310, 136);
             this.pictureBox5.TabIndex = 42;
@@ -282,7 +282,7 @@ namespace Cluster.UI
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox4.BackColor = System.Drawing.Color.Coral;
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox4.Location = new System.Drawing.Point(130, 386);
+            this.pictureBox4.Location = new System.Drawing.Point(285, 386);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(310, 136);
             this.pictureBox4.TabIndex = 41;
@@ -293,7 +293,7 @@ namespace Cluster.UI
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(546, 250);
+            this.pictureBox2.Location = new System.Drawing.Point(701, 250);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(46, 36);
             this.pictureBox2.TabIndex = 39;
@@ -304,7 +304,7 @@ namespace Cluster.UI
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.BackColor = System.Drawing.Color.Coral;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(537, 37);
+            this.pictureBox1.Location = new System.Drawing.Point(692, 37);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(96, 213);
             this.pictureBox1.TabIndex = 38;
@@ -315,7 +315,7 @@ namespace Cluster.UI
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox3.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox3.Location = new System.Drawing.Point(198, 250);
+            this.pictureBox3.Location = new System.Drawing.Point(353, 250);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(204, 150);
             this.pictureBox3.TabIndex = 40;
@@ -326,7 +326,7 @@ namespace Cluster.UI
             this.pictureBox8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox8.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox8.Location = new System.Drawing.Point(427, 400);
+            this.pictureBox8.Location = new System.Drawing.Point(582, 400);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(28, 106);
             this.pictureBox8.TabIndex = 45;
@@ -337,7 +337,7 @@ namespace Cluster.UI
             this.pictureBox9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox9.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox9.Location = new System.Drawing.Point(427, 127);
+            this.pictureBox9.Location = new System.Drawing.Point(582, 127);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(28, 106);
             this.pictureBox9.TabIndex = 46;
@@ -348,7 +348,7 @@ namespace Cluster.UI
             this.pictureBox10.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox10.Location = new System.Drawing.Point(453, 373);
+            this.pictureBox10.Location = new System.Drawing.Point(608, 373);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(28, 39);
             this.pictureBox10.TabIndex = 47;
@@ -359,7 +359,7 @@ namespace Cluster.UI
             this.pictureBox11.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox11.Location = new System.Drawing.Point(453, 231);
+            this.pictureBox11.Location = new System.Drawing.Point(608, 231);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(28, 35);
             this.pictureBox11.TabIndex = 48;
@@ -370,7 +370,7 @@ namespace Cluster.UI
             this.pictureBox12.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox12.Location = new System.Drawing.Point(554, 256);
+            this.pictureBox12.Location = new System.Drawing.Point(709, 256);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(28, 35);
             this.pictureBox12.TabIndex = 49;
@@ -381,7 +381,7 @@ namespace Cluster.UI
             this.pictureBox16.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(74)))), ((int)(((byte)(98)))));
             this.pictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox16.Location = new System.Drawing.Point(1, 37);
+            this.pictureBox16.Location = new System.Drawing.Point(156, 37);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(994, 554);
             this.pictureBox16.TabIndex = 53;
@@ -391,7 +391,7 @@ namespace Cluster.UI
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(74)))), ((int)(((byte)(98)))));
-            this.ClientSize = new System.Drawing.Size(995, 657);
+            this.ClientSize = new System.Drawing.Size(1304, 841);
             this.Controls.Add(this.pictureBox15);
             this.Controls.Add(this.pictureBox14);
             this.Controls.Add(this.pictureBox13);

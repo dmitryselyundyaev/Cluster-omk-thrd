@@ -34,7 +34,8 @@ namespace Cluster.UI
             // ThrdCuttingSpeed
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(963, 579);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(74)))), ((int)(((byte)(98)))));
+            this.ClientSize = new System.Drawing.Size(1304, 841);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ThrdCuttingSpeed";
             this.Text = "ThrdCuttingSpeed";

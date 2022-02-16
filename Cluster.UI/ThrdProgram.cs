@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Cluster.UI
@@ -54,7 +55,7 @@ namespace Cluster.UI
             }
         }
 
-        private void button5_Click(object sender, System.EventArgs e)
+        private void buttonSelectProgramm_Click(object sender, System.EventArgs e)
         {
             if (!string.IsNullOrEmpty(SelectedPath) && listBoxFolderContent.SelectedItem != null)
             {
@@ -67,6 +68,23 @@ namespace Cluster.UI
                 }
             }
 
+        }
+
+        private void buttonChangePlug_Click(object sender, System.EventArgs e)
+        {
+            try
+            {
+                tableAndPlug_Click(sender, e);
+                listBoxFolderContent.SelectedItem = "O9001";
+                buttonSelectProgramm_Click(sender,e);
+                listBoxProgrammText.SelectedItem = "N0160M64(PLUG INFLATE)";
+                
+                
+            }
+            catch(Exception ex)
+            {
+
+            }
         }
     }
 }

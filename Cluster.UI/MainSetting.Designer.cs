@@ -41,44 +41,50 @@ namespace Cluster.UI
             // 
             // buttonBackUpDataBase
             // 
-            this.buttonBackUpDataBase.FlatAppearance.BorderColor = System.Drawing.Color.Maroon;
+            this.buttonBackUpDataBase.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.buttonBackUpDataBase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(94)))), ((int)(((byte)(126)))));
+            this.buttonBackUpDataBase.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(156)))), ((int)(((byte)(255)))));
             this.buttonBackUpDataBase.FlatAppearance.BorderSize = 2;
             this.buttonBackUpDataBase.FlatAppearance.CheckedBackColor = System.Drawing.Color.Maroon;
-            this.buttonBackUpDataBase.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Maroon;
-            this.buttonBackUpDataBase.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonBackUpDataBase.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonBackUpDataBase.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
             this.buttonBackUpDataBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonBackUpDataBase.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonBackUpDataBase.ForeColor = System.Drawing.Color.White;
-            this.buttonBackUpDataBase.Location = new System.Drawing.Point(47, 306);
+            this.buttonBackUpDataBase.Location = new System.Drawing.Point(263, 297);
             this.buttonBackUpDataBase.Name = "buttonBackUpDataBase";
             this.buttonBackUpDataBase.Size = new System.Drawing.Size(160, 30);
             this.buttonBackUpDataBase.TabIndex = 0;
             this.buttonBackUpDataBase.Text = "Бекап базы данных";
-            this.buttonBackUpDataBase.UseVisualStyleBackColor = true;
+            this.buttonBackUpDataBase.UseVisualStyleBackColor = false;
             this.buttonBackUpDataBase.Click += new System.EventHandler(this.buttonBackUpDataBase_Click);
             // 
             // buttonRestoreDataBase
             // 
-            this.buttonRestoreDataBase.FlatAppearance.BorderColor = System.Drawing.Color.Maroon;
+            this.buttonRestoreDataBase.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.buttonRestoreDataBase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(94)))), ((int)(((byte)(126)))));
+            this.buttonRestoreDataBase.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(156)))), ((int)(((byte)(255)))));
             this.buttonRestoreDataBase.FlatAppearance.BorderSize = 2;
             this.buttonRestoreDataBase.FlatAppearance.CheckedBackColor = System.Drawing.Color.Maroon;
-            this.buttonRestoreDataBase.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Maroon;
-            this.buttonRestoreDataBase.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonRestoreDataBase.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonRestoreDataBase.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
             this.buttonRestoreDataBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRestoreDataBase.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonRestoreDataBase.ForeColor = System.Drawing.Color.White;
-            this.buttonRestoreDataBase.Location = new System.Drawing.Point(47, 210);
+            this.buttonRestoreDataBase.Location = new System.Drawing.Point(867, 326);
             this.buttonRestoreDataBase.Name = "buttonRestoreDataBase";
             this.buttonRestoreDataBase.Size = new System.Drawing.Size(160, 48);
             this.buttonRestoreDataBase.TabIndex = 1;
             this.buttonRestoreDataBase.Text = "Восстановление базы данных";
-            this.buttonRestoreDataBase.UseVisualStyleBackColor = true;
+            this.buttonRestoreDataBase.UseVisualStyleBackColor = false;
             this.buttonRestoreDataBase.Click += new System.EventHandler(this.buttonRestoreDataBase_Click);
             // 
             // textBoxPassword
             // 
+            this.textBoxPassword.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBoxPassword.BackColor = System.Drawing.Color.LightYellow;
             this.textBoxPassword.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxPassword.Location = new System.Drawing.Point(47, 182);
+            this.textBoxPassword.Location = new System.Drawing.Point(864, 297);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.PasswordChar = '*';
             this.textBoxPassword.Size = new System.Drawing.Size(160, 23);
@@ -87,9 +93,11 @@ namespace Cluster.UI
             // 
             // labelPassword
             // 
+            this.labelPassword.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelPassword.AutoSize = true;
             this.labelPassword.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelPassword.Location = new System.Drawing.Point(47, 159);
+            this.labelPassword.ForeColor = System.Drawing.Color.White;
+            this.labelPassword.Location = new System.Drawing.Point(864, 274);
             this.labelPassword.Name = "labelPassword";
             this.labelPassword.Size = new System.Drawing.Size(142, 18);
             this.labelPassword.TabIndex = 3;
@@ -99,7 +107,7 @@ namespace Cluster.UI
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(74)))), ((int)(((byte)(98)))));
-            this.ClientSize = new System.Drawing.Size(978, 683);
+            this.ClientSize = new System.Drawing.Size(1304, 841);
             this.Controls.Add(this.labelPassword);
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.buttonRestoreDataBase);
