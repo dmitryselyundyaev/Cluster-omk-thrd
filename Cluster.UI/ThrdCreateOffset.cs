@@ -1,7 +1,6 @@
 ﻿using Cluster.BL;
 using Cluster.BL.Model.Tables;
 using System;
-using System.Collections.Generic;
 using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
@@ -139,7 +138,7 @@ namespace Cluster.UI
 
                 }
                 #endregion
-                
+
                 database.SaveChanges();
                 if (database.OffsetDatas.Count() > dbCount)
                 {

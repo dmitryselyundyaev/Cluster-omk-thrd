@@ -24,7 +24,7 @@ namespace Cluster.UI
         {
             if (!string.IsNullOrEmpty(SelectedPath) && listBoxListOfPrograms.SelectedItem != null)
             {
-                Process.Start(@".\\SetUpCards\\"+listBoxListOfPrograms.SelectedItem.ToString());
+                Process.Start(@".\\SetUpCards\\" + listBoxListOfPrograms.SelectedItem.ToString());
             }
         }
     }

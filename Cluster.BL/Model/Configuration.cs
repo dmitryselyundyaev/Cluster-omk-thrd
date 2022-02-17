@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Common;
+﻿using System.Data.Common;
 using System.Data.Entity;
 using System.Data.Entity.Core.Common;
 using System.Data.SQLite;
 using System.Data.SQLite.EF6;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cluster.BL.Model
 {
-    class Configuration: DbConfiguration
+    class Configuration : DbConfiguration
     {
         public Configuration()
         {
@@ -22,7 +17,7 @@ namespace Cluster.BL.Model
 
             SetProviderServices("System.Data.SQLite", providerServices);
             SetProviderServices("System.Data.SQLite.EF6", providerServices);
-            
+
         }
 
         public DbConnection CreateConnection(string connectionString)

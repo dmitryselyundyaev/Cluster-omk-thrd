@@ -47,7 +47,7 @@ namespace Cluster.UI
                 {
                     using (var cont = new ClusterDbContext())
                     {
-                        var source = database.OffsetDatas.Where(u => u.Created.ToString().Substring(0,10) == dateTimePickerForView.Value.Date.ToString().Substring(0, 10)).OrderByDescending(u => u.OffsetDataId).ToList();
+                        var source = database.OffsetDatas.Where(u => u.Created.ToString().Substring(0, 10) == dateTimePickerForView.Value.Date.ToString().Substring(0, 10)).OrderByDescending(u => u.OffsetDataId).ToList();
                         listBoxViewDataList.DataSource = new BindingList<OffsetData>(source);
 
                     }
@@ -210,7 +210,7 @@ namespace Cluster.UI
                             .Where(u => u.Product.Diameter == convertedDiameter)
                             .Where(u => u.Created.ToString().Substring(0, 10) == dateTimePickerForView.Value.Date.ToString().Substring(0, 10))
                             .OrderByDescending(u => u.OffsetDataId).ToList();
-                        listBoxViewDataList.DataSource = new BindingList<OffsetData>(source);
+                            listBoxViewDataList.DataSource = new BindingList<OffsetData>(source);
                         }
                     }
                 }
@@ -224,7 +224,7 @@ namespace Cluster.UI
 
         private void ListBoxViewDataList_Click(object sender, EventArgs e)
         {
-            if(listBoxViewDataList.SelectedItem != null)
+            if (listBoxViewDataList.SelectedItem != null)
             {
                 OffsetData selectedOffset = (OffsetData)listBoxViewDataList.SelectedItem;
                 textBoxOffsetName.Text = selectedOffset.ToString();
@@ -273,7 +273,7 @@ namespace Cluster.UI
                 textBoxCannel2Z6.Text = string.Format("{0:N4}", selectedOffset.Channel2.X6);
                 textBoxCannel2Z7.Text = string.Format("{0:N4}", selectedOffset.Channel2.X7);
             }
-            
+
             if (textBoxCreatedBy.Text == Environment.UserName)
             {
                 buttonChangeData.Visible = true;
@@ -289,7 +289,7 @@ namespace Cluster.UI
 
         private void buttonDeleteFromDB_Click(object sender, EventArgs e)
         {
-            if(listBoxViewDataList.SelectedItem != null && textBoxPassword.Text == "yfkflxbr")
+            if (listBoxViewDataList.SelectedItem != null && textBoxPassword.Text == "yfkflxbr")
             {
                 using (var cont = new ClusterDbContext())
                 {
@@ -298,7 +298,7 @@ namespace Cluster.UI
                     database.OffsetDatas.Remove((OffsetData)selectedOffset);
                     database.SaveChanges();
                     SearchButton_Click(sender, e);
-                    if(buttonChangeData.BackColor == System.Drawing.Color.Maroon)
+                    if (buttonChangeData.BackColor == System.Drawing.Color.Maroon)
                     {
                         buttonSaveChanges.Visible = false;
                         buttonChangeData.Visible = false;
@@ -314,7 +314,7 @@ namespace Cluster.UI
 
         private void ReadOnlyButtons(bool condition)
         {
-            if(condition == true)
+            if (condition == true)
             {
                 textBoxStandoff.ReadOnly = true;
                 textBoxStandoffSeal.ReadOnly = true;
@@ -413,7 +413,7 @@ namespace Cluster.UI
         private void buttonSaveChanges_Click(object sender, EventArgs e)
         {
             OffsetData selectedOffset = (OffsetData)listBoxViewDataList.SelectedItem;
-            if(selectedOffset != null)
+            if (selectedOffset != null)
             {
                 try
                 {
@@ -461,14 +461,14 @@ namespace Cluster.UI
                     ReadOnlyButtons(true);
                     buttonSaveChanges.Visible = false;
                     buttonChangeData.BackColor = default;
-                    
+
                 }
                 catch (NullReferenceException)
                 {
                     MessageBox.Show("NullReferenceException", "Ошибка сохранения",
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     MessageBox.Show("Проверьте корректность введенных данных", "Ошибка сохранения",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);

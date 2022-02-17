@@ -17,7 +17,7 @@ namespace Cluster.UI
             ch2.BackColor = default;
             tableAndPlug.BackColor = default;
             btn.BackColor = System.Drawing.Color.Maroon;
-            
+
         }
         private void ch1_Click(object sender, System.EventArgs e)
         {
@@ -60,7 +60,7 @@ namespace Cluster.UI
             if (!string.IsNullOrEmpty(SelectedPath) && listBoxFolderContent.SelectedItem != null)
             {
                 listBoxProgrammText.Items.Clear();
-                string[] lines = File.ReadAllLines(SelectedPath+ "/" + listBoxFolderContent.SelectedItem.ToString());
+                string[] lines = File.ReadAllLines(SelectedPath + "/" + listBoxFolderContent.SelectedItem.ToString());
 
                 foreach (string r in lines)
                 {
@@ -76,12 +76,12 @@ namespace Cluster.UI
             {
                 tableAndPlug_Click(sender, e);
                 listBoxFolderContent.SelectedItem = "O9001";
-                buttonSelectProgramm_Click(sender,e);
+                buttonSelectProgramm_Click(sender, e);
                 listBoxProgrammText.SelectedItem = "N0160M64(PLUG INFLATE)";
-                
-                
+
+
             }
-            catch(Exception ex)
+            catch (Exception)
             {
 
             }

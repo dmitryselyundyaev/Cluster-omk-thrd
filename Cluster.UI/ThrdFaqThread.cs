@@ -11,7 +11,7 @@ namespace Cluster.UI
 
         private void textBox1_TextChanged(object sender, System.EventArgs e)
         {
-            
+
         }
     }
 }

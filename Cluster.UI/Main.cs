@@ -99,7 +99,7 @@ namespace Cluster.UI
         /// 
         public void ChildFormHeaderName()
         {
-            if(ActiveButton != null)
+            if (ActiveButton != null)
             {
                 labelHeaderName.Text = ActiveButton.Text;
             }
@@ -170,8 +170,8 @@ namespace Cluster.UI
                 ChildFormHeaderName();
             }
 
-            
-            
+
+
         }
         private void buttonThrdOffset_Click(object sender, EventArgs e)
         {
@@ -313,7 +313,7 @@ namespace Cluster.UI
                 T.Tick += new EventHandler(PlayTime);
                 T.Start();
                 EggCounter++;
-                
+
             }
         }
 

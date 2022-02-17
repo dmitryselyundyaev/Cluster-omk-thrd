@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cluster.BL.Model.Tables
 {
@@ -24,7 +20,7 @@ namespace Cluster.BL.Model.Tables
         public int MacroId { get; set; }
         public virtual Macro Macro { get; set; }
         [ForeignKey("User")]
-        public int UserId { get ; set; }
+        public int UserId { get; set; }
         public virtual UserData User { get; set; }
         [ForeignKey("Product")]
         public int ProductId { get; set; }
