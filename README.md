@@ -1,3 +1,5 @@
+#Currently in development process
+
 # Cluster-omk-thrd
 Now CNC operator have big problem with saving their parameters and terrible paper work.This app was made only for operator's comfort, but it turned out we can get big economy effect on this. 
 
