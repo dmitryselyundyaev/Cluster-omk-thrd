@@ -7,7 +7,7 @@ Now CNC operator have big problem with saving their parameters and terrible pape
 
 - The statistic we get from this is really helpful. Because we can measure machine geometry and prevent critical moments.
 
-## ALL RESOURCES DELETED FOR PRIVACY REASONS
+#Preview
 
 Add new one.
 
@@ -24,3 +24,6 @@ Programm collection.
 Geomertry of machine.
 
 ![Geom](https://psv4.userapi.com/c237131/u206508610/docs/d43/4cd56ad47d6c/Geom.jpg?extra=sYr2ikdD8K5DtriL51czTGZCosUwq1bByYEWzQK5m8DIlhaFuCYMFyBQrYdc7RViNefA1XkD6SgDFk5I9jZ6cF71BYXUv-p2cv3yGiaR0tsJw7HU5JuGllTutOQSw41KLIfUQ7TP9Il8JQCGPhioLFUa2A)
+
+
+## ALL RESOURCES DELETED FOR PRIVACY REASONS
