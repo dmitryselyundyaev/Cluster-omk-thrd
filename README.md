@@ -8,4 +8,4 @@ Now CNC operator have big problem with saving their parameters and terrible pape
 - The statistic we get from this is really helpful. Because we can measure machine geometry and prevent critical moments.
 
 ## ALL RESOURCES DELETED FOR PRIVACY REASONS
-https://psv4.userapi.com/c534536/u206508610/docs/d36/059b4c662858/add.jpg?extra=vxI3YorhRX5D8AKqloxe2KQaWoVBX4t13f94k0KCRyC9va1RqOoUNDHwBfsH_iBpLmgW6CwtJ3KcNn79U0_E7hBIb8YWJLPT6BUFkYHYbii4V-oBfwhX0YythfFEa3Chd1QxwrKdZCIx7XpAUbF_qlwNmw
+![alt text](https://psv4.userapi.com/c534536/u206508610/docs/d36/059b4c662858/add.jpg?extra=vxI3YorhRX5D8AKqloxe2KQaWoVBX4t13f94k0KCRyC9va1RqOoUNDHwBfsH_iBpLmgW6CwtJ3KcNn79U0_E7hBIb8YWJLPT6BUFkYHYbii4V-oBfwhX0YythfFEa3Chd1QxwrKdZCIx7XpAUbF_qlwNmw)
