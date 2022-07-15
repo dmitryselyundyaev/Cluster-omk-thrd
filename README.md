@@ -10,7 +10,7 @@ Now CNC operator have big problem with saving their parameters and terrible pape
 
 Add new one.
 
-![Create new one](https://psv4.userapi.com/c534536/u206508610/docs/d36/059b4c662858/add.jpg?extra=vxI3YorhRX5D8AKqloxe2KQaWoVBX4t13f94k0KCRyC9va1RqOoUNDHwBfsH_iBpLmgW6CwtJ3KcNn79U0_E7hBIb8YWJLPT6BUFkYHYbii4V-oBfwhX0YythfFEa3Chd1QxwrKdZCIx7XpAUbF_qlwNmw)
+![Create new one](https://psv4.userapi.com/c534536/u206508610/docs/d36/1b0197c80a98/add.jpg?extra=7pcgSM830w-FuK_cEQZKIupnkkBX6R0LTa0nnrT67CzSK9vhX1ic0ZZ6WdaZ1K-kztYHTTOeKkLikGeb0n6_AP4Ufj-ZSExwXShwmyfkSQOVdtFCXYnKykFLbuIBzZ2VHbcd-LhfSVPl-zGfPAbHpn_d)
 
 List of all data.
 
@@ -22,7 +22,7 @@ Programm collection.
 
 Geomertry of machine.
 
-![Geom](https://psv4.userapi.com/c237131/u206508610/docs/d43/4cd56ad47d6c/Geom.jpg?extra=sYr2ikdD8K5DtriL51czTGZCosUwq1bByYEWzQK5m8DIlhaFuCYMFyBQrYdc7RViNefA1XkD6SgDFk5I9jZ6cF71BYXUv-p2cv3yGiaR0tsJw7HU5JuGllTutOQSw41KLIfUQ7TP9Il8JQCGPhioLFUa2A)
+![Geom](https://psv4.userapi.com/c237131/u206508610/docs/d43/ddeb7069e795/Geom.jpg?extra=kKIVtLgk0-zRx7dtC2tJUJAmOgBb91_locwXkUgffeW5fmFJuawxTr358tD5xyOMOCTBCXPNGtpmXySsys6HpBdq7jx4Q1jRQLbj3n_8h6v1Q0VYLRiWa5i-SSf1iWMOvpW0UixLjaD8_yM7KlvXz-Q_)
 
 
 ## ALL RESOURCES ARE DELETED FOR PRIVACY REASONS
